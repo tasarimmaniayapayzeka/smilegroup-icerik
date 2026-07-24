@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hizmet İçerikleri — Smile Group</title>
+<meta name="description" content="Smile Group hizmet sayfaları için SEO/GEO uyumlu içerik üretim panosu.">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .hero2{max-width:900px;margin:0 auto;padding:26px 20px 6px}
+  .hero2 h1{font-size:26px}
+  .hero2 p{color:var(--muted);font-size:14px;margin-top:8px;line-height:1.6;max-width:70ch}
+  .prog{max-width:900px;margin:14px auto 0;padding:0 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .prog .bar{flex:1;min-width:180px;height:10px;background:var(--soft);border:1px solid var(--line-2);border-radius:999px;overflow:hidden}
+  .prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-dark))}
+  .prog .n{font-size:13px;color:var(--ink);font-weight:700}
+  .order{max-width:900px;margin:16px auto 0;padding:12px 16px;background:var(--gold-soft);border-radius:10px;
+    font-size:12.5px;color:var(--ink-soft);line-height:1.6}
+  .branch{max-width:900px;margin:26px auto 0;padding:0 20px}
+  .branch h2{font-size:15px;color:var(--navy);letter-spacing:.03em;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px}
+  .svc{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+  .card{border:1px solid var(--line-2);border-radius:10px;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fff}
+  .card.done{border-color:var(--gold)}
+  .card .t{font-size:13.5px;color:var(--ink);font-weight:600}
+  .card a.t:hover{color:var(--gold-dark)}
+  .badge2{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
+  .badge2.done{background:#e7f7ee;color:#1f8a55}
+  .badge2.todo{background:var(--soft);color:var(--muted)}
+  .foot{margin-top:40px}
+</style>
+</head>
+<body>
+<div class="topband"><div class="in">
+  <a class="brand" href="index.html"><span class="logo">S</span><span>
+    <span class="name">SMILE<span> GROUP</span></span><br>
+    <span class="sub">Aesthetic &amp; Dental Clinic</span></span></a>
+  <span class="tag">İçerik üretim panosu · <b>SEO / GEO / CEO</b></span>
+</div></div>
+
+<div class="hero2">
+  <h1>Hizmet İçerikleri</h1>
+  <p>Her hizmet için canlı-veri kilitli (Google autocomplete + rakip başlık taraması), kopya olmayan,
+     akordiyon soru-cevap içerik. Yazılan sayfalar aşağıda açılır; her birinde WP'ye yapıştırılacak HTML + FAQPage şeması hazırdır.</p>
+</div>
+<div class="prog">
+  <span class="n" id="pn">0 / 0</span>
+  <span class="bar"><i id="pb" style="width:0%"></i></span>
+  <span class="n" id="pp">%0</span>
+</div>
+<div class="order">
+  <b>Üretim sırası (arama hacmi):</b> Diş İmplantı → Zirkonyum Kaplama → Gülüş Tasarımı → All-on-4 → Diş Beyazlatma → …
+  &nbsp;·&nbsp; Dil: Türkçe (mevzuat-güvenli) · Fiyat/yorum/garanti YOK.
+</div>
+
+<div id="branches"></div>
+
+<div class="foot">
+  <span>Smile Group · içerik üretimi — iç kullanım.</span>
+  <span id="foot2"></span>
+</div>
+
+<script>
+const DATA = [
+  { name:"Estetik Diş Hekimliği", items:[
+    ["Gülüş Tasarımı (DSD)","gulus-tasarimi"],["Laminate Veneer (Yaprak Diş)","laminate-veneer"],
+    ["Zirkonyum Diş Kaplama","zirkonyum-dis-kaplama"],["Diş Beyazlatma","dis-beyazlatma"],
+    ["Bonding","bonding"],["Estetik Kompozit Dolgu","estetik-kompozit-dolgu"],["Pembe Estetik","pembe-estetik"] ]},
+  { name:"İmplant Tedavileri", items:[
+    ["Diş İmplantı Tedavisi","dis-implanti"],["Tek Diş İmplantı","tek-dis-implanti"],
+    ["Çoklu / Köprülü İmplant","coklu-implant"],["All-on-4 / All-on-6","all-on-4"],
+    ["Hemen Yükleme İmplant","hemen-yukleme-implant"],["Kemik Grefti","kemik-grefti"],["Sinüs Lifting","sinus-lifting"] ]},
+  { name:"Ortodonti", items:[
+    ["Diş Teli (Klasik Ortodonti)","dis-teli-ortodonti"],["Lingual (İç) Ortodonti","lingual-ortodonti"],
+    ["Şeffaf Plak (Invisalign)","seffaf-plak"],["Çocuk Ortodontisi","cocuk-ortodontisi"],
+    ["Pekiştirme (Retansiyon)","pekistirme-retansiyon"],["Ortognatik Cerrahi","ortognatik-cerrahi"] ]},
+  { name:"Protez (Protetik)", items:[
+    ["Kron & Köprü","kron-kopru"],["Total Protez","total-protez"],["Bölümlü (Parsiyel) Protez","bolumlu-protez"],
+    ["İmplant Üstü Protez","implant-ustu-protez"],["İnlay / Onlay","inlay-onlay"],["Gece Plağı","gece-plagi"] ]},
+  { name:"Endodonti (Kanal)", items:[
+    ["Kanal Tedavisi","kanal-tedavisi"],["Kanal Yenileme","kanal-yenileme"],
+    ["Apikal Rezeksiyon","apikal-rezeksiyon"],["Travma / Kırık Diş Tedavisi","travma-dis-tedavisi"] ]},
+  { name:"Ağız, Diş ve Çene Cerrahisi", items:[
+    ["Diş Çekimi","dis-cekimi"],["Gömülü 20'lik Diş Cerrahisi","gomulu-yirmilik-dis"],
+    ["Kist / Apse Operasyonları","kist-apse-operasyonu"],["Frenektomi","frenektomi"],
+    ["Çene (Ortognatik) Cerrahisi","cene-cerrahisi"],["Sedasyonla Tedavi","sedasyon-genel-anestezi"] ]},
+  { name:"Periodontoloji (Diş Eti)", items:[
+    ["Diş Taşı Temizliği","dis-tasi-temizligi"],["Diş Eti Hastalığı Tedavisi","dis-eti-hastaligi-tedavisi"],
+    ["Diş Eti Çekilmesi & Greft","dis-eti-cekilmesi-greft"],["Kron Boyu Uzatma","kron-boyu-uzatma"] ]},
+  { name:"Çocuk Diş Hekimliği (Pedodonti)", items:[
+    ["Çürük Tedavisi & Dolgu","cocuk-curuk-dolgu"],["Fissür Örtücü","fissur-ortucu"],
+    ["Flor Uygulaması","flor-uygulamasi"],["Yer Tutucu","yer-tutucu"],
+    ["Biberon Çürüğünden Korunma","biberon-curugu"],["Sedasyonla Çocuk Tedavisi","cocuk-sedasyon"] ]}
+];
+const DONE = new Set(["dis-implanti"]); // yazılanlar buraya eklenecek
+
+let total=0, done=0;
+const root = document.getElementById('branches');
+DATA.forEach(b=>{
+  const sec=document.createElement('div'); sec.className='branch';
+  sec.innerHTML='<h2>'+b.name+'</h2>';
+  const grid=document.createElement('div'); grid.className='svc';
+  b.items.forEach(([label,slug])=>{
+    total++;
+    const isDone=DONE.has(slug); if(isDone) done++;
+    const card=document.createElement('div'); card.className='card'+(isDone?' done':'');
+    card.innerHTML = (isDone
+        ? '<a class="t" href="hizmet/'+slug+'.html">'+label+'</a><span class="badge2 done">✓ yazıldı</span>'
+        : '<span class="t">'+label+'</span><span class="badge2 todo">sırada</span>');
+    grid.appendChild(card);
+  });
+  sec.appendChild(grid); root.appendChild(sec);
+});
+const pct = total? Math.round(done/total*100):0;
+document.getElementById('pn').textContent = done+' / '+total+' yazıldı';
+document.getElementById('pb').style.width = pct+'%';
+document.getElementById('pp').textContent = '%'+pct;
+document.getElementById('foot2').textContent = done+' hizmet hazır · '+(total-done)+' sırada';
+</script>
+</body>
+</html>

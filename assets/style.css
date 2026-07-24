@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Smile Group — Hizmet İçerik Şablonu (SEO/GEO uyumlu, akordiyon Q&A)
+   Aydınlık kurumsal tema (beyaz + navy + altın), demo siteyle uyumlu
+   ========================================================================== */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;
+  --soft:#f6f8fb;
+  --ink:#152740;
+  --ink-soft:#33465f;
+  --muted:#5f7188;
+  --line:#e5e9f0;
+  --line-2:#d4dbe6;
+  --gold:#c6a15b;
+  --gold-dark:#a37f38;
+  --gold-soft:#f7f0e2;
+  --navy:#0f2440;
+  --radius:12px;
+  --maxw:900px;
+  --font:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);
+  -webkit-font-smoothing:antialiased;line-height:1.6}
+a{color:var(--gold-dark);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ---------- üst şerit / marka ---------- */
+.topband{border-bottom:1px solid var(--line);background:#fff}
+.topband .in{max-width:var(--maxw);margin:0 auto;padding:16px 20px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .logo{width:40px;height:40px;border-radius:10px;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:19px}
+.brand .name{font-weight:700;letter-spacing:.12em;font-size:15px;color:var(--navy)}
+.brand .name span{color:var(--gold-dark)}
+.brand .sub{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.topband .tag{font-size:12px;color:var(--muted);border:1px solid var(--line-2);
+  border-radius:999px;padding:6px 13px}
+.topband .tag b{color:var(--gold-dark)}
+
+/* ---------- gövde ---------- */
+main{max-width:var(--maxw);margin:0 auto;padding:26px 20px 70px}
+.crumb{font-size:12.5px;color:var(--muted);margin-bottom:14px}
+.crumb span{color:var(--gold-dark)}
+h1{font-size:30px;line-height:1.2;color:var(--navy);font-weight:800;letter-spacing:-.01em}
+.lead{margin-top:14px;font-size:16px;color:var(--ink-soft);line-height:1.75;
+  padding:16px 18px;background:var(--soft);border-left:3px solid var(--gold);border-radius:0 10px 10px 0}
+
+.acc-wrap{margin-top:26px;display:flex;flex-direction:column;gap:12px}
+details.acc{border:1px solid var(--line-2);border-radius:var(--radius);background:#fff;overflow:hidden;
+  transition:box-shadow .15s,border-color .15s}
+details.acc[open]{box-shadow:0 10px 28px rgba(15,36,64,.07);border-color:var(--gold)}
+details.acc summary{list-style:none;cursor:pointer;padding:16px 52px 16px 20px;position:relative;
+  font-size:16.5px;font-weight:700;color:var(--gold-dark);line-height:1.4}
+details.acc summary::-webkit-details-marker{display:none}
+details.acc summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);
+  font-size:22px;font-weight:400;color:var(--gold);transition:transform .2s}
+details.acc[open] summary::after{content:"–"}
+details.acc summary:hover{color:var(--navy)}
+details.acc .ans{padding:2px 20px 20px;color:var(--ink-soft);font-size:15.5px;line-height:1.78}
+details.acc .ans p{margin:0}
+details.acc .ans em{color:var(--navy);font-style:italic}
+
+.closing{margin-top:24px;padding:18px 20px;background:var(--gold-soft);border-radius:12px;
+  font-size:15.5px;color:var(--ink-soft);line-height:1.7}
+.editor{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);
+  font-size:12.5px;color:var(--muted);line-height:1.6}
+
+/* ---------- WP'ye yapıştır kutuları ---------- */
+.paste{margin-top:40px;border:1px dashed var(--line-2);border-radius:14px;background:var(--soft);padding:20px}
+.paste h2{font-size:15px;color:var(--navy);margin-bottom:6px;letter-spacing:.02em}
+.paste .note{font-size:12.5px;color:var(--muted);margin-bottom:14px}
+.paste .block{margin-bottom:18px}
+.paste .row{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:10px}
+.paste .row .lab{font-size:13px;font-weight:700;color:var(--ink)}
+.copybtn{border:0;background:var(--gold-dark);color:#fff;font-weight:700;font-size:12.5px;
+  padding:8px 16px;border-radius:8px;cursor:pointer}
+.copybtn:hover{background:var(--navy)}
+.copybtn.ok{background:#2f9e5f}
+.paste textarea{width:100%;min-height:150px;resize:vertical;font-family:Consolas,monospace;font-size:12px;
+  line-height:1.5;color:#1c2a3d;background:#fff;border:1px solid var(--line-2);border-radius:8px;padding:12px}
+
+/* ---------- alt bilgi ---------- */
+.foot{max-width:var(--maxw);margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:12px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.foot a{color:var(--gold-dark)}
+
+@media(max-width:600px){
+  h1{font-size:24px}
+  main{padding:20px 16px 50px}
+}
