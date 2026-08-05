@@ -76,7 +76,7 @@ for (const [slug, a] of posts) {
 <script>
 window.BLOG = ${json};
 </script>
-<script src="../assets/render-blog.js?v=1"></script>
+<script src="../assets/render-blog.js?v=2"></script>
 </body>
 </html>
 `;
@@ -101,7 +101,9 @@ window.BLOG = ${json};
 /* ---- blog/index.html listesi ---- */
 liste.sort((a, b) => a.slug.localeCompare(b.slug));
 const kartlar = liste.map(p =>
-  `  <a class="bcard" href="${p.slug}.html"><span class="bt">${esc(p.title)}</span><span class="bd">${esc(p.desc)}</span></a>`
+  `  <a class="bcard" href="${p.slug}.html">` +
+  `<img class="bimg" src="../gorseller/${p.slug}-detay-880x500.jpg" alt="" loading="lazy" onerror="this.remove()">` +
+  `<span class="bt">${esc(p.title)}</span><span class="bd">${esc(p.desc)}</span></a>`
 ).join('\n');
 const idx = `<!DOCTYPE html>
 <html lang="tr">
@@ -117,7 +119,8 @@ const idx = `<!DOCTYPE html>
   .bwrap .sub{color:var(--muted);font-size:14px;margin:8px 0 22px;line-height:1.6}
   .bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
   .bcard{display:flex;flex-direction:column;gap:8px;border:1px solid var(--line-2);border-radius:12px;
-    padding:16px 18px;background:#fff;text-decoration:none;transition:border-color .15s,box-shadow .15s}
+    padding:14px 16px 16px;background:#fff;text-decoration:none;transition:border-color .15s,box-shadow .15s;overflow:hidden}
+  .bcard .bimg{display:block;width:100%;height:130px;object-fit:cover;border-radius:8px;margin-bottom:2px}
   .bcard:hover{border-color:var(--gold);box-shadow:0 10px 26px rgba(15,36,64,.08);text-decoration:none}
   .bcard .bt{font-size:15px;font-weight:700;color:var(--navy);line-height:1.4}
   .bcard .bd{font-size:12.5px;color:var(--muted);line-height:1.55}

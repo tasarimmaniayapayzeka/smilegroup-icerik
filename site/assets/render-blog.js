@@ -32,6 +32,14 @@
   main.appendChild(el("h1", null, A.title));
   if (A.lead) main.appendChild(el("div", "lead", A.lead));
 
+  /* ---- kahraman görsel (varsa) ---- */
+  var hero = new Image();
+  hero.className = "hero";
+  hero.src = "../gorseller/" + A.slug + "-detay-880x500.jpg";
+  hero.alt = A.title;
+  hero.onerror = function () { hero.remove(); };
+  main.appendChild(hero);
+
   /* ---- makale gövdesi + WP HTML ---- */
   var pasteHTML = "";
   (A.sections || []).forEach(function (s) {
@@ -128,6 +136,28 @@
   }
   paste.appendChild(buildBlock("Yazı HTML (gövde)", pasteHTML.trim(), "240px"));
   paste.appendChild(buildBlock("Article + FAQPage şemaları (JSON-LD)", schemaStr, "160px"));
+
+  /* ---- yazı görselleri: indir + WP medya kütüphanesine yükle ---- */
+  var imgs = el("div", "imgs");
+  imgs.innerHTML =
+    '<div class="row"><span class="lab">Yazı görselleri</span></div>' +
+    '<div class="note">İkisini de indirip WP medya kütüphanesine yükleyin: ' +
+    '<b>kapak</b> blog liste kartında / öne çıkan görselde, <b>detay</b> yazının üst görselinde kullanılır. ' +
+    'İndirmek için görsele tıklayın.</div>' +
+    '<div class="grid" style="display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start">' +
+    '<a href="../gorseller/' + A.slug + '-kapak-300x400.jpg" download="' + A.slug + '-kapak-300x400.jpg"' +
+    ' style="display:inline-block;text-align:center;text-decoration:none">' +
+    '<img src="../gorseller/' + A.slug + '-kapak-300x400.jpg" alt="kapak" loading="lazy"' +
+    ' width="120" height="160" style="display:block;width:120px;height:160px;object-fit:cover;border-radius:8px"' +
+    ' onerror="this.parentNode.parentNode.parentNode.style.display=\'none\'">' +
+    '<span style="display:block;margin-top:7px;font-size:12.5px;font-weight:700;color:#33465f">kapak · 300×400</span></a>' +
+    '<a href="../gorseller/' + A.slug + '-detay-880x500.jpg" download="' + A.slug + '-detay-880x500.jpg"' +
+    ' style="display:inline-block;text-align:center;text-decoration:none">' +
+    '<img src="../gorseller/' + A.slug + '-detay-880x500.jpg" alt="detay" loading="lazy"' +
+    ' width="282" height="160" style="display:block;width:282px;height:160px;object-fit:cover;border-radius:8px">' +
+    '<span style="display:block;margin-top:7px;font-size:12.5px;font-weight:700;color:#33465f">detay · 880×500</span></a>' +
+    '</div>';
+  paste.appendChild(imgs);
   main.appendChild(paste);
 
   document.body.appendChild(main);
