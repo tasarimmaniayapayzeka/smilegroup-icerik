@@ -127,14 +127,18 @@
     '<div class="note">İkisini de indirip WP medya kütüphanesine yükleyin: ' +
     '<b>kapak</b> hizmet liste kartında, <b>detay</b> sayfanın üst görselinde kullanılır. ' +
     'İndirmek için görsele tıklayın (ya da sağ tık → farklı kaydet).</div>' +
-    '<div class="grid">' +
-    '<a href="../gorseller/' + A.slug + '-kapak-300x400.jpg" download="' + A.slug + '-kapak-300x400.jpg">' +
+    '<div class="grid" style="display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start">' +
+    '<a href="../gorseller/' + A.slug + '-kapak-300x400.jpg" download="' + A.slug + '-kapak-300x400.jpg"' +
+    ' style="display:inline-block;text-align:center;text-decoration:none">' +
     '<img src="../gorseller/' + A.slug + '-kapak-300x400.jpg" alt="kapak" loading="lazy"' +
+    ' width="120" height="160" style="display:block;width:120px;height:160px;object-fit:cover;border-radius:8px"' +
     ' onerror="this.parentNode.parentNode.parentNode.style.display=\'none\'">' +
-    '<span>kapak · 300×400</span></a>' +
-    '<a href="../gorseller/' + A.slug + '-detay-880x500.jpg" download="' + A.slug + '-detay-880x500.jpg">' +
-    '<img src="../gorseller/' + A.slug + '-detay-880x500.jpg" alt="detay" loading="lazy">' +
-    '<span>detay · 880×500</span></a>' +
+    '<span style="display:block;margin-top:7px;font-size:12.5px;font-weight:700;color:#33465f">kapak · 300×400</span></a>' +
+    '<a href="../gorseller/' + A.slug + '-detay-880x500.jpg" download="' + A.slug + '-detay-880x500.jpg"' +
+    ' style="display:inline-block;text-align:center;text-decoration:none">' +
+    '<img src="../gorseller/' + A.slug + '-detay-880x500.jpg" alt="detay" loading="lazy"' +
+    ' width="282" height="160" style="display:block;width:282px;height:160px;object-fit:cover;border-radius:8px">' +
+    '<span style="display:block;margin-top:7px;font-size:12.5px;font-weight:700;color:#33465f">detay · 880×500</span></a>' +
     '</div>';
   paste.appendChild(imgs);
   main.appendChild(paste);

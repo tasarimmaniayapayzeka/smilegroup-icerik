@@ -80,13 +80,13 @@ function sayfaUret(a) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(a.title)} — Smile Group</title>
 <meta name="description" content="${esc(desc)}">
-<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/style.css?v=2">
 </head>
 <body>
 <script>
 window.ARTICLE = ${json};
 </script>
-<script src="../assets/render.js"></script>
+<script src="../assets/render.js?v=2"></script>
 </body>
 </html>
 `;
