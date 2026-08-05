@@ -18,9 +18,14 @@
     padding:5px 12px;border-radius:999px;margin-bottom:12px}
   .story h2{font-size:21px;color:var(--navy);line-height:1.3;letter-spacing:-.01em}
   .story p{margin-top:12px;color:var(--ink-soft);font-size:15.5px;line-height:1.78}
-  .story .rel{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line-2);font-size:13.5px}
+  .story .rel{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line-2);font-size:13.5px;clear:both}
   .story .rel a{font-weight:700}
-  @media(max-width:600px){.story{padding:18px 16px}.story h2{font-size:18px}}
+  .story .foto{float:right;width:200px;margin:0 0 14px 20px}
+  .story .foto img{width:100%;height:auto;display:block;border-radius:12px;border:1px solid var(--line-2)}
+  .story .foto figcaption{font-size:10.5px;color:var(--muted);text-align:center;margin-top:5px;letter-spacing:.04em}
+  .story::after{content:"";display:block;clear:both}
+  @media(max-width:600px){.story{padding:18px 16px}.story h2{font-size:18px}
+    .story .foto{width:46%;margin:4px 0 10px 14px}}
 </style>
 </head>
 <body>
@@ -43,6 +48,8 @@
 
   <article class="story" id="implant-yolculugu">
     <span class="chip">İmplant</span>
+    <figure class="foto"><img src="img/implant.jpg" alt="İmplant yolculuğu — temsili görsel" width="600" height="800">
+      <figcaption>Temsili görsel</figcaption></figure>
     <h2>Yeniden Rahat Bir Gülüş: İmplant Yolculuğu</h2>
     <p>İmplant için bize ulaşan misafirlerimizin çoğunun ortak bir cümlesi var: "Artık fotoğraflarda
       gülümsemiyorum." Eksik diş yalnızca çiğnemeyi değil, özgüveni de etkiliyor. İlk görüşmede klinik
@@ -62,6 +69,8 @@
 
   <article class="story" id="zirkonyum-yolculugu">
     <span class="chip">Zirkonyum</span>
+    <figure class="foto"><img src="img/zirkonyum.jpg" alt="Zirkonyum yolculuğu — temsili görsel" width="600" height="800">
+      <figcaption>Temsili görsel</figcaption></figure>
     <h2>Doğallıktan Ödün Vermeden: Zirkonyum Yolculuğu</h2>
     <p>Yıllar içinde renklenen ya da eski kaplamaları yıpranan dişler, gülüşün tamamını yorgun
       gösterebiliyor. Zirkonyum yolculuğu Yasin Bey'in muayenesiyle başlıyor: diş etiyle uyum, ışık
@@ -78,6 +87,8 @@
 
   <article class="story" id="lamine-yolculugu">
     <span class="chip">Lamine</span>
+    <figure class="foto"><img src="img/lamine.jpg" alt="Lamine yolculuğu — temsili görsel" width="600" height="800">
+      <figcaption>Temsili görsel</figcaption></figure>
     <h2>Küçük Dokunuş, Büyük Fark: Lamine Yolculuğu</h2>
     <p>Dişler sağlıklı ama aralıklı, hafif çapraşık ya da form tatmin etmiyorsa, lamine çoğu zaman en az
       müdahaleyle en görünür sonucu veren seçenek. Sürecin en sevilen kısmı şu: Yasin Bey önce dişleriniz
@@ -95,6 +106,8 @@
 
   <article class="story" id="beyazlatma-yolculugu">
     <span class="chip">Diş Beyazlatma</span>
+    <figure class="foto"><img src="img/beyazlatma.jpg" alt="Diş beyazlatma yolculuğu — temsili görsel" width="600" height="800">
+      <figcaption>Temsili görsel</figcaption></figure>
     <h2>Tek Seansta Tazelenme: Beyazlatma Yolculuğu</h2>
     <p>Kahve, çay ve zamanın diş renginde bıraktığı iz, düzenli fırçalamayla her zaman geri dönmüyor.
       Muayenede önce diş yüzeyi değerlendiriliyor; gerekiyorsa beyazlatmadan önce diş taşı temizliği
@@ -117,7 +130,9 @@
     <h2>📋 WordPress'e aktarım</h2>
     <div class="note">Her hikayeyi ilgili tedavi sayfasının altına <b>Özel HTML (Custom HTML)</b> bloğu olarak
       yapıştırabilir ya da "Tam sayfa" bloğuyla tek bir <b>Tedavi Yolculukları</b> sayfası açabilirsiniz.
-      Temsili-anlatım notu her blokta hazırdır — <b>silmeyin</b> (mevzuat gereği).</div>
+      Temsili-anlatım notu her blokta hazırdır — <b>silmeyin</b> (mevzuat gereği).
+      Fotoğraflar <b>img/</b> klasöründe (600×800 JPG): WP medya kütüphanesine yükleyip hikayenin başına ekleyin;
+      görsel altına da <b>"Temsili görsel"</b> ibaresini koruyun.</div>
     <div id="blocks"></div>
   </section>
 </main>
