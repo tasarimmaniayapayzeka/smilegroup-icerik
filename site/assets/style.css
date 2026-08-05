@@ -48,6 +48,10 @@ h1{font-size:30px;line-height:1.2;color:var(--navy);font-weight:800;letter-spaci
 .lead{margin-top:14px;font-size:16px;color:var(--ink-soft);line-height:1.75;
   padding:16px 18px;background:var(--soft);border-left:3px solid var(--gold);border-radius:0 10px 10px 0}
 
+/* ---------- kahraman görsel ---------- */
+.hero{display:block;width:100%;height:auto;border-radius:14px;margin-top:20px;
+  box-shadow:0 12px 32px rgba(15,36,64,.10)}
+
 .acc-wrap{margin-top:26px;display:flex;flex-direction:column;gap:12px}
 details.acc{border:1px solid var(--line-2);border-radius:var(--radius);background:#fff;overflow:hidden;
   transition:box-shadow .15s,border-color .15s}
@@ -81,6 +85,13 @@ details.acc .ans em{color:var(--navy);font-style:italic}
 .copybtn.ok{background:#2f9e5f}
 .paste textarea{width:100%;min-height:150px;resize:vertical;font-family:Consolas,monospace;font-size:12px;
   line-height:1.5;color:#1c2a3d;background:#fff;border:1px solid var(--line-2);border-radius:8px;padding:12px}
+.paste .imgs .grid{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px}
+.paste .imgs a{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--muted);
+  text-decoration:none;text-align:center}
+.paste .imgs a:hover{color:var(--gold-dark)}
+.paste .imgs img{display:block;border-radius:8px;border:1px solid var(--line-2);background:#fff}
+.paste .imgs a:first-child img{width:120px;height:160px;object-fit:cover}
+.paste .imgs a:last-child img{width:264px;height:150px;object-fit:cover}
 
 /* ---------- alt bilgi ---------- */
 .foot{max-width:var(--maxw);margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:12px;

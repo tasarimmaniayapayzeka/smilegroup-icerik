@@ -40,6 +40,14 @@
   main.appendChild(el("h1", null, A.title));
   if (A.lead) main.appendChild(el("div", "lead", A.lead));
 
+  /* ---- kahraman görsel (varsa) ---- */
+  var hero = new Image();
+  hero.className = "hero";
+  hero.src = "../gorseller/" + A.slug + "-detay-880x500.jpg";
+  hero.alt = A.title;
+  hero.onerror = function () { hero.remove(); };
+  main.appendChild(hero);
+
   /* ---- akordiyonlar + yapıştırılacak html ---- */
   var wrap = el("div", "acc-wrap");
   var pasteHTML = "";
@@ -111,6 +119,24 @@
   }
   paste.appendChild(buildBlock("Akordiyon HTML (gövde)", pasteHTML.trim(), "220px"));
   paste.appendChild(buildBlock("FAQPage şeması (JSON-LD)", schemaStr, "160px"));
+
+  /* ---- sayfa görselleri: indir + WP medya kütüphanesine yükle ---- */
+  var imgs = el("div", "imgs");
+  imgs.innerHTML =
+    '<div class="row"><span class="lab">Sayfa görselleri</span></div>' +
+    '<div class="note">İkisini de indirip WP medya kütüphanesine yükleyin: ' +
+    '<b>kapak</b> hizmet liste kartında, <b>detay</b> sayfanın üst görselinde kullanılır. ' +
+    'İndirmek için görsele tıklayın (ya da sağ tık → farklı kaydet).</div>' +
+    '<div class="grid">' +
+    '<a href="../gorseller/' + A.slug + '-kapak-300x400.jpg" download="' + A.slug + '-kapak-300x400.jpg">' +
+    '<img src="../gorseller/' + A.slug + '-kapak-300x400.jpg" alt="kapak" loading="lazy"' +
+    ' onerror="this.parentNode.parentNode.parentNode.style.display=\'none\'">' +
+    '<span>kapak · 300×400</span></a>' +
+    '<a href="../gorseller/' + A.slug + '-detay-880x500.jpg" download="' + A.slug + '-detay-880x500.jpg">' +
+    '<img src="../gorseller/' + A.slug + '-detay-880x500.jpg" alt="detay" loading="lazy">' +
+    '<span>detay · 880×500</span></a>' +
+    '</div>';
+  paste.appendChild(imgs);
   main.appendChild(paste);
 
   document.body.appendChild(main);
