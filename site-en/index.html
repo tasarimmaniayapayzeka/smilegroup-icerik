@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Site Treatment Content — Smile Group</title>
+<meta name="description" content="Smile Group site treatment menu (8 categories) — SEO/GEO-ready content production board, English edition.">
+<link rel="stylesheet" href="assets/style.css?v=2">
+<style>
+  .hero2{max-width:980px;margin:0 auto;padding:26px 20px 6px}
+  .hero2 h1{font-size:26px}
+  .hero2 p{color:var(--muted);font-size:14px;margin-top:8px;line-height:1.6;max-width:78ch}
+  .prog{max-width:980px;margin:14px auto 0;padding:0 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .prog .bar{flex:1;min-width:180px;height:10px;background:var(--soft);border:1px solid var(--line-2);border-radius:999px;overflow:hidden}
+  .prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-dark))}
+  .prog .n{font-size:13px;color:var(--ink);font-weight:700}
+  .order{max-width:980px;margin:16px auto 0;padding:12px 16px;background:var(--gold-soft);border-radius:10px;
+    font-size:12.5px;color:var(--ink-soft);line-height:1.6}
+  .branch{max-width:980px;margin:26px auto 0;padding:0 20px}
+  .branch h2{font-size:15px;color:var(--navy);letter-spacing:.03em;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px;
+    display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .branch h2 em{font-style:normal;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:0}
+  .svc{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+  .card{border:1px solid var(--line-2);border-radius:10px;padding:10px 14px 10px 10px;display:flex;align-items:center;gap:10px;background:#fff}
+  .card.done{border-color:var(--gold)}
+  .card .thumb{width:40px;height:53px;object-fit:cover;border-radius:6px;flex:0 0 auto;border:1px solid var(--line)}
+  .card .t{font-size:13.5px;color:var(--ink);font-weight:600;flex:1}
+  .card a.t:hover{color:var(--gold-dark)}
+  .badge2{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
+  .badge2.done{background:#e7f7ee;color:#1f8a55}
+  .badge2.todo{background:var(--soft);color:var(--muted)}
+  .badge2.ref{background:#eef2fb;color:#3a5391}
+  .kind{font-size:10.5px;color:var(--muted);font-weight:700;letter-spacing:.04em}
+  .foot{margin-top:40px}
+</style>
+</head>
+<body>
+<div class="topband"><div class="in">
+  <a class="brand" href="index.html"><span class="logo">S</span><span>
+    <span class="name">SMILE<span> GROUP</span></span><br>
+    <span class="sub">Aesthetic &amp; Dental Clinic</span></span></a>
+  <span class="tag">Site treatment content · <b>EN edition</b></span>
+</div></div>
+
+<div class="hero2">
+  <h1>Site Treatment Content — English Edition</h1>
+  <p>Native British-English translation of the <b>8 categories · 59 pages</b> of the Turkish site treatment menu, produced to the same
+     structure (accordion Q&amp;A, WordPress paste blocks, FAQPage schema). Every page keeps the same number of FAQs, the same internal
+     links (now pointing at <code>/en/hizmet/…/</code>) and the same balanced, caveat-honest clinical tone as the Turkish source.</p>
+</div>
+<div class="prog">
+  <span class="n" id="pn">0 / 0</span>
+  <span class="bar"><i id="pb" style="width:0%"></i></span>
+  <span class="n" id="pp">%0</span>
+</div>
+<div class="order">
+  <b>Note:</b> "Scale and Polish" appears in two menu categories but is <b>one page</b> (matches the Turkish source — publishing the same
+  content at two URLs would create duplicate-content issues in Google).
+  &nbsp;·&nbsp; Crown/veneer materials each have their own page plus a <b>comparison pillar</b> page above them.
+  &nbsp;·&nbsp; Language: British English · No pricing, patient reviews or "best/guaranteed" claims — translated faithfully from the
+  Turkish source, which deliberately avoids these for regulatory reasons.
+</div>
+
+<div id="branches"></div>
+
+<div class="foot">
+  <span>Smile Group · EN site treatment content — internal use.</span>
+  <span id="foot2"></span>
+</div>
+
+<script>
+const DATA = [
+  { name:"Digital Smile Design", kind:"treatment", items:[
+    ["Smile Design","gulus-tasarimi"],["Smile Bot: Digital Smile Pre-Assessment Tool","smile-bot"],["Same-Day Teeth","1-gunde-dis"],
+    ["Cosmetic Fillings","estetik-dolgular"],["Hollywood Smile","hollywood-gulusu"],
+    ["Inlay & Onlay Fillings","inlay-onlay-dolgular"] ]},
+
+  { name:"Implant Treatments", kind:"treatment", items:[
+    ["Same-Day Implants (Immediate Loading)","1-gunde-implant"],["All-on-4 Implants","all-on-4"],["All-on-6 Implants","all-on-6"],
+    ["Laser-Assisted Implants","lazerli-implant"],["Single Tooth Implant","tek-dis-implant"],
+    ["Full-Mouth Implants","full-agiz-implant"],["Multiple-Tooth Implant-Supported Bridge","coklu-dis-koprulu-implant"],
+    ["Sinus Lift","sinus-lifting"],["Bone Graft","kemik-grefti"] ]},
+
+  { name:"Change My Smile", kind:"symptom / funnel", items:[
+    ["I Want a Smile Makeover: Where to Start","gulus-tasarimi-istiyorum"],["My Teeth Look Small","dislerim-kucuk-gorunuyor"],
+    ["My Teeth Are Crooked","dislerim-yamuk"],["I Don't Feel Comfortable Smiling","gulerken-rahat-hissetmiyorum"],
+    ["I Have Stains on My Teeth","dislerimde-lekeler-var"],["I Have Gaps Between My Teeth","dislerim-ayrik"],
+    ["My Teeth Are Worn Down","dislerim-asindi"],["My Gums Bleed","dis-etim-kaniyor"] ]},
+
+  { name:"Sleep & Jaw Health", kind:"symptom / funnel", items:[
+    ["Bad Breath","agiz-kokusu"],["I Snore — Possible Causes and Who to See First","horluyorum"],["I Clench My Teeth","dislerimi-sikiyorum"],
+    ["My Teeth Grind (Bruxism)","dislerim-gicirdiyor"],["I Have Jaw Pain","cene-agrisi-yasiyorum"],
+    ["My Tooth Hurts","disim-agriyor"],["My Tooth Is Sensitive","disim-sizliyor"],
+    ["I Can't Chew Comfortably","rahat-cigneyemiyorum"] ]},
+
+  { name:"Cosmetic Treatments", kind:"treatment", items:[
+    ["Zirconia Crowns","zirkonyum"],["Empress Crowns","empress"],["Porcelain Veneers","porselen-lamina"],
+    ["Composite Veneers","kompozit-lamina"],["E.max Crowns","emax"],["Monolithic Zirconia","monolitik-zirkonyum"],
+    ["Porcelain Crown & Bridge","porselen-kron-kopru"],["Bonding Treatment (Composite Bonding)","bonding"],["Glass Ceramic Crowns","cam-seramik"],
+    ["Teeth Whitening: In-Practice and At-Home Options","dis-beyazlatma"],["Gum Aesthetics","dis-eti-estetigi"],
+    ["Scale and Polish (Tartar Removal)","dis-tasi-temizligi"] ]},
+
+  { name:"General Treatments", kind:"treatment", items:[
+    ["Crowns","kaplama"],["Fillings","dolgu"],["Root Canal Treatment","kanal-tedavisi"],
+    ["Scale and Polish (Tartar Removal)","dis-tasi-temizligi"],["Tooth Extraction","dis-cekimi"],
+    ["Wisdom Tooth Extraction","yirmilik-yas-disi-cekimi"],["Impacted Tooth Extraction","gomulu-dis-cekimi"] ]},
+
+  { name:"Orthodontics", kind:"treatment", items:[
+    ["Invisalign Treatment","invisalign"],["Braces (Metal / Clear)","dis-teli"],
+    ["Clear Aligner Orthodontics","seffaf-plakla-ortodonti"],["Orthognathic (Jaw) Surgery","ortognatik-cerrahi"] ]},
+
+  { name:"Children's Dentistry", kind:"treatment", items:[
+    ["Children's Orthodontics","cocuk-ortodontisi"],["Fluoride Application","fluorid-uygulamasi"],
+    ["Fissure Sealants","fissur-ortucu"],["Baby Bottle Tooth Decay","biberon-curugu"],
+    ["Space Maintainers","yer-tutucu"] ]},
+
+  { name:"Comparison (Pillar)", kind:"pillar", items:[
+    ["Crown & Veneer Materials Compared","kaplama-materyalleri-karsilastirma"] ]}
+];
+const DONE = new Set(["1-gunde-dis","1-gunde-implant","agiz-kokusu","all-on-4","all-on-6","biberon-curugu","bonding","cam-seramik","cene-agrisi-yasiyorum","cocuk-ortodontisi","coklu-dis-koprulu-implant","dis-beyazlatma","dis-cekimi","dis-eti-estetigi","dis-etim-kaniyor","dis-tasi-temizligi","dis-teli","disim-agriyor","disim-sizliyor","dislerim-asindi","dislerim-ayrik","dislerim-gicirdiyor","dislerim-kucuk-gorunuyor","dislerim-yamuk","dislerimde-lekeler-var","dislerimi-sikiyorum","dolgu","emax","empress","estetik-dolgular","fissur-ortucu","fluorid-uygulamasi","full-agiz-implant","gomulu-dis-cekimi","gulerken-rahat-hissetmiyorum","gulus-tasarimi","gulus-tasarimi-istiyorum","hollywood-gulusu","horluyorum","inlay-onlay-dolgular","invisalign","kanal-tedavisi","kaplama","kaplama-materyalleri-karsilastirma","kemik-grefti","kompozit-lamina","lazerli-implant","monolitik-zirkonyum","ortognatik-cerrahi","porselen-kron-kopru","porselen-lamina","rahat-cigneyemiyorum","seffaf-plakla-ortodonti","sinus-lifting","smile-bot","tek-dis-implant","yer-tutucu","yirmilik-yas-disi-cekimi","zirkonyum"]); // build-en.js recomputes this from hizmet/*.html
+
+const root = document.getElementById('branches');
+const seen = new Set();
+let total=0, done=0;
+
+DATA.forEach(b=>{
+  const sec=document.createElement('div'); sec.className='branch';
+  sec.innerHTML='<h2><span>'+b.name+'</span><em>'+b.kind+' · '+b.items.length+'</em></h2>';
+  const grid=document.createElement('div'); grid.className='svc';
+  b.items.forEach(([label,slug])=>{
+    const dup = seen.has(slug);
+    if(!dup){ seen.add(slug); total++; }
+    const isDone=DONE.has(slug);
+    if(isDone && !dup) done++;
+    const card=document.createElement('div'); card.className='card'+(isDone?' done':'');
+    const badge = dup ? '<span class="badge2 ref">↑ same page</span>'
+                      : (isDone ? '<span class="badge2 done">✓ translated</span>'
+                                : '<span class="badge2 todo">queued</span>');
+    const thumb = isDone
+        ? '<img class="thumb" src="../site/gorseller/'+slug+'-kapak-300x400.jpg" alt="" loading="lazy" onerror="this.remove()">'
+        : '';
+    card.innerHTML = thumb + (isDone
+        ? '<a class="t" href="hizmet/'+slug+'.html">'+label+'</a>'
+        : '<span class="t">'+label+'</span>') + badge;
+    grid.appendChild(card);
+  });
+  sec.appendChild(grid); root.appendChild(sec);
+});
+
+const pct = total? Math.round(done/total*100):0;
+document.getElementById('pn').textContent = done+' / '+total+' translated';
+document.getElementById('pb').style.width = pct+'%';
+document.getElementById('pp').textContent = '%'+pct;
+document.getElementById('foot2').textContent = done+' pages ready · '+(total-done)+' queued';
+</script>
+</body>
+</html>
