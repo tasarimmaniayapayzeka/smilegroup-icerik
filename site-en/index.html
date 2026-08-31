@@ -63,20 +63,25 @@
   Turkish source, which deliberately avoids these for regulatory reasons.
 </div>
 <div class="order" style="margin-top:10px">
-  <b>Also translated:</b> <a href="yolculuk/index.html"><b>Treatment Journeys</b></a> — representative patient-journey narratives for
+  <b>Also translated:</b> <a href="yolculuk/index.html"><b>Treatment Journeys</b></a> <span style="font-style:italic;font-size:11px">(TR: Tedavi Yolculukları)</span> — representative patient-journey narratives for
   implant, zirconia, veneer and whitening treatment (a regulation-safe "story" format in place of patient testimonials; WordPress paste blocks ready).
 </div>
 <div class="order" style="margin-top:10px">
-  <b>Also translated:</b> <a href="yolculuk2/index.html"><b>Smile Transformation Stories</b></a> — 4 named representative stories in the
+  <b>Also translated:</b> <a href="yolculuk2/index.html"><b>Smile Transformation Stories</b></a> <span style="font-style:italic;font-size:11px">(TR: Değişim Hikayeleri)</span> — 4 named representative stories in the
   client's own "transformation story" format (Elif · Veneers, Murat · Implant, Zeynep · Zirconia, Emre · Whitening; WP blocks + image downloads ready).
 </div>
 <div class="order" style="margin-top:10px">
-  <b>Also translated:</b> <a href="hekimler/index.html"><b>Doctor Photos</b></a> — clinic-background portraits for all 8 doctors;
+  <b>Also translated:</b> <a href="hekimler/index.html"><b>Doctor Photos</b></a> <span style="font-style:italic;font-size:11px">(TR: Hekim Fotoğrafları)</span> — clinic-background portraits for all 8 doctors;
   two pose alternatives each, with medium (1200px) and high-resolution download links.
 </div>
 <div class="order" style="margin-top:10px">
-  <b>Also translated:</b> <a href="blog/index.html"><b>Blog Articles (9)</b></a> — live-data-anchored articles that feed the treatment
+  <b>Also translated:</b> <a href="blog/index.html"><b>Blog Articles (9)</b></a> <span style="font-style:italic;font-size:11px">(TR: Blog Yazıları)</span> — live-data-anchored articles that feed the treatment
   pages (implant vs. bridge, whitening myths, dental health in pregnancy…); WordPress HTML + Article/FAQPage schemas ready.
+</div>
+
+<div class="branch">
+  <h2><span>Corporate Pages <span style="font-weight:400;font-style:italic;font-size:11px;color:var(--muted)">(TR: Kurumsal Sayfalar — Anasayfa, Biz Kimiz?, İletişim…)</span></span><em>corporate · 23</em></h2>
+  <div class="svc" id="kurgrid"></div>
 </div>
 
 <div id="branches"></div>
@@ -196,6 +201,40 @@ DATA.forEach(b=>{
     grid.appendChild(card);
   });
   sec.appendChild(grid); root.appendChild(sec);
+});
+
+const KURUMSAL = [
+  ["Home Page","kurumsal/anasayfa.html","Anasayfa"],
+  ["About Us","kurumsal/hakkimizda.html","Hakkımızda"],
+  ["Insurance & Institutional Partners","kurumsal/anlasmali-kurumlarimiz.html","Anlaşmalı Kurumlarımız"],
+  ["Solution Partners","kurumsal/cozum-ortaklarimiz.html","Çözüm Ortaklarımız"],
+  ["Our Awards","kurumsal/odullerimiz.html","Ödüllerimiz"],
+  ["Social Responsibility","kurumsal/sosyal-sorumluluklarimiz.html","Sosyal Sorumluluklarımız"],
+  ["Careers","kurumsal/kariyer.html","Kariyer"],
+  ["Gallery","kurumsal/galeri.html","Galeri"],
+  ["Personal Data Protection (KVKK)","kurumsal/kvkk.html","KVKK"],
+  ["Privacy Policy","kurumsal/gizlilik-sozlesmesi.html","Gizlilik Sözleşmesi"],
+  ["Our Warranty Policy","kurumsal/garanti-politikamiz.html","Garanti Politikamız"],
+  ["Contact","kurumsal/iletisim.html","İletişim"],
+  ["Frequently Asked Questions","kurumsal/sss.html","SSS"],
+  ["Our Doctors","kurumsal/hekimlerimiz.html","Hekimlerimiz"],
+  ["Patient Stories","kurumsal/hasta-hikayeleri.html","Hasta Hikayeleri"],
+  ["Blog (listing page)","kurumsal/blog.html","Blog"],
+  ["Our Treatments (listing page)","kurumsal/hizmetler.html","Tedavilerimiz"],
+  ["Dr Arda Öztan","doktor/dr-arda-oztan.html","Dr. Arda Öztan"],
+  ["Dr Cemile Uysal","doktor/dr-cemile-uysal.html","Uzm. Dr. Cemile Uysal"],
+  ["Dr İhsan Erik","doktor/dr-ihsan-erik.html","Dr. İhsan Erik"],
+  ["Dr Kadir Can Sakur","doktor/dr-kadir-can-sakur.html","Dt. Kadir Can Sakur"],
+  ["Dr Yasin Gökcegözoğlu","doktor/dt-yasin-gokcegozoglu.html","Dt. Yasin Gökcegözoğlu"],
+  ["Dr Zeynep Nas","doktor/dt-zeynep-nas.html","Dt. Zeynep Nas"]
+];
+const kg = document.getElementById('kurgrid');
+KURUMSAL.forEach(([label,href,tr])=>{
+  const card=document.createElement('div'); card.className='card done';
+  card.innerHTML = '<div class="t-wrap"><a class="t" href="'+href+'">'+label+'</a>'
+    + '<span class="trtag" title="'+tr.replace(/"/g,'&quot;')+'">TR: '+tr+'</span></div>'
+    + '<span class="badge2 done">✓ translated</span>';
+  kg.appendChild(card);
 });
 
 const pct = total? Math.round(done/total*100):0;
