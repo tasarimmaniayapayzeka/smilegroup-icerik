@@ -5,11 +5,21 @@ const path = require('path');
 const ROOT = __dirname;
 const DRAFTS = path.join(ROOT, '_drafts');
 const BLOG = path.join(ROOT, 'blog');
+const TR_BLOG = path.join(ROOT, '..', 'site', 'blog');
 const DATE = '30 August 2026';
 const EDITOR = 'Dr [Full Name]';
 
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function trTitleOf(slug) {
+  const f = path.join(TR_BLOG, slug + '.html');
+  if (!fs.existsSync(f)) return null;
+  const src = fs.readFileSync(f, 'utf8');
+  const m = src.match(/<title>([\s\S]*?)<\/title>/);
+  if (!m) return null;
+  return m[1].replace(/\s*—\s*Smile Group.*$/, '').trim();
 }
 
 const files = fs.readdirSync(DRAFTS).filter(f => /^blog-.*\.js$/.test(f));
@@ -43,6 +53,7 @@ for (const [slug, a] of articles) {
   const article = {
     slug: a.slug,
     title: a.title,
+    trTitle: trTitleOf(a.slug),
     metaDescription: a.metaDescription,
     lead: String(a.lead).trim(),
     sections: a.sections.map(s => ({ h2: s.h2, html: s.html })),
@@ -92,7 +103,9 @@ const ORDER = [
 ];
 const cards = ORDER.filter(s => articles.has(s)).map(slug => {
   const a = articles.get(slug);
-  return `  <a class="bcard" href="${slug}.html"><img class="bimg" src="../../site/gorseller/${slug}-detay-880x500.jpg" alt="" loading="lazy" onerror="this.remove()"><span class="bt">${esc(a.title)}</span><span class="bd">${esc(a.metaDescription || '')}</span></a>`;
+  const tr = trTitleOf(slug);
+  const trLine = tr ? `<span class="btr">TR: ${esc(tr)}</span>` : '';
+  return `  <a class="bcard" href="${slug}.html"><img class="bimg" src="../../site/gorseller/${slug}-detay-880x500.jpg" alt="" loading="lazy" onerror="this.remove()"><span class="bt">${esc(a.title)}</span>${trLine}<span class="bd">${esc(a.metaDescription || '')}</span></a>`;
 }).join('\n');
 
 const indexHtml = `<!DOCTYPE html>
@@ -113,6 +126,7 @@ const indexHtml = `<!DOCTYPE html>
   .bcard .bimg{display:block;width:100%;height:130px;object-fit:cover;border-radius:8px;margin-bottom:2px}
   .bcard:hover{border-color:var(--gold);box-shadow:0 10px 26px rgba(15,36,64,.08);text-decoration:none}
   .bcard .bt{font-size:15px;font-weight:700;color:var(--navy);line-height:1.4}
+  .bcard .btr{font-size:11px;color:var(--muted);font-style:italic}
   .bcard .bd{font-size:12.5px;color:var(--muted);line-height:1.55}
 </style>
 </head>

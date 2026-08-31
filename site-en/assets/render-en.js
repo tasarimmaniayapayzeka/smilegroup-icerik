@@ -38,6 +38,7 @@
     main.appendChild(el("div", "crumb", cr));
   }
   main.appendChild(el("h1", null, A.title));
+  if (A.trTitle) main.appendChild(el("div", "tr-orig", "TR original: <em>" + A.trTitle + "</em>"));
   if (A.lead) main.appendChild(el("div", "lead", A.lead));
 
   /* ---- hero image (if present) ---- */

@@ -24,8 +24,10 @@
   .card{border:1px solid var(--line-2);border-radius:10px;padding:10px 14px 10px 10px;display:flex;align-items:center;gap:10px;background:#fff}
   .card.done{border-color:var(--gold)}
   .card .thumb{width:40px;height:53px;object-fit:cover;border-radius:6px;flex:0 0 auto;border:1px solid var(--line)}
-  .card .t{font-size:13.5px;color:var(--ink);font-weight:600;flex:1}
+  .card .t-wrap{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+  .card .t{font-size:13.5px;color:var(--ink);font-weight:600}
   .card a.t:hover{color:var(--gold-dark)}
+  .card .trtag{font-size:10px;color:var(--muted);font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .badge2{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
   .badge2.done{background:#e7f7ee;color:#1f8a55}
   .badge2.todo{background:var(--soft);color:var(--muted)}
@@ -87,51 +89,82 @@
 <script>
 const DATA = [
   { name:"Digital Smile Design", kind:"treatment", items:[
-    ["Smile Design","gulus-tasarimi"],["Smile Bot: Digital Smile Pre-Assessment Tool","smile-bot"],["Same-Day Teeth","1-gunde-dis"],
-    ["Cosmetic Fillings","estetik-dolgular"],["Hollywood Smile","hollywood-gulusu"],
-    ["Inlay & Onlay Fillings","inlay-onlay-dolgular"] ]},
+    ["Smile Design","gulus-tasarimi","Gülüş Tasarımı"],
+    ["Smile Bot: Digital Smile Pre-Assessment Tool","smile-bot","Smile Bot: Dijital Gülüş Ön Değerlendirme Aracı"],
+    ["Same-Day Teeth","1-gunde-dis","1 Günde Diş: Aynı Gün Estetik Diş Uygulaması"],
+    ["Cosmetic Fillings","estetik-dolgular","Estetik Dolgular"],
+    ["Hollywood Smile","hollywood-gulusu","Hollywood Gülüşü (Hollywood Smile)"],
+    ["Inlay & Onlay Fillings","inlay-onlay-dolgular","İnlay ve Onlay Dolgular"] ]},
 
   { name:"Implant Treatments", kind:"treatment", items:[
-    ["Same-Day Implants (Immediate Loading)","1-gunde-implant"],["All-on-4 Implants","all-on-4"],["All-on-6 Implants","all-on-6"],
-    ["Laser-Assisted Implants","lazerli-implant"],["Single Tooth Implant","tek-dis-implant"],
-    ["Full-Mouth Implants","full-agiz-implant"],["Multiple-Tooth Implant-Supported Bridge","coklu-dis-koprulu-implant"],
-    ["Sinus Lift","sinus-lifting"],["Bone Graft","kemik-grefti"] ]},
+    ["Same-Day Implants (Immediate Loading)","1-gunde-implant","1 Günde İmplant (Hemen Yükleme)"],
+    ["All-on-4 Implants","all-on-4","All on 4 İmplant Tedavisi"],
+    ["All-on-6 Implants","all-on-6","All-on-6 İmplant Tedavisi"],
+    ["Laser-Assisted Implants","lazerli-implant","Lazerli İmplant (Lazer Destekli İmplant Cerrahisi)"],
+    ["Single Tooth Implant","tek-dis-implant","Tek Diş İmplant Tedavisi"],
+    ["Full-Mouth Implants","full-agiz-implant","Full Ağız İmplant Tedavisi"],
+    ["Multiple-Tooth Implant-Supported Bridge","coklu-dis-koprulu-implant","Çoklu Diş (Köprülü) İmplant Tedavisi"],
+    ["Sinus Lift","sinus-lifting","Sinüs Lifting (Sinüs Yükseltme)"],
+    ["Bone Graft","kemik-grefti","Kemik Grefti (Kemik Tozu) Uygulaması"] ]},
 
   { name:"Change My Smile", kind:"symptom / funnel", items:[
-    ["I Want a Smile Makeover: Where to Start","gulus-tasarimi-istiyorum"],["My Teeth Look Small","dislerim-kucuk-gorunuyor"],
-    ["My Teeth Are Crooked","dislerim-yamuk"],["I Don't Feel Comfortable Smiling","gulerken-rahat-hissetmiyorum"],
-    ["I Have Stains on My Teeth","dislerimde-lekeler-var"],["I Have Gaps Between My Teeth","dislerim-ayrik"],
-    ["My Teeth Are Worn Down","dislerim-asindi"],["My Gums Bleed","dis-etim-kaniyor"] ]},
+    ["I Want a Smile Makeover: Where to Start","gulus-tasarimi-istiyorum","Gülüş Tasarımı İstiyorum: Nereden Başlamalı?"],
+    ["My Teeth Look Small","dislerim-kucuk-gorunuyor","Dişlerim Küçük Görünüyor: Nedenleri ve Çözüm Yolları"],
+    ["My Teeth Are Crooked","dislerim-yamuk","Dişlerim Yamuk: Çapraşıklık Neden Olur, Hangi Tedaviler Gündeme Gelir?"],
+    ["I Don't Feel Comfortable Smiling","gulerken-rahat-hissetmiyorum","Gülerken Rahat Hissetmiyorum: Olası Nedenler ve İlk Adım"],
+    ["I Have Stains on My Teeth","dislerimde-lekeler-var","Dişlerimde Lekeler Var — Olası Nedenler ve Tedavi Yolları"],
+    ["I Have Gaps Between My Teeth","dislerim-ayrik","Dişlerim Ayrık: Diş Arası Boşluk Neden Olur, Nasıl Kapanır?"],
+    ["My Teeth Are Worn Down","dislerim-asindi","Dişlerim Aşındı: Aşınma Tipleri, Nedenleri ve Ne Yapmalı?"],
+    ["My Gums Bleed","dis-etim-kaniyor","Diş Etim Kanıyor: Nedenleri ve Ne Zaman Hekime Başvurmalı?"] ]},
 
   { name:"Sleep & Jaw Health", kind:"symptom / funnel", items:[
-    ["Bad Breath","agiz-kokusu"],["I Snore — Possible Causes and Who to See First","horluyorum"],["I Clench My Teeth","dislerimi-sikiyorum"],
-    ["My Teeth Grind (Bruxism)","dislerim-gicirdiyor"],["I Have Jaw Pain","cene-agrisi-yasiyorum"],
-    ["My Tooth Hurts","disim-agriyor"],["My Tooth Is Sensitive","disim-sizliyor"],
-    ["I Can't Chew Comfortably","rahat-cigneyemiyorum"] ]},
+    ["Bad Breath","agiz-kokusu","Ağız Kokusu (Halitozis): Nedenleri ve Ne Zaman Hekime Başvurmalı"],
+    ["I Snore — Possible Causes and Who to See First","horluyorum","Horluyorum — Horlamanın Olası Nedenleri ve Doğru Başvuru Sırası"],
+    ["I Clench My Teeth","dislerimi-sikiyorum","Dişlerimi Sıkıyorum — Nedenleri, Belirtileri ve Ne Yapmalı"],
+    ["My Teeth Grind (Bruxism)","dislerim-gicirdiyor","Dişlerim Gıcırdıyor"],
+    ["I Have Jaw Pain","cene-agrisi-yasiyorum","Çene Ağrısı Yaşıyorum: Olası Nedenler ve Ne Zaman Hekime Başvurmalı"],
+    ["My Tooth Hurts","disim-agriyor","Dişim Ağrıyor: Olası Nedenler ve Ne Zaman Acil Başvuru Gerekir?"],
+    ["My Tooth Is Sensitive","disim-sizliyor","Dişim Sızlıyor: Soğuk ve Sıcakta Diş Hassasiyeti Neden Olur?"],
+    ["I Can't Chew Comfortably","rahat-cigneyemiyorum","Rahat Çiğneyemiyorum: Olası Nedenler ve Ne Yapmalı?"] ]},
 
   { name:"Cosmetic Treatments", kind:"treatment", items:[
-    ["Zirconia Crowns","zirkonyum"],["Empress Crowns","empress"],["Porcelain Veneers","porselen-lamina"],
-    ["Composite Veneers","kompozit-lamina"],["E.max Crowns","emax"],["Monolithic Zirconia","monolitik-zirkonyum"],
-    ["Porcelain Crown & Bridge","porselen-kron-kopru"],["Bonding Treatment (Composite Bonding)","bonding"],["Glass Ceramic Crowns","cam-seramik"],
-    ["Teeth Whitening: In-Practice and At-Home Options","dis-beyazlatma"],["Gum Aesthetics","dis-eti-estetigi"],
-    ["Scale and Polish (Tartar Removal)","dis-tasi-temizligi"] ]},
+    ["Zirconia Crowns","zirkonyum","Zirkonyum Kaplama Nedir, Nasıl Yapılır?"],
+    ["Empress Crowns","empress","Empress Diş Kaplama (IPS Empress)"],
+    ["Porcelain Veneers","porselen-lamina","Porselen Lamina (Yaprak Porselen)"],
+    ["Composite Veneers","kompozit-lamina","Kompozit Lamina (Kompozit Laminate Veneer)"],
+    ["E.max Crowns","emax","E.max (Lityum Disilikat) Kaplama"],
+    ["Monolithic Zirconia","monolitik-zirkonyum","Monolitik Zirkonyum Nedir? Tek Parça Zirkonyum Kaplama"],
+    ["Porcelain Crown & Bridge","porselen-kron-kopru","Porselen Kron Köprü"],
+    ["Bonding Treatment (Composite Bonding)","bonding","Bonding Tedavisi (Kompozit Bonding)"],
+    ["Glass Ceramic Crowns","cam-seramik","Cam Seramik Nedir? Cam Seramik Kaplama Sistemleri"],
+    ["Teeth Whitening: In-Practice and At-Home Options","dis-beyazlatma","Diş Beyazlatma: Ofis Tipi ve Ev Tipi Yöntemler"],
+    ["Gum Aesthetics","dis-eti-estetigi","Diş Eti Estetiği (Pembe Estetik): Gummy Smile ve Diş Eti Kenarı Düzenlemesi"],
+    ["Scale and Polish (Tartar Removal)","dis-tasi-temizligi","Diş Taşı Temizliği (Detertraj) Nasıl Yapılır?"] ]},
 
   { name:"General Treatments", kind:"treatment", items:[
-    ["Crowns","kaplama"],["Fillings","dolgu"],["Root Canal Treatment","kanal-tedavisi"],
-    ["Scale and Polish (Tartar Removal)","dis-tasi-temizligi"],["Tooth Extraction","dis-cekimi"],
-    ["Wisdom Tooth Extraction","yirmilik-yas-disi-cekimi"],["Impacted Tooth Extraction","gomulu-dis-cekimi"] ]},
+    ["Crowns","kaplama","Diş Kaplama Nedir? Çeşitleri ve Uygulama Aşamaları"],
+    ["Fillings","dolgu","Diş Dolgusu"],
+    ["Root Canal Treatment","kanal-tedavisi","Kanal Tedavisi (Endodonti): Aşamaları, Seans Sayısı ve Sonrası"],
+    ["Scale and Polish (Tartar Removal)","dis-tasi-temizligi","Diş Taşı Temizliği (Detertraj) Nasıl Yapılır?"],
+    ["Tooth Extraction","dis-cekimi","Diş Çekimi: Ne Zaman Gerekir, Nasıl Yapılır?"],
+    ["Wisdom Tooth Extraction","yirmilik-yas-disi-cekimi","20'lik Yaş Dişi Çekimi: Ne Zaman Gerekir, Nasıl Yapılır?"],
+    ["Impacted Tooth Extraction","gomulu-dis-cekimi","Gömülü Diş Çekimi"] ]},
 
   { name:"Orthodontics", kind:"treatment", items:[
-    ["Invisalign Treatment","invisalign"],["Braces (Metal / Clear)","dis-teli"],
-    ["Clear Aligner Orthodontics","seffaf-plakla-ortodonti"],["Orthognathic (Jaw) Surgery","ortognatik-cerrahi"] ]},
+    ["Invisalign Treatment","invisalign","Invisalign Tedavisi"],
+    ["Braces (Metal / Clear)","dis-teli","Diş Teli (Metal / Şeffaf Braket) Tedavisi"],
+    ["Clear Aligner Orthodontics","seffaf-plakla-ortodonti","Şeffaf Plakla Ortodonti Tedavisi"],
+    ["Orthognathic (Jaw) Surgery","ortognatik-cerrahi","Ortognatik Cerrahi (Çene Ameliyatı): Aşamaları ve Süreci"] ]},
 
   { name:"Children's Dentistry", kind:"treatment", items:[
-    ["Children's Orthodontics","cocuk-ortodontisi"],["Fluoride Application","fluorid-uygulamasi"],
-    ["Fissure Sealants","fissur-ortucu"],["Baby Bottle Tooth Decay","biberon-curugu"],
-    ["Space Maintainers","yer-tutucu"] ]},
+    ["Children's Orthodontics","cocuk-ortodontisi","Çocuk Ortodontisi"],
+    ["Fluoride Application","fluorid-uygulamasi","Fluorid Uygulaması (Florür Vernik ve Jel)"],
+    ["Fissure Sealants","fissur-ortucu","Fissür Örtücü Nedir? Çocuklarda Azı Dişi Koruması"],
+    ["Baby Bottle Tooth Decay","biberon-curugu","Biberon Çürüğü (Erken Çocukluk Çağı Çürüğü)"],
+    ["Space Maintainers","yer-tutucu","Yer Tutucu Apareyleri"] ]},
 
   { name:"Comparison (Pillar)", kind:"pillar", items:[
-    ["Crown & Veneer Materials Compared","kaplama-materyalleri-karsilastirma"] ]}
+    ["Crown & Veneer Materials Compared","kaplama-materyalleri-karsilastirma","Kaplama Materyalleri Karşılaştırma: Hangi Durumda Hangisi?"] ]},
 ];
 const DONE = new Set(["1-gunde-dis","1-gunde-implant","agiz-kokusu","all-on-4","all-on-6","biberon-curugu","bonding","cam-seramik","cene-agrisi-yasiyorum","cocuk-ortodontisi","coklu-dis-koprulu-implant","dis-beyazlatma","dis-cekimi","dis-eti-estetigi","dis-etim-kaniyor","dis-tasi-temizligi","dis-teli","disim-agriyor","disim-sizliyor","dislerim-asindi","dislerim-ayrik","dislerim-gicirdiyor","dislerim-kucuk-gorunuyor","dislerim-yamuk","dislerimde-lekeler-var","dislerimi-sikiyorum","dolgu","emax","empress","estetik-dolgular","fissur-ortucu","fluorid-uygulamasi","full-agiz-implant","gomulu-dis-cekimi","gulerken-rahat-hissetmiyorum","gulus-tasarimi","gulus-tasarimi-istiyorum","hollywood-gulusu","horluyorum","inlay-onlay-dolgular","invisalign","kanal-tedavisi","kaplama","kaplama-materyalleri-karsilastirma","kemik-grefti","kompozit-lamina","lazerli-implant","monolitik-zirkonyum","ortognatik-cerrahi","porselen-kron-kopru","porselen-lamina","rahat-cigneyemiyorum","seffaf-plakla-ortodonti","sinus-lifting","smile-bot","tek-dis-implant","yer-tutucu","yirmilik-yas-disi-cekimi","zirkonyum"]); // build-en.js recomputes this from hizmet/*.html
 
@@ -143,7 +176,7 @@ DATA.forEach(b=>{
   const sec=document.createElement('div'); sec.className='branch';
   sec.innerHTML='<h2><span>'+b.name+'</span><em>'+b.kind+' · '+b.items.length+'</em></h2>';
   const grid=document.createElement('div'); grid.className='svc';
-  b.items.forEach(([label,slug])=>{
+  b.items.forEach(([label,slug,trLabel])=>{
     const dup = seen.has(slug);
     if(!dup){ seen.add(slug); total++; }
     const isDone=DONE.has(slug);
@@ -155,9 +188,11 @@ DATA.forEach(b=>{
     const thumb = isDone
         ? '<img class="thumb" src="../site/gorseller/'+slug+'-kapak-300x400.jpg" alt="" loading="lazy" onerror="this.remove()">'
         : '';
-    card.innerHTML = thumb + (isDone
+    const trTag = trLabel ? '<span class="trtag" title="'+trLabel.replace(/"/g,'&quot;')+'">TR: '+trLabel+'</span>' : '';
+    const titleEl = isDone
         ? '<a class="t" href="hizmet/'+slug+'.html">'+label+'</a>'
-        : '<span class="t">'+label+'</span>') + badge;
+        : '<span class="t">'+label+'</span>';
+    card.innerHTML = thumb + '<div class="t-wrap">'+titleEl+trTag+'</div>' + badge;
     grid.appendChild(card);
   });
   sec.appendChild(grid); root.appendChild(sec);

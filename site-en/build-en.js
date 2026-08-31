@@ -7,6 +7,7 @@ const path = require('path');
 const ROOT = __dirname;
 const DRAFTS = path.join(ROOT, '_drafts');
 const HIZMET = path.join(ROOT, 'hizmet');
+const TR_HIZMET = path.join(ROOT, '..', 'site', 'hizmet');
 const INDEX = path.join(ROOT, 'index.html');
 const DATE = '30 August 2026';
 const EDITOR = 'Dr [Full Name]';
@@ -15,7 +16,16 @@ function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-const files = fs.readdirSync(DRAFTS).filter(f => f.endsWith('.js'));
+function trTitleOf(slug) {
+  const f = path.join(TR_HIZMET, slug + '.html');
+  if (!fs.existsSync(f)) return null;
+  const src = fs.readFileSync(f, 'utf8');
+  const m = src.match(/<title>([\s\S]*?)<\/title>/);
+  if (!m) return null;
+  return m[1].replace(/\s*—\s*Smile Group.*$/, '').trim();
+}
+
+const files = fs.readdirSync(DRAFTS).filter(f => f.endsWith('.js') && !f.startsWith('blog-') && !/^(sitewide-check|add-tr-labels)/.test(f));
 console.log(`taslak dosya: ${files.length}`);
 
 if (!fs.existsSync(HIZMET)) fs.mkdirSync(HIZMET, { recursive: true });
@@ -46,6 +56,7 @@ for (const [slug, a] of articles) {
   const article = {
     slug: a.slug,
     title: a.title,
+    trTitle: trTitleOf(a.slug),
     breadcrumb: ['Home', a.category, a.title],
     lead: String(a.lead).trim(),
     faqs: a.faqs.map(f => ({ q: f.q, a: f.a })),
