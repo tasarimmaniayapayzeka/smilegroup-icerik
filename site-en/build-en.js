@@ -25,7 +25,9 @@ function trTitleOf(slug) {
   return m[1].replace(/\s*—\s*Smile Group.*$/, '').trim();
 }
 
-const files = fs.readdirSync(DRAFTS).filter(f => f.endsWith('.js') && !f.startsWith('blog-') && !/^(sitewide-check|add-tr-labels)/.test(f));
+const EN_SLUGS = JSON.parse(fs.readFileSync(path.join(DRAFTS, 'en-slug-map.json'), 'utf8')).hizmet;
+
+const files = fs.readdirSync(DRAFTS).filter(f => f.endsWith('.js') && !f.startsWith('blog-') && !/^(sitewide-check|add-tr-labels|copy-en-images)/.test(f));
 console.log(`taslak dosya: ${files.length}`);
 
 if (!fs.existsSync(HIZMET)) fs.mkdirSync(HIZMET, { recursive: true });
@@ -55,6 +57,7 @@ let yazilan = 0;
 for (const [slug, a] of articles) {
   const article = {
     slug: a.slug,
+    enSlug: EN_SLUGS[a.slug] || null,
     title: a.title,
     trTitle: trTitleOf(a.slug),
     breadcrumb: ['Home', a.category, a.title],

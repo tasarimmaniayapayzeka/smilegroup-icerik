@@ -1,0 +1,46 @@
+window.ARTICLE_EN = {
+  slug: "smile-bot",
+  title: "Smile Bot: Digital Smile Pre-Assessment Tool",
+  category: "Digital Smile Design",
+  lead: "Smile Bot is our clinic's digital smile pre-assessment tool. This page explains what the tool reads from a photo, where it can get things wrong, and how any image you upload is protected. A pre-assessment is not a substitute for treatment — diagnosis and treatment planning are only ever made through a dentist's examination.",
+  faqs: [
+    {
+      q: "What is Smile Bot, and what isn't it?",
+      a: "The word 'bot' in the name might suggest a system that makes decisions, but there's no diagnostic mechanism behind it. Smile Bot gives you a starting point for talking about smile aesthetics before you come in for your appointment. It examines the tooth alignment, midline and smile line in your uploaded photo using visual criteria, then offers a general outline of what might be worth discussing at your appointment. It doesn't recommend treatment, and it isn't a treatment method in itself. Save the result and bring it to your appointment — that's where the real conversation starts."
+    },
+    {
+      q: "How does Smile Bot work?",
+      a: "The process starts with uploading a clear smile photo that shows all of your front teeth. The system first separates the face and tooth area within the image, then compares tooth dimensions, symmetry and the lip-to-tooth relationship using proportions. It ignores the background; its analysis is limited to the smile area. It converts the measurements it takes into a representative image and displays it on screen next to your original photo. This image is a talking point, not a target. Look at the two side by side with your dentist at your appointment to help pin down what you're hoping for."
+    },
+    {
+      q: "What does the photo show, and what doesn't it show?",
+      a: "The tool is limited to aesthetic criteria that can be read from an image. Tooth length and width proportions, midline deviation and how well the smile line follows the lip fall within this scope. On colour, it offers only a rough impression, and differences in lighting and skin tone can easily shift that impression. Decay severity, the extent of gum disease, bone loss and bite problems, on the other hand, cannot be reliably assessed from a photo; even where something is visible in the image, it doesn't amount to a diagnosis. Nor can you read root structure or the margins of old restorations from an image. If you have composite fillings or porcelain restorations, these don't respond to whitening gel, though composite can pick up staining from external sources over time. The colour shown in the simulation therefore can't be taken as representative of your existing restorations — the screen gives you a general impression on topics such as <a href=\"/en/hizmet/dis-beyazlatma/\">teeth whitening</a> or <a href=\"/en/hizmet/porselen-lamina/\">porcelain veneers</a>, not a verdict on which one suits you."
+    },
+    {
+      q: "How long does it take to get a result?",
+      a: "The digital pre-assessment result usually appears on screen within a few minutes. Uploading the photo depends on your connection speed, while processing the image itself takes only seconds. If the framing or focus isn't good enough, the system will ask for a new photo, which adds to the time. The clinical timeline runs separately — the design and treatment stages are explained on our <a href=\"/en/hizmet/gulus-tasarimi/\">digital smile design</a> page."
+    },
+    {
+      q: "Who can benefit from this tool?",
+      a: "Anyone considering a change to their smile but unsure where to start can get an initial idea here. This includes people with gaps between their teeth, those who feel their teeth look short, or anyone unhappy with the colour of their teeth. If you find it hard to put what you're hoping for into words, a visual starting point can make things easier. Someone living further away can also get a general picture before travelling to the clinic. For anyone thinking <a href=\"/en/hizmet/gulus-tasarimi-istiyorum/\">'I want a smile makeover, where do I start?'</a>, the tool helps put the topics worth discussing in order. The content behind popular terms like <a href=\"/en/hizmet/hollywood-gulusu/\">Hollywood smile</a> varies from person to person — your dentist plans around your own tooth dimensions, lip movement and gum level. Having this outline ready before your appointment helps make the best use of your consultation time."
+    },
+    {
+      q: "Why isn't the result binding?",
+      a: "The visual simulation doesn't include measurements, intraoral scan data or X-rays. The only input it has is a single photo, so the result is a predictive representation, not a measurement. Bone support is assessed through periodontal probing and X-rays (and 3D imaging where needed), while your dentist examines the bite relationship in person. These two factors are what actually determine the treatment option, and neither appears in a photo. Achieving the look shown on screen with porcelain veneers or crowns often requires removing a certain amount of tooth structure irreversibly, so liking the simulation doesn't mean that method is right for you. Approaches that need no reduction, or only a small amount, can be an option in some cases — <a href=\"/en/hizmet/bonding/\">bonding</a> is one of them. So is the risk purely technical? No — the idealised image on screen can make an achievable result look more dramatic than it really is, which can set the stage for disappointment. Your dentist establishes the diagnosis and treatment plan through examination and any necessary imaging; the result is not a promise of treatment."
+    },
+    {
+      q: "What kind of photo should I take?",
+      a: "A photo taken in daylight, facing a window, makes the proportions easier to read; shots taken under overhead lighting create more shadow. Hold the phone at eye level, keep your face centred in the frame, and make sure all of your front teeth are visible. A natural smile is enough — just make sure your lips aren't covering your teeth. Turn off any filter, beautify mode and digital zoom before you shoot. Dark lipstick and harsh shadow blur the tooth outlines, and a blurry photo will need to be retaken."
+    },
+    {
+      q: "When does treatment need to come first?",
+      a: "If there's active gum inflammation, advanced decay or an untreated infection, the aesthetic simulation isn't a priority — your dentist deals with that first. If you have pain or swelling, get the underlying cause treated before anything else. For people with noticeable orthodontic irregularities, the result can be misleading, because tooth alignment changes with methods such as <a href=\"/en/hizmet/seffaf-plakla-ortodonti/\">clear aligner orthodontics</a>. For anyone with limited mouth opening, advanced bone loss or jaw joint symptoms, assessment is best left to the clinical setting. Under the age of eighteen, the tool won't run without parental or guardian consent. In this age group, gum levels and clinical crown heights haven't yet settled while growth is still ongoing, so the aesthetic simulation has limited clinical relevance — permanent restorative treatment isn't considered appropriate at this stage either."
+    },
+    {
+      q: "How are photos and personal data protected?",
+      a: "Because your smile photo is processed for health purposes, it's classed as special category personal data under Article 6 of Turkey's data protection law (KVKK). Our clinic is the data controller. We process the image solely for pre-assessment purposes and only on the basis of your explicit consent. The company that provides the tool acts as data processor. Where the data needs to be processed on a server outside Turkey, the transfer is backed by an appropriate safeguard, such as an adequacy decision or standard contractual clauses, under Article 9 of the KVKK. Neither the photo you upload nor the simulation the tool produces is ever used in marketing, before-and-after material or on social media. You can withdraw your consent and request deletion at any time; the exception is health records that we're legally required to retain for a set period. No one sees the image other than the health professionals involved in your care and the authorised technical team."
+    }
+  ],
+  closing: "The pre-assessment you see on screen is just a starting point; your dentist establishes the diagnosis and treatment plan after an examination. If you'd like to go through the result together, you can request an appointment via our <a href=\"/en/contact/\">contact page</a>. <em>Last updated: 4 August 2026. Reviewing dentist: Dr [Full Name], Dentist.</em>",
+  metaDescription: "Smile Bot is our photo-based digital smile pre-assessment tool. What it measures, where it can be wrong, and how your uploaded photo is protected."
+};

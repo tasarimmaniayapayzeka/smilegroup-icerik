@@ -92,6 +92,7 @@
 </div>
 
 <script>
+const ENIMG = {"1-gunde-dis":"same-day-teeth","1-gunde-implant":"same-day-implants","agiz-kokusu":"bad-breath","all-on-4":"all-on-4-implants","all-on-6":"all-on-6-implants","biberon-curugu":"baby-bottle-tooth-decay","bonding":"composite-bonding","cam-seramik":"glass-ceramic-crowns","cene-agrisi-yasiyorum":"jaw-pain","cocuk-ortodontisi":"childrens-orthodontics","coklu-dis-koprulu-implant":"implant-supported-bridge","dis-beyazlatma":"teeth-whitening","dis-cekimi":"tooth-extraction","dis-eti-estetigi":"gum-aesthetics","dis-etim-kaniyor":"bleeding-gums","dis-tasi-temizligi":"scale-and-polish","dis-teli":"braces","disim-agriyor":"toothache","disim-sizliyor":"sensitive-teeth","dislerim-asindi":"worn-teeth","dislerim-ayrik":"gaps-between-teeth","dislerim-gicirdiyor":"teeth-grinding","dislerim-kucuk-gorunuyor":"small-looking-teeth","dislerim-yamuk":"crooked-teeth","dislerimde-lekeler-var":"stained-teeth","dislerimi-sikiyorum":"teeth-clenching","dolgu":"fillings","emax":"emax-crowns","empress":"empress-crowns","estetik-dolgular":"cosmetic-fillings","fissur-ortucu":"fissure-sealants","fluorid-uygulamasi":"fluoride-application","full-agiz-implant":"full-mouth-implants","gomulu-dis-cekimi":"impacted-tooth-extraction","gulerken-rahat-hissetmiyorum":"not-comfortable-smiling","gulus-tasarimi-istiyorum":"smile-makeover-where-to-start","gulus-tasarimi":"smile-design","hollywood-gulusu":"hollywood-smile","horluyorum":"snoring","inlay-onlay-dolgular":"inlay-onlay-fillings","invisalign":"invisalign","kanal-tedavisi":"root-canal-treatment","kaplama-materyalleri-karsilastirma":"crown-veneer-materials-compared","kaplama":"crowns","kemik-grefti":"bone-graft","kompozit-lamina":"composite-veneers","lazerli-implant":"laser-assisted-implants","monolitik-zirkonyum":"monolithic-zirconia","ortognatik-cerrahi":"orthognathic-jaw-surgery","porselen-kron-kopru":"porcelain-crown-bridge","porselen-lamina":"porcelain-veneers","rahat-cigneyemiyorum":"chewing-difficulty","seffaf-plakla-ortodonti":"clear-aligner-orthodontics","sinus-lifting":"sinus-lift","smile-bot":"smile-bot","tek-dis-implant":"single-tooth-implant","yer-tutucu":"space-maintainers","yirmilik-yas-disi-cekimi":"wisdom-tooth-extraction","zirkonyum":"zirconia-crowns"};
 const DATA = [
   { name:"Digital Smile Design", kind:"treatment", items:[
     ["Smile Design","gulus-tasarimi","Gülüş Tasarımı"],
@@ -191,7 +192,7 @@ DATA.forEach(b=>{
                       : (isDone ? '<span class="badge2 done">✓ translated</span>'
                                 : '<span class="badge2 todo">queued</span>');
     const thumb = isDone
-        ? '<img class="thumb" src="../site/gorseller/'+slug+'-kapak-300x400.jpg" alt="" loading="lazy" onerror="this.remove()">'
+        ? '<img class="thumb" src="images/'+(ENIMG[slug]||slug)+'-cover-300x400.jpg" alt="'+label+' — cover" loading="lazy" onerror="this.remove()">'
         : '';
     const trTag = trLabel ? '<span class="trtag" title="'+trLabel.replace(/"/g,'&quot;')+'">TR: '+trLabel+'</span>' : '';
     const titleEl = isDone

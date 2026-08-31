@@ -22,6 +22,8 @@ function trTitleOf(slug) {
   return m[1].replace(/\s*—\s*Smile Group.*$/, '').trim();
 }
 
+const EN_SLUGS = JSON.parse(fs.readFileSync(path.join(DRAFTS, 'en-slug-map.json'), 'utf8')).blog;
+
 const files = fs.readdirSync(DRAFTS).filter(f => /^blog-.*\.js$/.test(f));
 console.log(`blog taslak dosya: ${files.length}`);
 
@@ -52,6 +54,7 @@ let yazilan = 0;
 for (const [slug, a] of articles) {
   const article = {
     slug: a.slug,
+    enSlug: EN_SLUGS[a.slug] || null,
     title: a.title,
     trTitle: trTitleOf(a.slug),
     metaDescription: a.metaDescription,
@@ -104,8 +107,9 @@ const ORDER = [
 const cards = ORDER.filter(s => articles.has(s)).map(slug => {
   const a = articles.get(slug);
   const tr = trTitleOf(slug);
+  const en = EN_SLUGS[slug] || slug;
   const trLine = tr ? `<span class="btr">TR: ${esc(tr)}</span>` : '';
-  return `  <a class="bcard" href="${slug}.html"><img class="bimg" src="../../site/gorseller/${slug}-detay-880x500.jpg" alt="" loading="lazy" onerror="this.remove()"><span class="bt">${esc(a.title)}</span>${trLine}<span class="bd">${esc(a.metaDescription || '')}</span></a>`;
+  return `  <a class="bcard" href="${slug}.html"><img class="bimg" src="../images/${en}-detail-880x500.jpg" alt="${esc(a.title)} — article cover" loading="lazy" onerror="this.remove()"><span class="bt">${esc(a.title)}</span>${trLine}<span class="bd">${esc(a.metaDescription || '')}</span></a>`;
 }).join('\n');
 
 const indexHtml = `<!DOCTYPE html>

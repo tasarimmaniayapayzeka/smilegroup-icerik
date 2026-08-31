@@ -1,0 +1,55 @@
+window.BLOG_EN = {
+  "slug": "dis-beyazlatma-dogru-bilinen-yanlislar",
+  "title": "Teeth Whitening: 8 Myths People Still Believe",
+  "metaDescription": "Does lemon and baking soda whiten teeth? Does whitening damage enamel, and how long does it last? We correct 8 common myths about teeth whitening.",
+  "lead": "When it comes to white teeth, everyone seems to have heard a home recipe, or picked up a piece of \"advice\" from someone close to them. Unfortunately, a good deal of this so-called knowledge is nothing more than hearsay, and some of it can even damage your teeth. In this article, we go through eight of the myths we hear most often about teeth whitening, one by one, and explain the facts behind each in plain language.",
+  "sections": [
+    {
+      "h2": "Does lemon and baking soda really whiten teeth?",
+      "html": "<p><strong>Myth 1: Lemon and baking soda whiten teeth.<\/strong> This recipe might sound harmless in the kitchen, but it isn't for your teeth. Baking soda is an abrasive powder and lemon is a strong acid; put together, they thin the enamel surface like sandpaper. The brightness that's noticeable in the first few days is really just the abraded surface reflecting light differently. As the enamel thins, the yellow dentine layer underneath becomes more visible, and the teeth take on a darker tone over time. In other words, the recipe does the exact opposite of what it promises.<\/p><p>The second misconception is closely related. <strong>Myth 2: Natural recipes are harmless.<\/strong> Mashed strawberry, apple cider vinegar, activated charcoal... the label \"natural\" may sound reassuring, but most of these mixtures are either acidic or abrasive. Once enamel has been worn away, it doesn't renew itself, which is why the cost of experimenting with kitchen ingredients can end up being irreversible.<\/p><p>If the discolouration on your teeth is surface staining from tea, coffee or smoking, the solution starts in the clinic, not at home. A professional <a href=\"/en/hizmet/dis-tasi-temizligi/\">scale and polish<\/a> can remove a significant portion of this kind of staining. If you'd like to know more about where discolouration comes from, you can take a look at our page on <a href=\"/en/hizmet/dislerimde-lekeler-var/\">stains on your teeth<\/a>.<\/p>"
+    },
+    {
+      "h2": "Does teeth whitening damage the enamel?",
+      "html": "<p><strong>Myth 3: Whitening damages the enamel.<\/strong> This worry feeds on problems that actually come from uncontrolled use. The gels used in <a href=\"/en/hizmet/dis-beyazlatma/\">teeth whitening<\/a> carried out at the clinic don't work by abrading the enamel — they work by breaking down the colour molecules within the enamel and dentine. The mechanism is completely different from the mechanical abrasion caused by home recipes like lemon and baking soda.<\/p><p>In a clinical setting, your dentist first examines your teeth and gums, and sets the gel strength, application time and number of sessions based on this assessment. The gums are protected with a special barrier, and how the tooth responds is monitored throughout the procedure. Problems with the enamel, on the other hand, mostly come from unsupervised, prolonged use of high-strength products bought online. In short, the problem isn't the method itself — it's using it without supervision.<\/p>"
+    },
+    {
+      "h2": "Is sensitivity after whitening permanent?",
+      "html": "<p><strong>Myth 4: Sensitivity after whitening is permanent.<\/strong> A brief twinge felt over a cold sip of water is enough to put many people off the treatment altogether. In reality, this sensation is temporary in most cases and is expected to ease within a few days. The gel temporarily stimulates the fine tubules in the dentine; there's no lasting change to the tooth's structure. The typical pattern runs like this: sensitivity is more noticeable in the first day or two, then eases gradually over the following days. During this short period, staying away from the extremes of very hot and very cold food and drink, holding off on acidic drinks for a few days, and brushing gently all help reduce the factors that stimulate the tubules.<\/p><p>After the procedure, your dentist can share protective treatments and advice aimed at reducing sensitivity. If sensitivity lasts longer than expected, there may be a different underlying cause; in that situation, telling your dentist about your <a href=\"/en/hizmet/disim-sizliyor/\">tooth sensitivity<\/a> helps clarify what's going on.<\/p>"
+    },
+    {
+      "h2": "Do crowns and fillings whiten too?",
+      "html": "<p><strong>Myth 5: Crowns and fillings whiten too.<\/strong> Whitening gels only work on natural tooth structure. Restorations such as <a href=\"/en/hizmet/zirkonyum/\">zirconia<\/a> and <a href=\"/en/hizmet/porselen-lamina/\">porcelain veneers<\/a>, along with any existing <a href=\"/en/hizmet/dolgu/\">fillings<\/a>, aren't affected by these gels — their colour stays exactly as it was.<\/p><p>This detail also determines the order treatment is planned in. Whitening is completed first, and the shade for any restorations that follow is then chosen to match the teeth's new tone. If a filling or crown already in your mouth looks dark after whitening, your dentist will go through options with you such as shade-matching with <a href=\"/en/hizmet/bonding/\">bonding<\/a> or replacing the restoration. Which route is taken depends largely on the condition of the restoration: if the colour difference is small and the existing filling is sound, matching the shade at the surface can be enough in most cases; if the difference is obvious, the restoration is worn, or the margin has broken down, replacement comes to the fore.<\/p>"
+    },
+    {
+      "h2": "How long does the effect of whitening last?",
+      "html": "<p><strong>Myth 6: Once you've whitened, teeth stay white forever.<\/strong> Teeth are living tissue, and their colour keeps changing over time. The effect of whitening is subject to this same natural cycle: tea, coffee, smoking and some strongly coloured foods can gradually darken the shade again. How long the effect lasts varies from person to person, with eating habits and oral care being the main factors involved. Once the colour starts to return, short top-up sessions recommended by your dentist can come into the picture.<\/p><p>The following habits help the effect last longer:<\/p><ul><li>Limiting tea, coffee and strongly coloured drinks, and rinsing your mouth with water after having them<\/li><li>Staying away from smoking and tobacco products<\/li><li>Keeping up brushing twice a day and regular flossing<\/li><li>Not skipping routine check-ups with your dentist<\/li><\/ul>"
+    },
+    {
+      "h2": "Do shop-bought products do the same job as whitening at the clinic?",
+      "html": "<p><strong>Myth 7: Whitening strips and pens are just as good as the treatment at the clinic.<\/strong> The strips, pens and whitening toothpastes on shop shelves work with low-strength ingredients and are made in a standard, one-size-fits-all form. In clinical treatment, by contrast, the gel's strength, how it contacts the tooth, and the application time are all planned specifically for you, based on your examination findings.<\/p><p>So when does each one come into play? For mild, surface-level staining, a supporting product chosen in consultation with your dentist can add something to the picture. If there's noticeable discolouration, a history of sensitivity, or a filling or gum problem at the front of the mouth, a clinical assessment is needed first, because each of these changes both which product is suitable and how it should be used. The answer to \"product or clinic?\" becomes clear not on the shelf, but in the dentist's chair.<\/p>"
+    },
+    {
+      "h2": "Is teeth whitening suitable for everyone?",
+      "html": "<p><strong>Myth 8: Whitening is suitable for everyone, at any age.<\/strong> Treatment is usually postponed in under-18s, because the internal structure of younger teeth is still maturing. Pregnancy and breastfeeding are also situations that call for waiting. Rather than deciding on any whitening product by yourself during this time, it's sensible to get the joint opinion of your dentist and the obstetrician managing your care.<\/p><p>Oral health also shapes the picture. Untreated decay and inflamed gums can make it unwise for the gel to come into contact with these tissues; someone experiencing <a href=\"/en/hizmet/dis-etim-kaniyor/\">gum bleeding<\/a>, for example, needs this problem addressed first. Once your teeth and gums are healthy, whitening is both more comfortable to carry out and easier to predict the outcome of.<\/p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does teeth whitening take?",
+      "a": "Treatment carried out at the clinic is usually completed in a single session; with custom-made trays used at home under your dentist's guidance, the process can be spread over a few weeks. The total time depends on the level of staining and the method chosen."
+    },
+    {
+      "q": "What should I be careful of after whitening?",
+      "a": "In the first few days, staying away from staining drinks such as tea, coffee and dark fruit juices, from foods with strongly coloured sauces, and from smoking helps protect the result. Your dentist will also give you a personal aftercare list to follow."
+    },
+    {
+      "q": "Does whitening cause tooth decay?",
+      "a": "Whitening gels work through a completely different mechanism from the one that causes decay. That said, any existing decay needs to be treated before the procedure, because the gel coming into contact with an open cavity can increase sensitivity."
+    },
+    {
+      "q": "Can a dark tooth that's had root canal treatment be whitened?",
+      "a": "Darkening in a single tooth can appear after <a href=\"/en/hizmet/kanal-tedavisi/\">root canal treatment<\/a>; in this situation, a different whitening technique applied from inside the tooth can come into play. The examination determines which method is appropriate."
+    }
+  ],
+  "closing": "The route to a whiter smile doesn't run through hearsay recipes — it runs through a plan built by a dentist who knows your teeth. To work through any other questions on your mind and talk about the method that's right for you, you can reach us via our <a href=\"/en/contact/\">contact page<\/a>."
+};

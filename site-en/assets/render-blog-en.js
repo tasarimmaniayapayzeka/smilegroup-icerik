@@ -34,10 +34,12 @@
   if (A.lead) main.appendChild(el("div", "lead", A.lead));
 
   /* ---- hero image (if present) ---- */
+  var imgSlug = A.enSlug || A.slug;
+  var imgBase = A.enSlug ? "../images/" : "../../site/gorseller/";
   var hero = new Image();
   hero.className = "hero";
-  hero.src = "../../site/gorseller/" + A.slug + "-detay-880x500.jpg";
-  hero.alt = A.title;
+  hero.src = imgBase + imgSlug + "-detail-880x500.jpg";
+  hero.alt = A.title + " — Smile Group blog article hero image";
   hero.onerror = function () { hero.remove(); };
   main.appendChild(hero);
 
@@ -146,15 +148,15 @@
     '<b>cover</b> is used on the blog list card / featured image, <b>detail</b> at the top of the article. ' +
     'Click an image to download it.</div>' +
     '<div class="grid" style="display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start">' +
-    '<a href="../../site/gorseller/' + A.slug + '-kapak-300x400.jpg" download="' + A.slug + '-cover-300x400.jpg"' +
+    '<a href="' + imgBase + imgSlug + '-cover-300x400.jpg" download="' + imgSlug + '-cover-300x400.jpg"' +
     ' style="display:inline-block;text-align:center;text-decoration:none">' +
-    '<img src="../../site/gorseller/' + A.slug + '-kapak-300x400.jpg" alt="cover" loading="lazy"' +
+    '<img src="' + imgBase + imgSlug + '-cover-300x400.jpg" alt="' + A.title + ' — cover image" loading="lazy"' +
     ' width="120" height="160" style="display:block;width:120px;height:160px;object-fit:cover;border-radius:8px"' +
     ' onerror="this.parentNode.parentNode.parentNode.style.display=\'none\'">' +
     '<span style="display:block;margin-top:7px;font-size:12.5px;font-weight:700;color:#33465f">cover · 300×400</span></a>' +
-    '<a href="../../site/gorseller/' + A.slug + '-detay-880x500.jpg" download="' + A.slug + '-detail-880x500.jpg"' +
+    '<a href="' + imgBase + imgSlug + '-detail-880x500.jpg" download="' + imgSlug + '-detail-880x500.jpg"' +
     ' style="display:inline-block;text-align:center;text-decoration:none">' +
-    '<img src="../../site/gorseller/' + A.slug + '-detay-880x500.jpg" alt="detail" loading="lazy"' +
+    '<img src="' + imgBase + imgSlug + '-detail-880x500.jpg" alt="' + A.title + ' — detail image" loading="lazy"' +
     ' width="282" height="160" style="display:block;width:282px;height:160px;object-fit:cover;border-radius:8px">' +
     '<span style="display:block;margin-top:7px;font-size:12.5px;font-weight:700;color:#33465f">detail · 880×500</span></a>' +
     '</div>';

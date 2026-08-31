@@ -1,0 +1,58 @@
+window.ARTICLE_EN = {
+  slug: "estetik-dolgular",
+  title: "Cosmetic Fillings",
+  category: "Digital Smile Design",
+  lead: "Is it just one corner that needs repairing, or does the whole front surface need covering? When you notice a chip, a stain or an old filling on a front tooth, the decision often starts with that question. A cosmetic filling is a localised repair used in cases where the problem stays limited to one area. The headings below cover the scope of the treatment, the process, possible risks and aftercare.",
+  faqs: [
+    {
+      q: "What is a cosmetic filling?",
+      a: "A cosmetic filling is a repair made with composite resin that matches the natural colour and translucency of the tooth. The dentist builds the material up in thin layers, curing each one with a special light. Margin shape and surface texture are what really make the difference here. This term is the <em>umbrella</em> name for cosmetic composite work; you'll find the individual methods that sit underneath it covered separately below."
+    },
+    {
+      q: "When does a cosmetic filling come into play?",
+      a: "Repairs made after decay or tooth structure loss in the front of the mouth sit at the centre of this category. Replacing old fillings whose margins have become visible, or which have drifted in colour from the tooth next to them, is a common request. Your dentist can also cover localised staining on the enamel surface with composite after cleaning the surface. Small chips and areas of wear fall into this category too. When deciding, the extent of the tooth structure lost, the bite relationship and gum health are all considered together. The plan can change in areas that take heavier chewing forces, and your dentist may ask for an X-ray where needed."
+    },
+    {
+      q: "What's the difference between a cosmetic filling and a standard filling?",
+      a: "A standard <a href=\"/en/hizmet/dolgu/\">filling</a> is primarily aimed at clearing decay and restoring the tooth's function. In the cosmetic approach, colour match, translucency and surface texture matter just as much. The dentist layers composites of different opacity for enamel and dentine, which extends both the treatment time and the polishing protocol. In some cases, a direct composite is preferred because it requires removing less sound tooth structure than crown options would. For larger areas of tooth structure loss, <a href=\"/en/hizmet/inlay-onlay-dolgular/\">inlay and onlay fillings</a> come into play instead."
+    },
+    {
+      q: "Is bonding the same thing as a cosmetic filling?",
+      a: "Both treatments use composite resin, which is why the terms are so often mixed up. The distinction comes down to the purpose of the treatment: replacing tooth structure that's been lost is a cosmetic filling, while reshaping or lengthening a sound tooth falls under <a href=\"/en/hizmet/bonding/\">bonding</a>. Lengthening a healthy incisor that looks short, for instance, fits the second definition."
+    },
+    {
+      q: "Is just one surface repaired, or is the whole front covered?",
+      a: "A composite veneer covers the whole front surface of the tooth with a thin layer. A cosmetic filling, on the other hand, repairs just the problem area — often a single surface or corner. As the area covered grows, the margin line gets longer and the maintenance needed increases with it. If the colour or shape problem isn't limited to one spot, your dentist will also consider the <a href=\"/en/hizmet/kompozit-lamina/\">composite veneer</a> option. Where tooth structure loss is limited, a localised repair can be enough."
+    },
+    {
+      q: "Will the filling match the colour of my other teeth?",
+      a: "Your dentist chooses the shade right at the start of the appointment, while the tooth is still moist. As the tooth dries out during treatment it can look lighter, so a shade picked at this stage can end up lighter than it should be. The dentist compares the neighbouring teeth against a shade guide in conditions close to daylight, and where needed, tries a small sample of composite on the surface and checks it under different lighting. The enamel and dentine layers call for materials of different opacity, and this layering is what gives the tooth a sense of depth. A separate translucent composite may be used for the clear area at the biting edge. The aim is a result close to the neighbouring tooth — getting an exact match isn't always possible in every case."
+    },
+    {
+      q: "If I'm having whitening done too, what order should it go in?",
+      a: "The order has a direct effect on the result. If your target shade is lighter than your current one, <a href=\"/en/hizmet/dis-beyazlatma/\">teeth whitening</a> is generally planned before the composite work. If the filling is done first, the colour mismatch becomes obvious once the surrounding teeth lighten. Whitening gels only lighten natural tooth structure — they don't lighten composite. Oxygen left behind in the tissue after the gel can also weaken the composite's bond to the tooth for a while, which is why a wait of one to two weeks is usually recommended."
+    },
+    {
+      q: "How is shape and shine given to a front tooth?",
+      a: "Shaping doesn't finish once the composite has set. The dentist first refines the contour, comparing the tooth's width-to-length ratio, its ridge lines and its contact point with the neighbouring tooth against its counterpart on the other side. Enamel is naturally translucent at the biting edge, and a material of matching translucency mimics this effect. To soften the colour transition, the composite layer is feathered out beyond the line of the original chip or crack. Surface texture comes next: the dentist works fine horizontal lines and a slight ripple into the surface, aiming to match how light bounces off the neighbouring tooth. Then comes the bite check — the dentist uses articulating paper to find any early contact points and makes the necessary adjustment. The polishing protocol proceeds in stages: coarse discs remove the rough outline, silicone points soften the surface, and felt wheels with polishing paste apply the final layer. Each step refines the scratches left by the one before it, so none of the stages can be skipped. The aim is for the finished surface to come as close as possible to the shine and texture of natural enamel."
+    },
+    {
+      q: "How long does treatment take, and how many sessions are needed?",
+      a: "Treating a single tooth usually takes thirty to sixty minutes. When several front teeth are being worked on, the appointment can run to two hours. In this direct technique, the dentist shapes the composite in the mouth as they go. A lab stage isn't needed in most cases, so treatment is completed in a single session. For more extensive plans, your dentist may prefer to split the work up and review progress along the way. After smaller corrections, you can get straight back to your day."
+    },
+    {
+      q: "What risks and downsides are involved?",
+      a: "Composite surfaces are prone to external staining and can discolour and lose their shine over time. The rougher the surface gets, the more easily staining agents take hold. Micro-leakage, discoloured lines or small chips can appear at the margins, and margin fit can deteriorate over time. Once a step forms at the margin, plaque builds up more easily there. Decay recurring at the filling margin is one of the more common reasons composite restorations need replacing. In larger repairs, shrinkage as the composite sets can leave a small gap at the margin. If the contact point with the neighbouring tooth isn't fully re-established, food can get trapped between the teeth. Hot-and-cold sensitivity lasting a few days can follow the procedure; in most cases it settles on its own, though with deep lesions it can last longer than a few days. If the pulp has been affected, root canal treatment may be needed in some cases. In very large areas of tooth structure loss, composite may not provide enough support. If the restoration chips or comes off, that area needs redoing. In teeth that have had root canal treatment, the shade may not always reach the desired result with composite."
+    },
+    {
+      q: "Who isn't a good candidate for this method?",
+      a: "If there's untreated active gum disease, your dentist deals with that first — a dry working field can't be maintained next to bleeding, inflamed tissue. For the same reason, direct composite may not be suitable where a lesion's margin extends below the gum line. If a deep lesion needs root canal treatment, that comes first. With heavy clenching or grinding habits, the plan changes because of the fracture risk, and a protective night guard may be brought in. For anyone who finds it hard to stay still for long periods, or can't keep their mouth open throughout the procedure, other methods are considered instead. With severe staining or pronounced alignment problems, the result may not meet expectations — in these cases, options such as <a href=\"/en/hizmet/porselen-lamina/\">porcelain veneers</a> are discussed instead."
+    },
+    {
+      q: "How long does a composite filling last, and when does it need replacing?",
+      a: "How long a filling lasts varies considerably from person to person. Oral hygiene, eating habits, bite forces and the filling's location all play a part. In the first two days, dark drinks and cigarette smoke speed up surface staining, so it's worth limiting coffee, tea and red wine over this period. Daily brushing, flossing and a non-abrasive toothpaste help preserve the shine. If the surface goes dull, it can be repolished at a check-up. Cracking hard shells, biting nails and chewing pens with the front teeth all tend to trigger margin chips. At check-ups, your dentist assesses margin fit and the condition of the surface. Replacement comes up when a step or gap is found at the margin, along with chips, secondary decay or noticeable surface wear. In some cases, a localised repair or repolishing is enough rather than replacing the whole filling. If you consume a lot of dark drinks, your check-up interval may need to be shorter."
+    }
+  ],
+  closing: "A cosmetic filling plan is built around your tooth structure, your target shade and your bite relationship. Treatment decisions aren't made remotely — the details become clear after an examination. For planning that covers your whole smile, take a look at our <a href=\"/en/hizmet/gulus-tasarimi/\">digital smile design</a> page. For an assessment appointment, you can use the details on our <a href=\"/en/contact/\">contact page</a>.",
+  metaDescription: "What is a cosmetic filling, and when is it used? Shade matching, shaping, polishing, possible risks and aftercare for composite front-tooth repair."
+};

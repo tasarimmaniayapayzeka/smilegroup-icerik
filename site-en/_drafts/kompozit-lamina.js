@@ -1,0 +1,58 @@
+window.ARTICLE_EN = {
+  slug: "kompozit-lamina",
+  title: "Composite Veneers",
+  category: "Cosmetic Treatments",
+  lead: "Composite veneers are one of the aesthetic options considered for minor shape, colour and gap problems in the front teeth. Because the dentist builds up and shapes the composite resin in layers directly in the mouth, treatment is completed in a single appointment in most cases. Below, you'll find the scope of the treatment, how it differs from porcelain veneers and bonding, its risks and what aftercare requires.",
+  faqs: [
+    {
+      q: "What is a composite veneer, and what material is it made from?",
+      a: "A composite veneer is an aesthetic covering built up on the visible surface of the front teeth from thin layers of composite resin. The dentist cures each layer with a special light; a lab stage isn't involved in most cases. Colour, shape, length and surface texture all reach their final form in the same appointment. Reduction of tooth structure is generally limited, and in some cases the enamel isn't touched at all."
+    },
+    {
+      q: "Who might this come up for?",
+      a: "This approach can come up for people with a small chip, wear, a hairline crack, mild shape irregularity or a gap in their front teeth. It's also considered for localised staining that doesn't respond to whitening. Mild rotation and length differences can be camouflaged with composite in patients who'd rather not have orthodontic treatment. Results are more predictable in patients with healthy gums and a consistent oral care routine. For patients with <a href=\"/en/hizmet/dislerim-ayrik/\">gaps between their teeth</a>, the dentist takes measurements and photographs at the first examination."
+    },
+    {
+      q: "How is it done, and what are the stages?",
+      a: "The dentist first cleans the tooth surface, chooses the shade in daylight, and sets the target form using a wax model or digital planning. The enamel surface is then etched, a bonding agent applied, and the composite built up layer by layer. Each layer is cured with a light; different translucency shades are layered on top of each other to recreate dentine and enamel effects. In the final stage, the shape is refined with burs and the surface polished with finishing discs. The appointment isn't finished until the bite has been checked, because the contact relationship between the front teeth directly affects the risk of fracture. In cases that need more comprehensive planning, the process is handled as part of <a href=\"/en/hizmet/gulus-tasarimi/\">smile design</a>."
+    },
+    {
+      q: "How long does it take, and how many visits are needed?",
+      a: "For a single tooth, the procedure usually takes 30 to 60 minutes. When the whole front group is planned, the appointment can run to two or three hours; the dentist may split some cases into two visits for the patient's comfort. In cases with no reduction, the dentist usually doesn't use anaesthetic; where enamel preparation is needed, local anaesthetic may come into play. Because the direct method doesn't involve an impression or a wait for the lab, treatment is generally completed the same day. The dentist schedules a short follow-up appointment for polishing and bite adjustment."
+    },
+    {
+      q: "What's the difference from porcelain veneers?",
+      a: "Both methods cover the front surface, but the material and the process differ. Composite resin is shaped in the mouth and finished in a single visit in most cases; <a href=\"/en/hizmet/porselen-lamina/\">porcelain veneers</a> require an impression, lab production and a second bonding appointment. With porcelain, a degree of surface preparation is carried out before the impression is taken. In terms of surface absorption, composite can change colour over time when exposed to staining agents like coffee and cigarettes, whereas porcelain's glassy structure behaves differently at the surface. On the other hand, a chipped or worn area in composite can be built back up in the same visit, while with porcelain the whole restoration usually needs replacing. With composite, the dentist will typically plan more frequent polish refreshes and spot repairs; with porcelain, maintenance check-ups don't require the same surface treatment. Both options approach the aesthetic goal for the front teeth by different routes. If you'd like to see the options side by side, our <a href=\"/en/hizmet/kaplama-materyalleri-karsilastirma/\">crown and veneer materials comparison</a> page can help."
+    },
+    {
+      q: "What's the difference between bonding and composite veneers?",
+      a: "Bonding is a <em>targeted</em> correction made with the same composite material: it addresses a chipped corner, a small gap, or a limited shape flaw in a single tooth. With composite veneers, the dentist covers the <strong>whole</strong> of the tooth's front surface and generally works on four to eight teeth together to build symmetry, consistent length and a unified smile line. So the difference isn't in the material, but in the scope and planning. If there's a localised problem in a single tooth, <a href=\"/en/hizmet/bonding/\">bonding</a> may be enough; if colour and form need to match across the whole front group, the veneer approach comes to the fore."
+    },
+    {
+      q: "What changes between direct and indirect application?",
+      a: "In the direct method, the composite is shaped straight in the mouth, which reduces the number of visits needed. In the indirect method, the technician prepares the veneers in the lab, and the dentist bonds them at a second appointment. Composites polymerised in the lab under higher heat and pressure show a different strength profile. Prefabricated composite veneers come as ready-made shells that the dentist adapts to fit the tooth. Which route is chosen becomes clear at examination, based on the existing tooth structure and the form being aimed for."
+    },
+    {
+      q: "What are the risks and disadvantages?",
+      a: "Composite resin can lose its surface shine over time, and thin discoloured lines can appear at the margins. Biting hard food, nail-biting or grinding at night can lead to fracture or separation at the edge. Overhanging margins can trigger gum inflammation, which is why the dentist checks margin fit carefully. In cases where reduction is carried out, the enamel lost can't be recovered, so the decision can involve an irreversible step. Some patients notice cold sensitivity in the first few days, which settles down quickly in most cases. For patients with a <a href=\"/en/hizmet/dislerimi-sikiyorum/\">teeth clenching</a> complaint, predicting a long-term outcome becomes harder without a night guard planned in."
+    },
+    {
+      q: "When is it not carried out, or postponed?",
+      a: "If there's active decay, advanced gum disease or an untreated root canal infection, the dentist postpones treatment and completes the essential groundwork first. In cases of severe crowding, a marked bite problem or heavy wear, composite alone may not be enough, and an orthodontic or prosthetic plan comes into consideration instead. In root-treated, non-vital teeth or where discolouration has worked deep into the tissue, a thin composite layer may not mask the underlying shade well enough, and the dentist will consider different thickness and opacity options in these cases. Because the risk of fracture rises with uncontrolled bruxism, the dentist won't start treatment without a protective measure in place. If tooth loss at the front is extensive, the dentist will consider full-coverage options instead. In patients whose oral hygiene routine isn't yet established, the clinic completes cleaning and care education first."
+    },
+    {
+      q: "How should aftercare be managed?",
+      a: "For the first 24 hours, dark drinks and smoking should be avoided, because the surface is more prone to staining during this period. Use a non-abrasive toothpaste for daily brushing; harsh whitening toothpastes can dull the shine. Biting hard-shelled food, chewing ice and opening packaging with the front teeth are risky habits. At the six-monthly check-up, the dentist assesses margin fit and the condition of the surface."
+    },
+    {
+      q: "How long do composite veneers last, and what determines that?",
+      a: "How long they last varies noticeably from patient to patient; in well-maintained cases, a polish refresh or partial repair tends to come up after a few years of use, while this period can be shorter in patients with high bite forces. The main factors that determine lifespan are how consistent your oral care is, how much staining food and drink you consume, and whether you clench your teeth at night. The type of composite used and the layering technique also affect how the surface will behave over time. If marginal leakage or a fracture develops, the dentist will plan a replacement."
+    },
+    {
+      q: "What happens if they discolour, and can they be renewed?",
+      a: "For surface staining, the dentist thins down the old polish layer and re-polishes it, which is a quick procedure. If the colour change has worked its way deeper into the composite, the dentist removes that layer and adds fresh composite; replacing the entire restoration isn't usually necessary. A chipped corner is repaired on the same principle, and this <em>repairability</em> is one of the method's distinguishing features. If you're considering lightening the shade of your natural teeth, <a href=\"/en/hizmet/dis-beyazlatma/\">teeth whitening</a> needs to be planned before the veneers are made, because composite doesn't respond to whitening agents. Tissue loss further back in the mouth is handled separately by the dentist under <a href=\"/en/hizmet/estetik-dolgular/\">cosmetic fillings</a>."
+    }
+  ],
+  closing: "Composite veneers are one of the options worth considering if you'd like to address shape and colour mismatches in your front teeth within a single appointment. Which method suits you becomes clear once your tooth structure and bite relationship have been examined. For any questions, you can reach us through our <a href=\"/en/contact/\">contact page</a>.",
+  metaDescription: "What are composite veneers, who are they for, and how do they differ from porcelain veneers and bonding? Stages, risks, aftercare and durability explained."
+};
