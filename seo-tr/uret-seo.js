@@ -101,7 +101,7 @@ fs.writeFileSync(path.join(KOK, 'index.html'), pano);
 /* uygulama yükü */
 const yuk = sonuclar.filter(s => s.durum === 'HAZIR').map(s => {
   const C = require(path.join(KOK, '_ciftler', s.slug + '.js'));
-  return { tr_slug: s.slug, odak: C.odak, ciftler: C.ciftler };
+  return { tr_slug: s.slug, odak: C.odak, desen: C.desen, odakKelime: C.odakKelime, ciftler: C.ciftler };
 });
 if (!fs.existsSync(path.join(KOK, '_wp'))) fs.mkdirSync(path.join(KOK, '_wp'));
 fs.writeFileSync(path.join(KOK, '_wp', 'seo-tr-yuk.json'), JSON.stringify({ surum: '1.0', uretim: 'uret-seo.js', ogeler: yuk }, null, 1));

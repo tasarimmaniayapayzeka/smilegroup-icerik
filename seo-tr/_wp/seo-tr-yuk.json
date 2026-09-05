@@ -5,6 +5,8 @@
   {
    "tr_slug": "gulus-tasarimi",
    "odak": "gülüş tasarımı",
+   "desen": "gülüş tasarım[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Süreç hangi aşamalardan oluşur?",
@@ -66,6 +68,8 @@
   {
    "tr_slug": "1-gunde-dis",
    "odak": "1 günde diş",
+   "desen": "1 günde diş[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Kimler bu yöntem için uygun adaydır?",
@@ -87,6 +91,8 @@
   {
    "tr_slug": "1-gunde-implant",
    "odak": "1 günde implant",
+   "desen": "1 günde implant[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Bu sayfada hemen yükleme protokolünün kapsamını",
@@ -118,6 +124,8 @@
   {
    "tr_slug": "agiz-kokusu",
    "odak": "ağız kokusu",
+   "desen": "ağız koku[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Sabahları hissedilen koku ile gün boyu süren koku aynı şey mi?",
@@ -159,6 +167,8 @@
   {
    "tr_slug": "all-on-4",
    "odak": "all on 4",
+   "desen": "all on 4",
+   "odakKelime": 3,
    "ciftler": [
     [
      "İmplantlar neden açılı yerleştirilir?",
@@ -190,6 +200,8 @@
   {
    "tr_slug": "all-on-6",
    "odak": "all-on-6",
+   "desen": "all-on-6",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Altı destekli düzen bu sorunun yanıtlarından yalnızca biridir",
@@ -226,6 +238,8 @@
   {
    "tr_slug": "biberon-curugu",
    "odak": "biberon çürüğü",
+   "desen": "biberon çürü[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "İlk belirtiler nelerdir, tebeşirimsi beyaz leke neyi gösterir?",
@@ -277,6 +291,8 @@
   {
    "tr_slug": "bonding",
    "odak": "bonding tedavisi",
+   "desen": "bonding[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Uygulama nasıl yapılır, aşamaları nelerdir?",
@@ -288,6 +304,8 @@
   {
    "tr_slug": "cam-seramik",
    "odak": "cam seramik",
+   "desen": "cam seramik[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Tedavi ne kadar sürer, kaç seans gerekir?",
@@ -304,6 +322,8 @@
   {
    "tr_slug": "cene-agrisi-yasiyorum",
    "odak": "çene ağrısı",
+   "desen": "çene ağrı[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "En sık görülen nedenler neler olabilir?",
@@ -330,6 +350,8 @@
   {
    "tr_slug": "cocuk-ortodontisi",
    "odak": "çocuk ortodontisi",
+   "desen": "çocuk ortodonti[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "İlk ortodonti muayenesi neden 7 yaş civarında önerilir?",
@@ -381,6 +403,8 @@
   {
    "tr_slug": "coklu-dis-koprulu-implant",
    "odak": "köprülü implant",
+   "desen": "köprülü implant[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Çoklu diş (köprülü) implant nedir?",
@@ -427,6 +451,8 @@
   {
    "tr_slug": "dis-beyazlatma",
    "odak": "diş beyazlatma",
+   "desen": "diş beyazlatma[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Ofis tipi ve ev tipi beyazlatma arasındaki fark nedir?",
@@ -478,6 +504,8 @@
   {
    "tr_slug": "dis-cekimi",
    "odak": "diş çekimi",
+   "desen": "diş çekim[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Basit çekim ile cerrahi çekimin farkı nedir?",
@@ -504,6 +532,8 @@
   {
    "tr_slug": "dis-eti-estetigi",
    "odak": "diş eti estetiği",
+   "desen": "diş eti esteti[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Uygulama aşamaları nasıl ilerler?",
@@ -530,6 +560,8 @@
   {
    "tr_slug": "dis-etim-kaniyor",
    "odak": "diş eti kanaması",
+   "desen": "diş eti kanama[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Yanlış fırçalama kanamayı tetikler mi?",
@@ -556,6 +588,8 @@
   {
    "tr_slug": "dis-tasi-temizligi",
    "odak": "diş taşı temizliği",
+   "desen": "diş taşı temizli[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Ultrasonik cihazla temizlik hangi aşamalardan oluşur?",
@@ -582,6 +616,8 @@
   {
    "tr_slug": "dis-teli",
    "odak": "diş teli",
+   "desen": "diş teli[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Sabit braketli ortodonti, dişlere yapıştırılan",
@@ -643,6 +679,8 @@
   {
    "tr_slug": "disim-agriyor",
    "odak": "diş ağrısı",
+   "desen": "diş ağrı[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Bu ağrı ile soğukta gelen kısa sızlama arasındaki fark nedir?",
@@ -679,6 +717,8 @@
   {
    "tr_slug": "disim-sizliyor",
    "odak": "diş sızlaması",
+   "desen": "diş sızla[a-zçğıöşü]*|diş hassasiyeti[a-zçğıöşü]*|dişim sızlıyor",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Dişimin sızlaması ne anlama gelir?",
@@ -725,6 +765,8 @@
   {
    "tr_slug": "dislerim-asindi",
    "odak": "diş aşınması",
+   "desen": "diş aşınma[a-zçğıöşü]*|dişlerim aşındı",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Aşınmanın olası nedenleri neler olabilir?",
@@ -776,6 +818,8 @@
   {
    "tr_slug": "dislerim-ayrik",
    "odak": "diş arası boşluk",
+   "desen": "diş arası boşlu[kğ][a-zçğıöşü]*|diş arası açıklı[kğ][a-zçğıöşü]*|ayrık diş[a-zçğıöşü]*|dişlerim ayrık",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Dişlerimin arasındaki boşluk normal mi, yoksa bir şeye mi işaret ediyor?",
@@ -812,6 +856,8 @@
   {
    "tr_slug": "dislerim-gicirdiyor",
    "odak": "diş gıcırdatma",
+   "desen": "diş gıcırdat[a-zçğıöşü]*|dişlerim gıcırdıyor",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kendim duymuyorsam gıcırdattığımı nasıl anlarım?",
@@ -848,6 +894,8 @@
   {
    "tr_slug": "dislerim-kucuk-gorunuyor",
    "odak": "dişlerim küçük görünüyor",
+   "desen": "dişler[a-zçğıöşü]* (küçük|kısa) görün[a-zçğıöşü]*|küçük görünen diş[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "En sık hangi nedenler karşımıza çıkıyor?",
@@ -874,6 +922,8 @@
   {
    "tr_slug": "dislerim-yamuk",
    "odak": "çapraşık dişler",
+   "desen": "çapraşık diş[a-zçğıöşü]*|diş çapraşıklığ[a-zçğıöşü]*|dişlerim yamuk|yamuk diş[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Dişlerimin yamuk görünmesi tam olarak neye işaret eder?",
@@ -910,6 +960,8 @@
   {
    "tr_slug": "dislerimde-lekeler-var",
    "odak": "diş lekeleri",
+   "desen": "diş leke[a-zçğıöşü]*|dişlerde leke[a-zçğıöşü]*|dişimdeki leke[a-zçğıöşü]*|dişlerimde leke[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Yüzey lekesi ile diş içi renklenme arasındaki fark nedir?",
@@ -961,6 +1013,8 @@
   {
    "tr_slug": "dislerimi-sikiyorum",
    "odak": "diş sıkma",
+   "desen": "diş sıkma[a-zçğıöşü]*|dişlerimi sıkıyorum",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Sıkma ile gıcırdatma aynı şey mi, farkı ne?",
@@ -1012,6 +1066,8 @@
   {
    "tr_slug": "dolgu",
    "odak": "diş dolgusu",
+   "desen": "diş dolgu[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Dolgu nedir, hangi durumlarda gerekir?",
@@ -1073,6 +1129,8 @@
   {
    "tr_slug": "emax",
    "odak": "e.max kaplama",
+   "desen": "e\\.max",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimler için uygun bir seçenektir?",
@@ -1109,6 +1167,8 @@
   {
    "tr_slug": "empress",
    "odak": "empress",
+   "desen": "empress",
+   "odakKelime": 1,
    "ciftler": [
     [
      "Kimler için uygun bir seçenek olabilir?",
@@ -1145,6 +1205,8 @@
   {
    "tr_slug": "estetik-dolgular",
    "odak": "estetik dolgu",
+   "desen": "estetik dolgu[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Uygulama ne kadar sürer, kaç seans gerekir?",
@@ -1166,6 +1228,8 @@
   {
    "tr_slug": "fissur-ortucu",
    "odak": "fissür örtücü",
+   "desen": "fissür örtücü[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimlere ve hangi yaşta uygulanır?",
@@ -1187,6 +1251,8 @@
   {
    "tr_slug": "fluorid-uygulamasi",
    "odak": "florür uygulaması",
+   "desen": "f(luorid|lorür) uygulama[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimler için önerilir ve hangi yaşta başlanabilir?",
@@ -1233,6 +1299,8 @@
   {
    "tr_slug": "full-agiz-implant",
    "odak": "full ağız implant",
+   "desen": "full ağız implant[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Tam dişsizlikte hangi implant seçenekleri bulunur?",
@@ -1264,6 +1332,8 @@
   {
    "tr_slug": "gomulu-dis-cekimi",
    "odak": "gömülü diş çekimi",
+   "desen": "gömülü diş çekim[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Ne kadar sürer ve kaç seans gerekir?",
@@ -1285,6 +1355,8 @@
   {
    "tr_slug": "gulerken-rahat-hissetmiyorum",
    "odak": "gülerken rahat hissetmiyorum",
+   "desen": "gülerken rahat hisset[a-zçğıöşü]*|gülerken kendi[a-zçğıöşü]* frenle[a-zçğıöşü]*|gülüş çekingenliğ[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Bu çekingenliğin arkasında en sık hangi bulgular yer alır?",
@@ -1316,6 +1388,8 @@
   {
    "tr_slug": "gulus-tasarimi-istiyorum",
    "odak": "gülüş tasarımı istiyorum",
+   "desen": "gülüş tasarımı ist[a-zçğıöşü]*|gülüş(ümü|ünüzü) değiştirm[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Gülüşten duyulan memnuniyetsizliğin arkasında hangi durumlar olabilir?",
@@ -1342,6 +1416,8 @@
   {
    "tr_slug": "hollywood-gulusu",
    "odak": "hollywood gülüşü",
+   "desen": "hollywood gülüş[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Gülüş tasarımından farkı nedir?",
@@ -1388,6 +1464,8 @@
   {
    "tr_slug": "horluyorum",
    "odak": "horlama",
+   "desen": "horl[au][a-zçğıöşü]*",
+   "odakKelime": 1,
    "ciftler": [
     [
      "Hangi durumlarda gecikmeden hekime başvurmalıyım?",
@@ -1424,6 +1502,8 @@
   {
    "tr_slug": "inlay-onlay-dolgular",
    "odak": "inlay onlay dolgu",
+   "desen": "inlay (ve |ile )?onlay[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Tedavi ne kadar sürer?",
@@ -1440,6 +1520,8 @@
   {
    "tr_slug": "invisalign",
    "odak": "invisalign tedavisi",
+   "desen": "[ıi]nvisalign",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Seri plaklar dişi nasıl hareket ettirir?",
@@ -1496,6 +1578,8 @@
   {
    "tr_slug": "kanal-tedavisi",
    "odak": "kanal tedavisi",
+   "desen": "kanal tedavi[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimlere uygulanır, hangi dişlerde tercih edilir?",
@@ -1537,6 +1621,8 @@
   {
    "tr_slug": "kaplama",
    "odak": "diş kaplama",
+   "desen": "diş kaplama[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kaplama çeşitleri nelerdir?",
@@ -1598,6 +1684,8 @@
   {
    "tr_slug": "kemik-grefti",
    "odak": "kemik grefti",
+   "desen": "kemik greft[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Hangi greft türleri kullanılır?",
@@ -1649,6 +1737,8 @@
   {
    "tr_slug": "kompozit-lamina",
    "odak": "kompozit lamina",
+   "desen": "kompozit lamina[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimler için gündeme gelebilir?",
@@ -1675,6 +1765,8 @@
   {
    "tr_slug": "lazerli-implant",
    "odak": "lazerli implant",
+   "desen": "lazerli implant[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "İşlem adım adım nasıl ilerler?",
@@ -1716,6 +1808,8 @@
   {
    "tr_slug": "monolitik-zirkonyum",
    "odak": "monolitik zirkonyum",
+   "desen": "monolitik zirkonyum[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Tabakalı zirkonyumdan farkı nedir?",
@@ -1757,6 +1851,8 @@
   {
    "tr_slug": "ortognatik-cerrahi",
    "odak": "ortognatik cerrahi",
+   "desen": "ortognatik cerrahi[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimlerde diş hareketi yetersiz kalır, cerrahi gündeme gelir?",
@@ -1798,6 +1894,8 @@
   {
    "tr_slug": "porselen-kron-kopru",
    "odak": "porselen kron köprü",
+   "desen": "porselen kron köprü[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Kimler bu tedavi için uygun adaydır?",
@@ -1839,6 +1937,8 @@
   {
    "tr_slug": "porselen-lamina",
    "odak": "porselen lamina",
+   "desen": "porselen lamina[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimler için uygun bir seçenektir?",
@@ -1885,6 +1985,8 @@
   {
    "tr_slug": "rahat-cigneyemiyorum",
    "odak": "çiğneme zorluğu",
+   "desen": "çiğneme zorluğ[a-zçğıöşü]*|çiğneme güçlüğ[a-zçğıöşü]*|rahat çiğneyem[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Hangi belirtiler bu şikayete eşlik ediyorsa daha dikkatli olmalıyım?",
@@ -1926,6 +2028,8 @@
   {
    "tr_slug": "seffaf-plakla-ortodonti",
    "odak": "şeffaf plak",
+   "desen": "şeffaf plak[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimler bu tedaviye uygun aday sayılır?",
@@ -1977,6 +2081,8 @@
   {
    "tr_slug": "sinus-lifting",
    "odak": "sinüs lifting",
+   "desen": "sinüs lifting[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Açık (lateral) teknik nasıl uygulanır?",
@@ -2028,6 +2134,8 @@
   {
    "tr_slug": "smile-bot",
    "odak": "smile bot",
+   "desen": "smile bot[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Fotoğraf neyi gösterir, neyi göstermez?",
@@ -2064,6 +2172,8 @@
   {
    "tr_slug": "tek-dis-implant",
    "odak": "tek diş implant",
+   "desen": "tek diş implant[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Tedavi hangi aşamalardan oluşur?",
@@ -2090,6 +2200,8 @@
   {
    "tr_slug": "yer-tutucu",
    "odak": "yer tutucu",
+   "desen": "yer tutucu[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Sabit ve hareketli tip arasındaki fark nedir?",
@@ -2121,6 +2233,8 @@
   {
    "tr_slug": "yirmilik-yas-disi-cekimi",
    "odak": "20 yaş dişi çekimi",
+   "desen": "(20|yirmi) yaş diş[a-zçğıöşü]*|yirmilik (yaş )?diş[a-zçğıöşü]*",
+   "odakKelime": 3,
    "ciftler": [
     [
      "Çekim öncesinde hangi görüntülemeler istenir?",
@@ -2152,6 +2266,8 @@
   {
    "tr_slug": "zirkonyum",
    "odak": "zirkonyum kaplama",
+   "desen": "zirkonyum kaplama[a-zçğıöşü]*",
+   "odakKelime": 2,
    "ciftler": [
     [
      "Kimler için uygun bir seçenek olabilir?",
