@@ -11,7 +11,7 @@ const GOVDE = process.env.SEO_GOVDE || '';
 const envanter = JSON.parse(fs.readFileSync(path.join(KOK, '_veri', 'envanter.json'), 'utf8')).filter(e => e.kelime);
 
 const temizle = (t) => t.replace(/<[^>]+>/g, ' ').replace(/&#039;|&#8217;|&rsquo;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
-const kucuk = (t) => t.toLowerCase().replace(/İ/g, 'i').replace(/I/g, 'ı');
+const kucuk = (t) => t.replace(/İ/g, 'i').replace(/I/g, 'ı').toLowerCase(); // İ→i ÖNCE: toLowerCase(İ) "i"+U+0307 üretir, desen kaçar
 const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const MEVZUAT = /(fiyat|ücret|kampanya|indirim|en iyi|lider|önde gelen|garanti eder|kesin çözüm|%100|mucize|kalıcı çözüm vaat)/i;
 
