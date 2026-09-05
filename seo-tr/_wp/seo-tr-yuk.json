@@ -62,6 +62,276 @@
      false
     ]
    ]
+  },
+  {
+   "tr_slug": "dis-beyazlatma",
+   "odak": "diş beyazlatma",
+   "ciftler": [
+    [
+     "Ofis tipi ve ev tipi beyazlatma arasındaki fark nedir?",
+     "Ofis tipi ve ev tipi diş beyazlatma arasındaki fark nedir?",
+     true
+    ],
+    [
+     "Klinikte uygulama hangi aşamalardan oluşur?",
+     "Klinikte diş beyazlatma hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Ev tipi beyazlatmada plak nasıl hazırlanır ve nasıl kullanılır?",
+     "Ev tipi diş beyazlatmada plak nasıl hazırlanır ve nasıl kullanılır?",
+     true
+    ],
+    [
+     "Hangi renklenmelerde beyazlatma sonuç vermez?",
+     "Hangi renklenmelerde diş beyazlatma sonuç vermez?",
+     true
+    ],
+    [
+     "Beyazlatmanın riskleri ve olası yan etkileri nelerdir?",
+     "Diş beyazlatmanın riskleri ve olası yan etkileri nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda uygulanmaz veya ertelenir?",
+     "Diş beyazlatma hangi durumlarda uygulanmaz veya ertelenir?",
+     true
+    ],
+    [
+     "Sonuç ne kadar süre korunur?",
+     "Diş beyazlatma sonucu ne kadar süre korunur?",
+     true
+    ],
+    [
+     "İşlemden sonra nelere dikkat etmek gerekir?",
+     "Diş beyazlatmadan sonra nelere dikkat etmek gerekir?",
+     true
+    ],
+    [
+     "beyazlatmadan ne ölçüde yanıt alınacağını doğrudan etkiler",
+     "diş beyazlatmadan ne ölçüde yanıt alınacağını doğrudan etkiler",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dolgu",
+   "odak": "diş dolgusu",
+   "ciftler": [
+    [
+     "Dolgu nedir, hangi durumlarda gerekir?",
+     "Diş dolgusu nedir, hangi durumlarda gerekir?",
+     true
+    ],
+    [
+     "Çürük nasıl temizlenir, dolgu hangi aşamalardan geçer?",
+     "Çürük nasıl temizlenir, diş dolgusu hangi aşamalardan geçer?",
+     true
+    ],
+    [
+     "Hangi dolgu türleri kullanılır?",
+     "Hangi diş dolgusu türleri kullanılır?",
+     true
+    ],
+    [
+     "Bir dolgu seansı ne kadar sürer?",
+     "Bir diş dolgusu seansı ne kadar sürer?",
+     true
+    ],
+    [
+     "Dolgu sonrası hassasiyet ve sızlama neden olur?",
+     "Diş dolgusu sonrası hassasiyet ve sızlama neden olur?",
+     true
+    ],
+    [
+     "Riskleri ve dezavantajları nelerdir?",
+     "Diş dolgusunun riskleri ve dezavantajları nelerdir?",
+     true
+    ],
+    [
+     "Dolgu neden düşer, ne zaman yenilenir?",
+     "Diş dolgusu neden düşer, ne zaman yenilenir?",
+     true
+    ],
+    [
+     "bu işlemin adı dolgudur",
+     "bu işlemin adı diş dolgusudur",
+     false
+    ],
+    [
+     "hekim kısa bir randevuda dolgunun temasını düzeltir",
+     "hekim kısa bir randevuda diş dolgusunun temasını düzeltir",
+     false
+    ],
+    [
+     "Düşen ya da kırılan dolguların arkasında",
+     "Düşen ya da kırılan diş dolgularının arkasında",
+     false
+    ],
+    [
+     "Kullanım süresini tek bir faktör belirlemez",
+     "Diş dolgusunun kullanım süresini tek bir faktör belirlemez",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "kanal-tedavisi",
+   "odak": "kanal tedavisi",
+   "ciftler": [
+    [
+     "Kimlere uygulanır, hangi dişlerde tercih edilir?",
+     "Kanal tedavisi kimlere uygulanır, hangi dişlerde tercih edilir?",
+     true
+    ],
+    [
+     "İşlem hangi aşamalardan oluşur?",
+     "Kanal tedavisi hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Kaç seans sürer, bir seans ne kadar zaman alır?",
+     "Kanal tedavisi kaç seans sürer, bir seans ne kadar zaman alır?",
+     true
+    ],
+    [
+     "Sonrasında ağrı ve zonklama normal mi, ne kadar sürer?",
+     "Kanal tedavisinden sonra ağrı ve zonklama normal mi, ne kadar sürer?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "Kanal tedavisinin riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Başarısız olursa ne yapılır, yenileme mümkün mü?",
+     "Kanal tedavisi başarısız olursa ne yapılır, yenileme mümkün mü?",
+     true
+    ],
+    [
+     "hekimler dişi çekmeden kurtarmayı hedefleyen bir yol izler",
+     "hekimler dişi çekmeden kanal tedavisiyle kurtarmayı hedefleyen bir yol izler",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "kaplama",
+   "odak": "diş kaplama",
+   "ciftler": [
+    [
+     "Kaplama çeşitleri nelerdir?",
+     "Diş kaplama çeşitleri nelerdir?",
+     true
+    ],
+    [
+     "Kimlere uygulanabilir?",
+     "Diş kaplama kimlere uygulanabilir?",
+     true
+    ],
+    [
+     "Uygulama hangi aşamalardan oluşur?",
+     "Diş kaplama uygulaması hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seans gerekir?",
+     "Diş kaplama ne kadar sürer, kaç seans gerekir?",
+     true
+    ],
+    [
+     "Bu tedavinin başlıca yararları nelerdir?",
+     "Diş kaplamanın başlıca yararları nelerdir?",
+     true
+    ],
+    [
+     "Riskleri ve olası dezavantajları nelerdir?",
+     "Diş kaplamanın riskleri ve olası dezavantajları nelerdir?",
+     true
+    ],
+    [
+     "Kaplama sonrasında hassasiyet olması beklenir mi?",
+     "Diş kaplamadan sonra hassasiyet olması beklenir mi?",
+     true
+    ],
+    [
+     "büyük bir hasar varsa kaplama gündeme gelir",
+     "büyük bir hasar varsa diş kaplama gündeme gelir",
+     false
+    ],
+    [
+     "Kaplama geri dönüşü olmayan bir uygulamadır",
+     "Diş kaplama geri dönüşü olmayan bir uygulamadır",
+     false
+    ],
+    [
+     "Bir restorasyonun ağızda kalma süresi tek bir rakamla ifade edilemez",
+     "Bir diş kaplamanın ağızda kalma süresi tek bir rakamla ifade edilemez",
+     false
+    ],
+    [
+     "Kaplama kararı, dişin mevcut durumu ile",
+     "Diş kaplama kararı, dişin mevcut durumu ile",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "zirkonyum",
+   "odak": "zirkonyum kaplama",
+   "ciftler": [
+    [
+     "Kimler için uygun bir seçenek olabilir?",
+     "Zirkonyum kaplama kimler için uygun bir seçenek olabilir?",
+     true
+    ],
+    [
+     "Hangi dişlerde tercih edilir?",
+     "Zirkonyum kaplama hangi dişlerde tercih edilir?",
+     true
+    ],
+    [
+     "Nasıl uygulanır, aşamaları nelerdir?",
+     "Zirkonyum kaplama nasıl uygulanır, aşamaları nelerdir?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seansta tamamlanır?",
+     "Zirkonyum kaplama ne kadar sürer, kaç seansta tamamlanır?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "Zirkonyum kaplamanın riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Zaman içinde rengi değişir mi?",
+     "Zirkonyum kaplamanın rengi zaman içinde değişir mi?",
+     true
+    ],
+    [
+     "Çoğu olguda süreç iki ila dört randevuya yayılır",
+     "Çoğu olguda zirkonyum kaplama süreci iki ila dört randevuya yayılır",
+     false
+    ],
+    [
+     "varken kalıcı restorasyona geçilmez; önce bu sorunlar giderilir.",
+     "varken zirkonyum kaplamaya geçilmez; önce bu sorunlar giderilir.",
+     false
+    ],
+    [
+     "Kullanım ömrü tek bir sayıya indirgenemez",
+     "Zirkonyum kaplamanın kullanım ömrü tek bir sayıya indirgenemez",
+     false
+    ],
+    [
+     "Kaplamada hareket, koku ya da diş etinde kanama fark ederseniz",
+     "Zirkonyum kaplamada hareket, koku ya da diş etinde kanama fark ederseniz",
+     false
+    ]
+   ]
   }
  ]
 }
