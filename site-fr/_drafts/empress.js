@@ -1,0 +1,58 @@
+window.ARTICLE_FR = {
+  slug: "empress",
+  title: "Couronnes Empress",
+  category: "Traitements Esthétiques",
+  lead: "IPS Empress est une famille de vitrocéramiques renforcées aux cristaux de leucite, utilisée en dentisterie surtout pour le travail esthétique du secteur antérieur. Transmettant la lumière de façon proche de l'émail naturel, elle compte depuis de longues années parmi les matériaux de l'esthétique du sourire. Sur cette page : la composition d'Empress, les étapes du traitement, ses limites et les risques possibles.",
+  faqs: [
+    {
+      q: "Qu'est-ce qu'une couronne Empress ?",
+      a: "Empress est le nom qu'Ivoclar Vivadent donne à sa famille de restaurations en <a href=\"/fr/hizmet/cam-seramik/\">vitrocéramique</a>. Elle contient des cristaux appelés <em>leucite</em>, dispersés dans la matrice vitreuse, qui donnent au matériau son profil distinctif de translucidité et de résistance. Sans infrastructure métallique, la lumière traverse la restauration — l'ombre grise associée au métal n'est pas attendue. Le prothésiste façonne le matériau par pressée à haute température ou par usinage dans un bloc. La restauration finie peut prendre la forme d'une couronne, d'une facette ou d'un inlay."
+    },
+    {
+      q: "Quelle différence entre E.max et Empress ?",
+      a: "Les deux matériaux appartiennent à la famille des vitrocéramiques ; la différence tient à la phase cristalline interne. Empress contient des cristaux de leucite, tandis que l'<a href=\"/fr/hizmet/emax/\">E.max</a> possède une structure au disilicate de lithium qui lui donne un <strong>profil de résistance différent</strong>. Leurs listes d'indications ne se recouvrent donc pas exactement : Empress revient plus souvent pour les facettes unitaires et couronnes antérieures, où la translucidité tranche. Elle peut aussi s'envisager pour les inlays et onlays unitaires à charge limitée ; pour les bridges plurals et les plans à charge masticatoire concentrée, le praticien regarde d'autres matériaux. Les valeurs techniques des matériaux figurent côte à côte dans le tableau de notre page <a href=\"/fr/hizmet/kaplama-materyalleri-karsilastirma/\">comparatif des matériaux de couronnes et facettes</a>."
+    },
+    {
+      q: "Pour qui cette option peut-elle convenir ?",
+      a: "Colorations des dents antérieures, petites irrégularités de forme, espaces légers entre les dents et fractures superficielles de l'émail sont les situations où Empress revient le plus. Pour qui veut préserver la vitalité de sa dent naturelle et éviter une taille agressive, les fines facettes peuvent être le choix privilégié. Gencives saines, caries maîtrisées et occlusion stable offrent une base plus favorable à ce traitement. Dans la planification du <a href=\"/fr/hizmet/gulus-tasarimi/\">smile design</a>, Empress s'utilise parfois seule, parfois aux côtés d'autres matériaux. L'indication se précise par l'examen clinique et un essai sur maquette en cire."
+    },
+    {
+      q: "Où se sépare-t-elle des cas envisagés pour la zircone ?",
+      a: "La zircone offre une infrastructure opaque à haute résistance, tandis qu'Empress, par sa structure vitreuse, laisse passer la lumière. Cette différence de comportement lie le choix à l'équilibre entre attente esthétique et charge mécanique. Quand la priorité est d'accorder le comportement lumineux d'une dent antérieure unique à ses voisines, la vitrocéramique entre en jeu ; pour les bridges larges, les solutions sur implants ou les plans à charge répartie sur une grande zone, la <a href=\"/fr/hizmet/zirkonyum/\">zircone</a> peut mieux convenir. Les deux matériaux peuvent aussi coexister dans des zones différentes d'une même bouche."
+    },
+    {
+      q: "Comment se pose une couronne Empress, et quelles sont les étapes ?",
+      a: "Le processus démarre par examen et diagnostic : le praticien règle d'abord caries, inflammation gingivale et troubles occlusaux. Une empreinte numérique ou classique se prend ensuite, et une conception préliminaire se travaille sur maquette en cire. Le patient voit cette conception essayée en bouche à l'étape provisoire, forme et longueur se conviennent ensemble. Une fois validée, le praticien réduit la surface d'une fine couche correspondant à l'épaisseur du matériau ; pour les <a href=\"/fr/hizmet/porselen-lamina/\">facettes en céramique</a>, cela reste sous le millimètre dans la plupart des cas. Le prothésiste produit la restauration par pressée ou usinage, puis la termine par maquillage et glaçage. À l'essayage : contrôle de la teinte et de l'ajustage marginal. En phase finale, le praticien mordance la surface dentaire et colle la restauration au ciment photopolymérisable spécialisé. Les excès s'éliminent et l'occlusion se vérifie une dernière fois."
+    },
+    {
+      q: "Combien de temps dure le traitement ?",
+      a: "Le nombre de rendez-vous dépend de l'étendue du cas. Pour une seule dent, deux ou trois visites suffisent en général — empreinte, essayage et collage répartis sur des jours distincts. Pour les plans de sourire plus larges, production au laboratoire et étapes d'essai peuvent étendre le processus à une ou deux semaines. Si un travail de fond gingival ou carieux s'impose d'abord, le calendrier s'allonge d'autant."
+    },
+    {
+      q: "Quelle différence entre pressée et production CFAO ?",
+      a: "La famille Empress supporte deux voies de production. Dans la méthode classique, le prothésiste prépare une maquette en cire, et un lingot de céramique se presse dans le moule sous haute température et pression — une voie qui laisse beaucoup de latitude au maquillage stratifié. Dans la méthode CFAO, après un scan numérique, la restauration s'usine dans des blocs d'usine, et peut parfois se terminer au même rendez-vous. La structure du bloc étant uniforme, le résultat est prévisible ; les effets stratifiés d'aspect naturel se construisent plus librement avec la pressée. Dans les deux cas, le matériau final appartient à la même famille de vitrocéramiques."
+    },
+    {
+      q: "Est-ce le même produit que le composite Empress Direct ?",
+      a: "Non — la ressemblance des noms crée assez souvent la confusion. Empress Direct est un système de composite photopolymérisable que le praticien applique directement en bouche ; il n'appartient pas à la même classe de matériaux que les restaurations en vitrocéramique de laboratoire. Le travail au composite se termine en une visite et demande en général une préparation de surface plus limitée ; les surfaces composites évoluent avec le temps en brillance et stabilité de couleur, les surfaces céramiques se comportant autrement. Le <a href=\"/fr/hizmet/bonding/\">bonding</a> peut suffire aux petites corrections de forme, tandis que les options céramiques prennent le relais pour les changements plus étendus de couleur et de forme."
+    },
+    {
+      q: "Quels sont les risques et complications possibles ?",
+      a: "Fracture et fissure sont les préoccupations premières des restaurations en vitrocéramique ; mordre un objet dur ou recevoir un choc peut briser la restauration, qui doit alors souvent être remplacée. Les dents préparées peuvent connaître une sensibilité passagère au chaud-froid ; rarement, la pulpe perd sa vitalité et un traitement de canal s'impose. Micro-infiltration et coloration marginale peuvent se développer au bord collé avec le temps. Dans certains cas, la restauration se détache d'une pièce ; le praticien évalue la surface et planifie recollage ou remplacement. Si la gencive recule, la limite de la restauration peut devenir visible. L'émail retiré ne se récupère pas — la décision est donc <strong>irréversible</strong>. Le risque de fracture est plus élevé chez qui <a href=\"/fr/hizmet/dislerimi-sikiyorum/\">serre les dents</a>."
+    },
+    {
+      q: "Quand n'est-elle pas réalisée, ou reportée ?",
+      a: "Carie active, inflammation gingivale non traitée et hygiène insuffisante sont les obstacles premiers ; aucune restauration ne se planifie avant leur résolution. Quand la répartition des charges est perturbée — bruxisme sévère, supraclusion, chevauchement non corrigé orthodontiquement — le praticien propose d'autres solutions. Sur les dents à l'émail très réduit, affaiblies par de gros plombages ou fragilisées par un traitement de canal, la surface de collage peut être insuffisante. Chez les jeunes en croissance, l'acte se reporte, le bord gingival évoluant encore ; chez les patients à plan orthodontique, la position des dents se corrige d'abord."
+    },
+    {
+      q: "À quoi faire attention, et comment l'entretenir ?",
+      a: "Une sensibilité légère les premiers jours est normale et se calme vite en général. Croquer des aliments à coque dure avec les dents de devant, mâcher de la glace, mordre stylos ou ongles : autant d'habitudes qui éprouvent la restauration. Brossage biquotidien au dentifrice non abrasif et nettoyage interdentaire réduisent les dépôts à la limite. Une gouttière de nuit protectrice se recommande à qui serre la nuit. Aux contrôles semestriels, le praticien évalue ajustage marginal et santé gingivale ; le nettoyage professionnel utilise des embouts adaptés à la surface céramique."
+    },
+    {
+      q: "Qu'est-ce qui détermine sa longévité ?",
+      a: "Le versant technique tient à la précision de la géométrie de préparation, au contrôle de l'humidité pendant le collage et à la bonne épaisseur du matériau. En vitrocéramique à phase leucite, une restauration plus fine qu'elle ne devrait a un seuil de fracture abaissé — l'épaisseur se planifie donc au cas par cas. Que la surface de collage repose sur l'émail ou la dentine influence aussi la force d'adhésion ; les restaurations qui restent dans la limite amélaire trouvent une base plus prévisible pour le collage adhésif. Le type d'occlusion du patient et son hygiène déterminent la charge quotidienne. Chez qui tient ses contrôles réguliers, un usage sans problème pendant de longues années s'observe dans la plupart des cas."
+    }
+  ],
+  closing: "Empress compte parmi les options de vitrocéramique envisagées pour les cas esthétiques où la transmission naturelle de la lumière prime ; le matériau qui vous convient ne peut se planifier qu'après un examen clinique. Pour comparer les options ou faire évaluer vos restaurations existantes, vous pouvez demander un rendez-vous via notre <a href=\"/fr/contact/\">page de contact</a>.",
+  metaDescription: "Couronne IPS Empress en vitrocéramique : pour qui ? Étapes, risques, entretien et différence avec l'E.max, expliqués pas à pas."
+};
