@@ -43,6 +43,8 @@ const ORTAK = [
 ['<b>Google rating: 4.8</b> (5 reviews) ·','<b>Note Google : 4,8</b> (5 avis) ·'],
 ['Google rating: 4.8 (5 reviews) —','Note Google : 4,8 (5 avis) —'],
 ['Read All Reviews','Lire tous les avis'],
+['View All Reviews','Lire tous les avis'],
+['Google rating: <strong>4.8</strong> (5 reviews) —','Note Google : <strong>4,8</strong> (5 avis) —'],
 ['My experience with the Smilegroup team was excellent. My Hollywood Smile treatment turned out exactly as I wanted — thank you so much.','Mon expérience avec l’équipe Smilegroup a été excellente. Mon traitement Hollywood Smile est devenu exactement ce que je voulais — merci infiniment.'],
 ['I came from Germany for my All-on-4 implant treatment. Thanks to digital anaesthesia I felt almost no pain, and the result is wonderful.','Je suis venue d’Allemagne pour mon traitement implantaire All-on-4. Grâce à l’anesthésie numérique, je n’ai presque rien senti, et le résultat est magnifique.'],
 ['My veneer treatment was completed in four days. The team were attentive and professional — I would recommend them.','Mon traitement de facettes s’est terminé en quatre jours. L’équipe a été attentive et professionnelle — je la recommande.'],
