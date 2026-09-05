@@ -337,6 +337,58 @@
    ]
   },
   {
+   "tr_slug": "dis-eti-estetigi",
+   "odak": "diş eti estetiği",
+   "ciftler": [
+    [
+     "Uygulama aşamaları nasıl ilerler?",
+     "Diş eti estetiğinde uygulama aşamaları nasıl ilerler?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seansta tamamlanır?",
+     "Diş eti estetiği ne kadar sürer, kaç seansta tamamlanır?",
+     true
+    ],
+    [
+     "Riskleri, dezavantajları ve olası komplikasyonlar nelerdir?",
+     "Diş eti estetiğinin riskleri, dezavantajları ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda uygulanmaz veya ertelenir?",
+     "Diş eti estetiği hangi durumlarda uygulanmaz veya ertelenir?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dis-tasi-temizligi",
+   "odak": "diş taşı temizliği",
+   "ciftler": [
+    [
+     "Ultrasonik cihazla temizlik hangi aşamalardan oluşur?",
+     "Diş taşı temizliği ultrasonik cihazla hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seansta tamamlanır?",
+     "Diş taşı temizliği ne kadar sürer, kaç seansta tamamlanır?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "Diş taşı temizliğinin riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Kaç ayda bir tekrarlanır, sıklığı ne belirler?",
+     "Diş taşı temizliği kaç ayda bir tekrarlanır, sıklığı ne belirler?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "dis-teli",
    "odak": "diş teli",
    "ciftler": [
@@ -579,6 +631,27 @@
      "Tam dişsizlikte doğru yöntem, ağız içi muayene ve tomografi değerlendirmesinden sonra netleşir.",
      "Tam dişsizlikte doğru full ağız implant planı, ağız içi muayene ve tomografi değerlendirmesinden sonra netleşir.",
      false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "gomulu-dis-cekimi",
+   "odak": "gömülü diş çekimi",
+   "ciftler": [
+    [
+     "Ne kadar sürer ve kaç seans gerekir?",
+     "Gömülü diş çekimi ne kadar sürer ve kaç seans gerekir?",
+     true
+    ],
+    [
+     "Olası riskler ve komplikasyonlar nelerdir?",
+     "Gömülü diş çekiminin olası riskleri ve komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda uygulanmaz ya da ertelenir?",
+     "Gömülü diş çekimi hangi durumlarda uygulanmaz ya da ertelenir?",
+     true
     ]
    ]
   },
@@ -1168,6 +1241,37 @@
      "İmplantta ise boşluk kendi yapay köküyle kapanır.",
      "Tek diş implantta ise boşluk kendi yapay köküyle kapanır.",
      false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "yirmilik-yas-disi-cekimi",
+   "odak": "20 yaş dişi çekimi",
+   "ciftler": [
+    [
+     "Çekim öncesinde hangi görüntülemeler istenir?",
+     "20 yaş dişi çekimi öncesinde hangi görüntülemeler istenir?",
+     true
+    ],
+    [
+     "Nasıl uygulanır, basit çekim ile cerrahi çekimin farkı nedir?",
+     "20 yaş dişi çekimi nasıl uygulanır, basit çekim ile cerrahi çekimin farkı nedir?",
+     true
+    ],
+    [
+     "İşlem ne kadar sürer, iyileşme kaç gün alır?",
+     "20 yaş dişi çekimi ne kadar sürer, iyileşme kaç gün alır?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "20 yaş dişi çekiminin riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Çekim sonrası ilk günlerde nelere dikkat edilmeli?",
+     "20 yaş dişi çekimi sonrası ilk günlerde nelere dikkat edilmeli?",
+     true
     ]
    ]
   },
