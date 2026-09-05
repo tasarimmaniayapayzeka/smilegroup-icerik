@@ -1,0 +1,58 @@
+window.ARTICLE_DE = {
+  slug: "tek-dis-implant",
+  title: "Einzelzahnimplantat",
+  category: "Implantat-Behandlungen",
+  metaDescription: "Was ist ein Einzelzahnimplantat, für wen ist es geeignet, wie lange dauert es? Zahnersatz ohne Beschleifen der Nachbarzähne – Risiken und Pflegetipps.",
+  lead: "Ein einzelner fehlender Zahn kann mit der Zeit das Kaugleichgewicht und das Gesamtbild Ihres Lächelns beeinflussen. Diese Seite erklärt Rahmen und Ablauf der Einzelzahnimplantat-Behandlung, die möglichen Risiken und die Pflege danach. Öffnen Sie die Überschrift, die Sie interessiert.",
+  faqs: [
+    {
+      q: "Was ist ein Einzelzahnimplantat?",
+      a: "Eine künstliche Wurzel im Kieferknochen anstelle des fehlenden Zahns plus die Versorgung darauf – zusammen ergibt das den Ersatz aus einem Guss. Die im Knochen sitzende Schraube besteht meist aus Titan oder einer Titanlegierung; in manchen Fällen kommt auch eine Zirkonvariante in Betracht. Auf die Wurzel wird eine eigens für Sie gefertigte Versorgung gesetzt – meist nach abgeschlossener Einheilung, in geeigneten Fällen auch früher. Das Besondere an dieser Methode: Die Lücke wird mit einer einzelnen Einheit geschlossen, ohne die gesunden Zähne links und rechts anzurühren. Fehlen mehrere Zähne nebeneinander, kommt stattdessen die Planung einer <a href=\"/de/hizmet/coklu-dis-koprulu-implant/\">implantatgetragenen Brücke</a> ins Spiel."
+    },
+    {
+      q: "Wer kann ein Einzelzahnimplantat bekommen?",
+      a: "Erwachsene, die einen Zahn durch Karies, Unfall oder Zahnfleischerkrankung verloren haben, können diese Methode erwägen. Erste Voraussetzung: Das Kieferwachstum ist abgeschlossen. Die Implantatstelle braucht ausreichend Knochenvolumen und gesundes Zahnfleisch. Reicht der Knochen nicht, kann zunächst ein <a href=\"/de/hizmet/kemik-grefti/\">Knochenaufbau</a> geplant werden – oder ein <a href=\"/de/hizmet/sinus-lifting/\">Sinuslift</a>, wenn die Lücke im hinteren Oberkiefer liegt. Auch Allgemeinzustand, Medikamente, Pflegegewohnheiten und Rauchen spielen mit. Die Eignung klärt sich anhand von Untersuchung und 3D-Befund."
+    },
+    {
+      q: "Welche Schritte umfasst die Behandlung?",
+      a: "Am Anfang stehen die Untersuchung des Mundraums und eine 3D-Aufnahme; beurteilt werden dabei Knochendicke, Nervverlauf und die Nähe zur Kieferhöhle. Am Behandlungstag wird der Bereich örtlich betäubt. Der Chirurg bereitet für den einen Zahn ein einzelnes Lager vor und setzt die Implantatschraube. In den folgenden Wochen verwächst die Schraube mit dem Kieferknochen – dieser biologische Vorgang heißt Osseointegration. Nach abgeschlossener Verwachsung wird der Aufbaupfosten (Abutment) montiert und abgeformt. Die beiden natürlichen Nachbarzähne dienen dabei als Referenz für Länge und Farbe der Versorgung. Der Techniker fertigt die Einzelkrone; beim letzten Termin wird sie eingesetzt und der Biss kontrolliert. Eine Bohrschablone kann die Implantatposition schon vor dem Eingriff festlegen."
+    },
+    {
+      q: "Wie lange dauert es?",
+      a: "Das chirurgische Einsetzen ist meist in einer Sitzung erledigt. Den Zeitplan bestimmt danach die Einheilzeit: grob zwei bis drei Monate im Unterkiefer, drei bis sechs im Oberkiefer. Sind Knochendichte und Anfangsstabilität der Schraube im Moment des Einsetzens hoch genug, kann nach dem Protokoll der <a href=\"/de/hizmet/1-gunde-implant/\">Sofortimplantate</a> noch am selben Tag ein provisorischer Zahn eingesetzt werden – dieser wird in der Regel so eingestellt, dass er keine Kaukraft übernimmt. Ihre Röntgenbefunde und Ihr persönliches Heilungstempo legen den genauen Zeitrahmen fest."
+    },
+    {
+      q: "Was spüren Sie während des Eingriffs?",
+      a: "Die örtliche Betäubung schaltet den Bereich aus; die meisten spüren während des Eingriffs Druck und Vibration. Das Empfinden ist individuell verschieden – sprechen Sie Ihre Erwartungen vorher an. Danach können leichte Schwellung, Bluterguss oder Druckempfindlichkeit auftreten. Da das Operationsfeld für ein einzelnes Implantat klein ist, heilt es in der Regel schneller als bei Eingriffen mit mehreren Implantaten. Bei Bedarf wird die Heilungsphase medikamentös unterstützt. Für besonders angespannte Patientinnen und Patienten können Sedierungsoptionen erwogen werden."
+    },
+    {
+      q: "Bei einem fehlenden Zahn: Implantat oder Brücke?",
+      a: "Der Hauptunterschied zwischen beiden Optionen liegt darin, was mit den Nachbarzähnen geschieht. Bei der klassischen <a href=\"/de/hizmet/porselen-kron-kopru/\">Kronen-Brücken-Versorgung</a> werden die gesunden Zähne beidseits der Lücke beschliffen und zu Pfeilern. Beim Implantat schließt die Lücke stattdessen ihre eigene künstliche Wurzel. Eine Brücke ist meist schneller fertig und kommt in der Regel ohne Chirurgie aus – je nach Zustand der Pfeilerzähne können aber Zusatzbehandlungen nötig sein. Beim Implantat leitet die künstliche Wurzel Kaureize in den Kieferknochen, was den örtlichen Knochenabbau in manchen Fällen verlangsamen kann. Die Unterseite einer Brücke verlangt Reinigung mit speziellen Zwischenraumhilfen. Entschieden wird nach Abwägung von Nachbarzahnzustand und Knochenstruktur."
+    },
+    {
+      q: "Was bringt es, die Nachbarzähne nicht anzutasten?",
+      a: "Werden gesunde Nachbarzähne nicht beschliffen, bleiben deren Schmelz und Dentin exakt erhalten. Brauchen diese Zähne später eine eigene Behandlung, steht das ganze Spektrum an Optionen offen. Als festsitzende Lösung entfällt das Herausnehmen und Einsetzen, und die meisten kauen einfach unbeschwert weiter. Materialien wie <a href=\"/de/hizmet/zirkonyum/\">Zirkon</a> fügen sich dank ihrer Transluzenz in die Nachbarzähne ein. Weil die Lücke geschlossen ist, kippen die Nachbarzähne seltener in den Freiraum, und auch der Gegenzahn wächst seltener über sein Niveau hinaus."
+    },
+    {
+      q: "Welche Risiken und möglichen Probleme gibt es?",
+      a: "Wie bei jedem chirurgischen Eingriff bestehen auch hier Risiken. Möglich sind Infektionen, verzögerte Heilung, Zahnfleischrückgang oder Entzündungen rund um das Implantat. Im hinteren Unterkiefer sitzt das Implantat nahe am Unterkiefernerv; dessen Verlauf wird vor dem Eingriff in der 3D-Aufnahme kartiert. Wird der Nerv verletzt, können Taubheit oder Kribbeln an Unterlippe, Kinn oder Zahnfleisch auftreten – meist vorübergehend, in manchen Fällen bleibend. Im hinteren Oberkiefer kann die Sinusmembran verletzt werden oder eine Kieferhöhlenentzündung entstehen; ein in die Kieferhöhle verlagertes Implantat muss unter Umständen entfernt werden. Während der Einheilung kann die Verwachsung ausbleiben. Später kann eine Entzündung rund um das Implantat zu Knochenabbau und schließlich zum Implantatverlust führen. Rauchen und ein schlecht eingestellter Diabetes erhöhen diese Wahrscheinlichkeit deutlich. Insgesamt dauert die Behandlung länger als eine Brückenlösung. Auch unregelmäßige Mundpflege gehört zu den Hauptfaktoren, die Probleme häufiger machen."
+    },
+    {
+      q: "In welchen Situationen wird der Eingriff verschoben?",
+      a: "Bei jungen Menschen mit noch wachsendem Kiefer wird verschoben. Ein schlecht eingestellter Diabetes, eine unbehandelte fortgeschrittene Zahnfleischerkrankung und schwerer Knochenabbau engen die Planung ein. Nach Strahlentherapie im Kopf-Hals-Bereich, bei bestimmten Knochenmedikamenten oder Gerinnungsstörungen ist der Austausch mit der jeweiligen Fachrichtung nötig. Lässt sich die regelmäßige Mundpflege nicht durchhalten, steigt das Entzündungsrisiko rund um das Implantat."
+    },
+    {
+      q: "Eignet sich das Einzelzahnimplantat auch für einen fehlenden Frontzahn?",
+      a: "Der Frontbereich liegt in Ihrer Lachlinie und verlangt deshalb eine eigene ästhetische Planung. Zahnfleischverlauf, Lippenlinie und die Farbe der Nachbarzähne zählen hier mehr. Winkel und Tiefe des Implantats werden auf eine Position ausgerichtet, die die Versorgung natürlich wirken lässt. Dünner Knochen ist in diesem Bereich häufig, sodass unterstützende Zusatzeingriffe nötig sein können. Ein provisorischer Zahn nimmt während der Einheilung die Sorge ums Aussehen. Im Frontbereich rücken technische Präzision und die enge Abstimmung mit dem Labor in den Vordergrund."
+    },
+    {
+      q: "Worauf sollten Sie nach dem Eingriff achten?",
+      a: "In den ersten Tagen erleichtert der Verzicht auf harte und heiße Speisen die Heilung. Kühlen in den ersten vierundzwanzig Stunden kann die Schwellung mindern. Putzen Sie normal weiter und reinigen Sie das Operationsgebiet behutsam. Da das Einzelimplantat zwischen zwei natürlichen Zähnen sitzt, zählen vor allem diese beiden Kontaktflächen – Interdentalbürste oder Munddusche halten sie regelmäßig sauber. Rauchen und Alkohol können die Einheilzeit beeinträchtigen. Regelmäßige Termine zur <a href=\"/de/hizmet/dis-tasi-temizligi/\">professionellen Zahnreinigung</a> und Kontrollen in den vereinbarten Abständen halten das Gewebe rund um das Implantat gesund."
+    },
+    {
+      q: "Wie lange lässt sich ein Implantat nutzen?",
+      a: "Die Nutzungsdauer schwankt spürbar von Person zu Person – abhängig von Pflege, Allgemeinzustand und Gewohnheiten. Die Krone auf dem Implantat kann sich mit der Zeit abnutzen und ersetzt werden müssen; die Implantatschraube selbst kann bei regelmäßiger Pflege und Kontrolle viele Jahre ihren Dienst tun. Die Kontrollfrequenz wird individuell festgelegt – meist ein- bis zweimal jährlich mit Untersuchung und Röntgenkontrolle. Ein Schlüsselfaktor bei der Einzelkrone ist der Bisskontakt zum Zahn im Gegenkiefer: Konzentriert sich die Kraft auf einen Punkt, drohen Kronenabnutzung oder Schraubenlockerung. Bei nächtlichem <a href=\"/de/hizmet/dislerimi-sikiyorum/\">Zähnepressen</a> kann eine schützende Knirscherschiene empfohlen werden."
+    }
+  ],
+  closing: "Die Zahnärztinnen und Zahnärzte von Smile Group erstellen den passenden Plan für Ihren fehlenden Zahn anhand von Knochenstruktur, Zahnfleischgesundheit und dem Zustand der Nachbarzähne. Bei der Untersuchung werden Implantatposition und Zeitplan auf Grundlage Ihrer 3D-Befunde gemeinsam mit Ihnen durchgesprochen. Einen Termin zur Beurteilung vereinbaren Sie über unsere <a href=\"/de/kontakt/\">Kontaktseite</a>. <strong>Zuletzt aktualisiert:</strong> 4. August 2026. Diese Inhalte wurden von den Zahnärztinnen und Zahnärzten der Smile Group erstellt und geprüft."
+};
