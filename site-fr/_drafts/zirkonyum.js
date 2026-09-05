@@ -1,0 +1,66 @@
+window.ARTICLE_FR = {
+  slug: "zirkonyum",
+  title: "Couronnes en zircone",
+  category: "Traitements Esthétiques",
+  lead: "La couronne en zircone est une restauration dentaire fixe : une infrastructure sans métal recouverte de céramique stratifiée. On l'utilise à l'avant, où l'attente esthétique est élevée, comme sur les dents postérieures, où les forces masticatoires sont plus fortes. Les sections ci-dessous couvrent les étapes du traitement, les risques possibles et l'entretien.",
+  faqs: [
+    {
+      q: "Qu'est-ce qu'une couronne en zircone, et de quel matériau est-elle faite ?",
+      a: "Au cœur de ce traitement : l'oxyde de zirconium, une céramique blanche à haute résistance. Le prothésiste l'usine à la forme de la dent à partir de blocs préfabriqués, sur équipement de fraisage piloté par ordinateur, puis la cuit pour la durcir. La céramique est ensuite appliquée à la main en couches, la teinte se construisant pour s'accorder aux dents voisines. La structure n'est donc pas d'une seule pièce : la zircone forme le cœur porteur, la céramique donne l'apparence. La couronne finie enveloppe entièrement la dent préparée et se fixe avec un ciment spécialisé. C'est l'une des options les plus utilisées parmi les traitements de <a href=\"/fr/hizmet/kaplama/\">couronnes dentaires</a> en général."
+    },
+    {
+      q: "Quelle différence fait l'absence d'infrastructure métallique — y a-t-il un liseré sombre à la gencive ?",
+      a: "Avec les couronnes à support métallique, l'infrastructure bloque totalement la lumière, et une ligne gris foncé peut apparaître au bord gingival avec le temps. L'oxyde de zirconium étant lui-même blanc, ce type d'ombre ne se produit pas dans la plupart des cas. Sa capacité à laisser passer une partie de la lumière est l'un des facteurs qui facilitent parfois l'intégration de la restauration parmi les dents voisines. Elle peut aussi s'envisager chez les patients ayant des antécédents de sensibilité aux alliages métalliques. Cela dit, un changement de couleur au bord gingival ne tient pas toujours au métal — la position de la limite de la couronne et l'épaisseur des tissus jouent aussi."
+    },
+    {
+      q: "Pour qui cette option peut-elle convenir ?",
+      a: "Les dents trop délabrées pour être restaurées par un plombage, ou fragilisées après un traitement de canal, sont la cible classique de cette approche. Elle s'envisage aussi pour les dents assombries de l'intérieur qui ne répondent pas au blanchiment. On peut la choisir pour corriger des écarts de forme ou de taille, ou pour un bridge qui remplace une dent manquante en s'appuyant sur les dents voisines. Pour qui souhaite un plan esthétique plus complet, elle se positionne comme un volet du <a href=\"/fr/hizmet/gulus-tasarimi/\">smile design</a>. L'indication ne se précise qu'après évaluation, à l'examen, du tissu dentaire sain restant et de l'occlusion."
+    },
+    {
+      q: "Sur quelles dents l'utilise-t-on typiquement ?",
+      a: "Sur les incisives et canines antérieures, la couche de céramique de surface sert à obtenir un rendu proche du naturel. Sur les molaires, les forces masticatoires augmentent nettement : les praticiens amincissent souvent la couche de céramique ou adaptent la conception. Posée en couronne unitaire, elle s'utilise aussi dans les travaux de <a href=\"/fr/hizmet/porselen-kron-kopru/\">couronnes et bridges</a> qui solidarisent plusieurs dents. La zircone est également l'une des options d'infrastructure pour les restaurations sur implants."
+    },
+    {
+      q: "Comment procède-t-on, et quelles sont les étapes ?",
+      a: "Le praticien construit le plan avec un examen intra-oral, des radiographies et le choix de la teinte. À la visite suivante, la dent est réduite sous anesthésie locale de l'épaisseur que demandera la couronne, et la limite est définie. Un scanner numérique ou un matériau d'empreinte classique enregistre ensuite la dent, et le patient reprend sa vie quotidienne avec une couronne provisoire. Au laboratoire, le prothésiste usine l'infrastructure, monte la couche de céramique et termine par le maquillage. À l'essayage, le praticien contrôle ajustage, occlusion et teinte, et renvoie au besoin pour retouche. À la dernière visite, la couronne est scellée au ciment définitif et les excès sont éliminés."
+    },
+    {
+      q: "Combien de temps faut-il, et combien de rendez-vous ?",
+      a: "Dans la plupart des cas, le traitement s'étale sur deux à quatre rendez-vous et prend une à deux semaines au total. Le calendrier s'allonge quand plus de dents sont concernées, ou quand un travail préalable — traitement de canal, soin gingival — s'impose. La production au laboratoire seule prend quelques jours ouvrés. Une couronne provisoire étant posée entre les rendez-vous, le patient ne reste jamais sans dent pendant cette période."
+    },
+    {
+      q: "Quelle quantité de dent est retirée ?",
+      a: "La quantité retirée se détermine par l'épaisseur minimale que la couronne peut avoir sans risque de fracture — ce qui peut signifier réduire la dent jusqu'à environ un millimètre et demi sur tout le pourtour. C'est une préparation plus étendue — et irréversible — que les fines <a href=\"/fr/hizmet/porselen-lamina/\">facettes</a> collées sur l'émail. Sur les dents déjà très délabrées, le tissu supplémentaire perdu reste limité ; sur une dent saine, cela change considérablement la donne. Une sensibilité au chaud et au froid peut suivre la réduction, se calmant en général en quelques semaines. En fixant la limite, le praticien considère à la fois l'apparence et la facilité de nettoyage de la zone."
+    },
+    {
+      q: "Quelle différence entre couronne en zircone et zircone monolithique ?",
+      a: "Les deux viennent de la même famille céramique, mais leur construction diffère. Dans l'approche classique décrite ici, la zircone ne forme que l'infrastructure, la surface visible venant de la céramique stratifiée. Dans l'option usinée en bloc unique, il n'y a aucune couche de céramique rapportée — d'où un profil de résistance et de translucidité différent. Le choix dépend de la position de la dent, de l'espace disponible et des habitudes masticatoires. Plus de détails sur notre page <a href=\"/fr/hizmet/monolitik-zirkonyum/\">zircone monolithique</a>."
+    },
+    {
+      q: "En quoi diffère-t-elle des autres options céramiques ?",
+      a: "Le choix revient à accorder les propriétés du matériau aux besoins de la dent. Les restaurations en vitrocéramique <a href=\"/fr/hizmet/emax/\">E.max</a> laissent passer plus de lumière et se distinguent pour les dents unitaires antérieures ; leur rôle se rétrécit pour les bridges de longue portée. Les infrastructures en zircone offrant un autre profil de résistance, elles s'envisagent souvent pour les travaux plurals et les dents postérieures. La céramo-métallique classique reste utilisée aussi — translucidité et rendu du bord gingival entrent tous deux dans le choix. Pour une comparaison détaillée, notre <a href=\"/fr/hizmet/kaplama-materyalleri-karsilastirma/\">comparatif des matériaux de couronnes et facettes</a> est un bon guide."
+    },
+    {
+      q: "Quels sont les risques et complications possibles ?",
+      a: "L'écaillage ou les petites fractures de la couche céramique sont une complication connue des restaurations en zircone stratifiée, surtout chez qui serre les dents la nuit ; un éclat ne se répare généralement pas en bouche et la restauration doit être remplacée. Si le tissu vivant interne de la dent est mis à l'épreuve pendant la réduction, un traitement de canal peut devenir nécessaire plus tard — une issue irréversible. Si un espace microscopique subsiste entre la limite de la couronne et la gencive, la plaque s'y accumule et saignement puis inflammation peuvent suivre. Le joint de ciment peut se dégrader avec le temps et la couronne se desceller ; si une carie s'est développée dessous, le traitement devient plus lourd. Une hauteur d'occlusion mal réglée peut contraindre l'articulation de la mâchoire et provoquer des douleurs musculaires. La sensibilité au chaud-froid est fréquente les premières semaines et se calme généralement seule. La céramique cuite qui forme la surface masticatoire peut, au fil des années, user l'émail de la dent antagoniste — c'est pourquoi le praticien polit soigneusement la surface après réglage de l'occlusion. Rarement, l'infrastructure elle-même peut se fracturer."
+    },
+    {
+      q: "Quand n'est-elle pas réalisée, ou reportée ?",
+      a: "La restauration définitive n'avance pas tant qu'existent inflammation gingivale non traitée, perte osseuse avancée ou carie active — ces problèmes se règlent d'abord. Sur les dents dont la racine n'offre pas assez de soutien, ou quand un trait de fracture court sous la gencive, la couronne ne peut tenir sûrement. Chez les jeunes dont le développement maxillo-facial n'est pas terminé, le traitement se reporte en général, le niveau gingival évoluant encore. En cas de trouble occlusal marqué ou de chevauchement sévère, une approche orthodontique peut passer d'abord. Commencer sans planifier une gouttière de nuit n'est pas conseillé quand le serrement n'est pas contrôlé. Les actes esthétiques non urgents pendant la grossesse peuvent attendre. La décision finale revient à votre praticien, après examen intra-oral et évaluation radiographique."
+    },
+    {
+      q: "La couleur change-t-elle avec le temps ?",
+      a: "La zircone et la céramique cuite qui la recouvre ont une surface non poreuse : thé, café et cigarette y accrochent moins que sur l'émail naturel. En revanche, la teinte de la couronne ne s'éclaircit pas avec les produits de blanchiment chimique — si les dents naturelles voisines foncent avec le temps, l'accord entre elles peut se décaler. Si vous envisagez un blanchiment, mieux vaut le planifier avant la fabrication des couronnes. Rayer la surface avec un dentifrice trop abrasif ou un polissage inadapté peut aussi la ternir."
+    },
+    {
+      q: "Qu'est-ce qui détermine sa longévité ?",
+      a: "La durée de vie ne se réduit pas à un chiffre : bien des restaurations durent des années, d'autres se remplacent plus tôt. Les facteurs principaux : la régularité de vos soins et la propreté du bord de la couronne. Serrement nocturne, mastication d'objets durs et onychophagie mettent la couche céramique à l'épreuve. La vitalité de la dent support, la quantité de tissu restant et la santé gingivale influencent aussi directement la longévité. Si la gencive se rétracte au fil des ans, la limite de la couronne peut devenir visible ; même si la restauration fonctionne encore, cela peut motiver un remplacement esthétique. Les contrôles réguliers permettent de saisir un hiatus marginal ou une carie débutante avant qu'ils ne grossissent."
+    },
+    {
+      q: "Comment l'entretenir ensuite, et à quoi faire attention ?",
+      a: "En plus du brossage quotidien, nettoyer la jonction couronne-gencive est l'un des gestes critiques — fil dentaire ou brossette interdentaire y réduit l'accumulation de plaque. Pour les bridges, les enfile-fils spéciaux qui passent sous le pontique sont utiles. Éviter de croquer des aliments à coque dure avec les dents de devant, de mordre la glace ou des objets comme les stylos, protège la couche céramique. Si vous serrez les dents, porter une gouttière de nuit aide à préserver la couronne le plus longtemps possible. Un contrôle et un nettoyage professionnel au moins une fois par an facilitent le suivi de la restauration comme de la <a href=\"/fr/hizmet/dis-eti-estetigi/\">santé gingivale</a>. Si vous remarquez un jeu de la couronne, une odeur ou un saignement gingival, ne remettez pas le rendez-vous à plus tard."
+    }
+  ],
+  closing: "La couronne en zircone, quand le tissu dentaire restant et l'occlusion sont correctement lus, est une approche qui traite apparence et fonction ensemble. Le matériau adapté à votre situation ne se précise qu'après examen et évaluation radiographique. Utilisez notre <a href=\"/fr/contact/\">page de contact</a> pour poser vos questions ou prendre rendez-vous.",
+  metaDescription: "Couronne en zircone : sur quelles dents ? Guide détaillé — infrastructure sans métal, taille, risques, entretien et longévité."
+};
