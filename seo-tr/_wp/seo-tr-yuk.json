@@ -320,6 +320,78 @@
    ]
   },
   {
+   "tr_slug": "emax",
+   "odak": "e.max kaplama",
+   "ciftler": [
+    [
+     "Kimler için uygun bir seçenektir?",
+     "E.max kaplama kimler için uygun bir seçenektir?",
+     true
+    ],
+    [
+     "Işık geçirgenliği neden öne çıkan bir özelliktir?",
+     "E.max kaplamada ışık geçirgenliği neden öne çıkan bir özelliktir?",
+     true
+    ],
+    [
+     "Nasıl uygulanır, kaç aşamadan oluşur?",
+     "E.max kaplama nasıl uygulanır, kaç aşamadan oluşur?",
+     true
+    ],
+    [
+     "Tedavi ne kadar sürer?",
+     "E.max tedavisi ne kadar sürer?",
+     true
+    ],
+    [
+     "Riskleri ve dezavantajları nelerdir?",
+     "E.max kaplamanın riskleri ve dezavantajları nelerdir?",
+     true
+    ],
+    [
+     "Kullanım süresini belirleyen etkenler nelerdir?",
+     "E.max kaplamanın kullanım süresini belirleyen etkenler nelerdir?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "empress",
+   "odak": "empress",
+   "ciftler": [
+    [
+     "Kimler için uygun bir seçenek olabilir?",
+     "Empress kaplama kimler için uygun bir seçenek olabilir?",
+     true
+    ],
+    [
+     "Zirkonyum düşünülen olgularda hangi noktada ayrışır?",
+     "Empress, zirkonyum düşünülen olgularda hangi noktada ayrışır?",
+     true
+    ],
+    [
+     "Tedavi ne kadar sürer?",
+     "Empress kaplama tedavisi ne kadar sürer?",
+     true
+    ],
+    [
+     "Presleme ve CAD/CAM üretimi arasındaki fark nedir?",
+     "Empress üretiminde presleme ve CAD/CAM arasındaki fark nedir?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "Empress kaplamanın riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Kullanım süresini ne belirler?",
+     "Empress kaplamanın kullanım süresini ne belirler?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "full-agiz-implant",
    "odak": "full ağız implant",
    "ciftler": [
@@ -504,6 +576,32 @@
    ]
   },
   {
+   "tr_slug": "kompozit-lamina",
+   "odak": "kompozit lamina",
+   "ciftler": [
+    [
+     "Kimler için gündeme gelebilir?",
+     "Kompozit lamina kimler için gündeme gelebilir?",
+     true
+    ],
+    [
+     "Uygulama nasıl yapılır, aşamaları nelerdir?",
+     "Kompozit lamina nasıl yapılır, aşamaları nelerdir?",
+     true
+    ],
+    [
+     "Riskleri ve dezavantajları nelerdir?",
+     "Kompozit laminanın riskleri ve dezavantajları nelerdir?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seans gerekir?",
+     "Kompozit lamina ne kadar sürer, kaç seans gerekir?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "lazerli-implant",
    "odak": "lazerli implant",
    "ciftler": [
@@ -540,6 +638,93 @@
     [
      "Lazerli teknikte ise ışın dokuyu buharlaştırarak ilerler.",
      "Lazerli implant tekniğinde ise ışın dokuyu buharlaştırarak ilerler.",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "monolitik-zirkonyum",
+   "odak": "monolitik zirkonyum",
+   "ciftler": [
+    [
+     "Tabakalı zirkonyumdan farkı nedir?",
+     "Monolitik zirkonyumun tabakalı zirkonyumdan farkı nedir?",
+     true
+    ],
+    [
+     "Kimler için gündeme gelir?",
+     "Monolitik zirkonyum kimler için gündeme gelir?",
+     true
+    ],
+    [
+     "Nasıl uygulanır, hangi aşamalardan geçer?",
+     "Monolitik zirkonyum nasıl uygulanır, hangi aşamalardan geçer?",
+     true
+    ],
+    [
+     "Ne kadar sürer?",
+     "Monolitik zirkonyum tedavisi ne kadar sürer?",
+     true
+    ],
+    [
+     "Diş üzerinden ne kadar madde kaldırılır?",
+     "Monolitik zirkonyumda diş üzerinden ne kadar madde kaldırılır?",
+     true
+    ],
+    [
+     "Riskleri ve olası dezavantajları nelerdir?",
+     "Monolitik zirkonyumun riskleri ve olası dezavantajları nelerdir?",
+     true
+    ],
+    [
+     "Kullanım süresini ne belirler?",
+     "Monolitik zirkonyum kaplamanın kullanım süresini ne belirler?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "porselen-lamina",
+   "odak": "porselen lamina",
+   "ciftler": [
+    [
+     "Kimler için uygun bir seçenektir?",
+     "Porselen lamina kimler için uygun bir seçenektir?",
+     true
+    ],
+    [
+     "Neden geri dönüşü olmayan bir işlem kabul edilir?",
+     "Porselen lamina neden geri dönüşü olmayan bir işlem kabul edilir?",
+     true
+    ],
+    [
+     "Uygulama hangi aşamalardan oluşur?",
+     "Porselen lamina uygulaması hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Diş yüzeyinden ne kadar madde kaldırılır?",
+     "Porselen laminada diş yüzeyinden ne kadar madde kaldırılır?",
+     true
+    ],
+    [
+     "Riskleri ve olası dezavantajları nelerdir?",
+     "Porselen laminanın riskleri ve olası dezavantajları nelerdir?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seans gerekir?",
+     "Porselen lamina tedavisi ne kadar sürer, kaç seans gerekir?",
+     true
+    ],
+    [
+     "Kullanım süresini ne belirler?",
+     "Porselen laminanın kullanım süresini ne belirler?",
+     true
+    ],
+    [
+     "Bu nedenle lamina yapılan bir diş, sonraki tüm dönemde",
+     "Bu nedenle porselen lamina yapılan bir diş, sonraki tüm dönemde",
      false
     ]
    ]
