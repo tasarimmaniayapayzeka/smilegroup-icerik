@@ -116,6 +116,47 @@
    ]
   },
   {
+   "tr_slug": "agiz-kokusu",
+   "odak": "ağız kokusu",
+   "ciftler": [
+    [
+     "Sabahları hissedilen koku ile gün boyu süren koku aynı şey mi?",
+     "Sabah ağız kokusu ile gün boyu süren koku aynı şey mi?",
+     true
+    ],
+    [
+     "En sık görülen ağız içi nedenler neler?",
+     "Ağız kokusunun en sık görülen ağız içi nedenleri neler?",
+     true
+    ],
+    [
+     "Koku gerçekten mideden mi geliyor?",
+     "Ağız kokusu gerçekten mideden mi geliyor?",
+     true
+    ],
+    [
+     "Kokuya hangi belirtiler eşlik ediyorsa dikkate almalıyım?",
+     "Ağız kokusuna hangi belirtiler eşlik ediyorsa dikkate almalıyım?",
+     true
+    ],
+    [
+     "Ne zaman diş hekimine başvurmalı, acil sayılan işaretler var mı?",
+     "Ağız kokusunda ne zaman diş hekimine başvurmalı, acil sayılan işaretler var mı?",
+     true
+    ],
+    [
+     "Gargara ve ağız spreyleri kokuyu çözer mi?",
+     "Gargara ve spreyler ağız kokusunu çözer mi?",
+     true
+    ],
+    [
+     "Kokunun tekrarlamasını azaltmak için ne yapılabilir?",
+     "Ağız kokusunun tekrarlamasını azaltmak için ne yapılabilir?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "all-on-4",
    "odak": "all on 4",
    "ciftler": [
@@ -256,6 +297,32 @@
     [
      "Riskleri ve olası komplikasyonları nelerdir?",
      "Cam seramik kaplamanın riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "cene-agrisi-yasiyorum",
+   "odak": "çene ağrısı",
+   "ciftler": [
+    [
+     "En sık görülen nedenler neler olabilir?",
+     "Çene ağrısının en sık görülen nedenleri neler olabilir?",
+     true
+    ],
+    [
+     "Ağrının eklemden mi kaslardan mı geldiğini ayırt edebilir miyim?",
+     "Çene ağrısının eklemden mi kaslardan mı geldiğini ayırt edebilir miyim?",
+     true
+    ],
+    [
+     "Acil bir işaret yoksa ne zaman randevu almalıyım?",
+     "Çene ağrısında acil işaret yoksa ne zaman randevu almalıyım?",
+     true
+    ],
+    [
+     "Evde neler yapabilirim?",
+     "Çene ağrısı için evde neler yapabilirim?",
      true
     ]
    ]
@@ -461,6 +528,32 @@
    ]
   },
   {
+   "tr_slug": "dis-etim-kaniyor",
+   "odak": "diş eti kanaması",
+   "ciftler": [
+    [
+     "Yanlış fırçalama kanamayı tetikler mi?",
+     "Yanlış fırçalama diş eti kanamasını tetikler mi?",
+     true
+    ],
+    [
+     "Kanamaya hangi belirtiler eşlik edebilir?",
+     "Diş eti kanamasına hangi belirtiler eşlik edebilir?",
+     true
+    ],
+    [
+     "Kanama görünce fırçalamayı bırakmalı mıyım?",
+     "Diş eti kanaması görünce fırçalamayı bırakmalı mıyım?",
+     true
+    ],
+    [
+     "Kanamanın tekrarlamasını nasıl azaltabilirim?",
+     "Diş eti kanamasının tekrarlamasını nasıl azaltabilirim?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "dis-tasi-temizligi",
    "odak": "diş taşı temizliği",
    "ciftler": [
@@ -544,6 +637,375 @@
      "Sabit braketli tedavinin sizin diş diziliminize",
      "Sabit braketli diş teli tedavisinin sizin diş diziliminize",
      false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "disim-agriyor",
+   "odak": "diş ağrısı",
+   "ciftler": [
+    [
+     "Bu ağrı ile soğukta gelen kısa sızlama arasındaki fark nedir?",
+     "Diş ağrısı ile soğukta gelen kısa sızlama arasındaki fark nedir?",
+     true
+    ],
+    [
+     "Ağrım neden geceleri artıp uykumu bölüyor?",
+     "Diş ağrım neden geceleri artıp uykumu bölüyor?",
+     true
+    ],
+    [
+     "Hangi belirtiler acil başvuru gerektirir?",
+     "Diş ağrısında hangi belirtiler acil başvuru gerektirir?",
+     true
+    ],
+    [
+     "Evde geçici rahatlama için ne yapabilirim?",
+     "Diş ağrısında evde geçici rahatlama için ne yapabilirim?",
+     true
+    ],
+    [
+     "Gündeme gelebilecek tedaviler nelerdir?",
+     "Diş ağrısı için gündeme gelebilecek tedaviler nelerdir?",
+     true
+    ],
+    [
+     "Ağrının tekrarlamasını nasıl azaltabilirim?",
+     "Diş ağrısının tekrarlamasını nasıl azaltabilirim?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "disim-sizliyor",
+   "odak": "diş sızlaması",
+   "ciftler": [
+    [
+     "Dişimin sızlaması ne anlama gelir?",
+     "Diş sızlaması ne anlama gelir?",
+     true
+    ],
+    [
+     "Sızlama ile zonklayan diş ağrısı nasıl ayırt edilir?",
+     "Diş sızlaması ile zonklayan diş ağrısı nasıl ayırt edilir?",
+     true
+    ],
+    [
+     "Beyazlatma sonrası sızlama olağan mıdır?",
+     "Beyazlatma sonrası diş sızlaması olağan mıdır?",
+     true
+    ],
+    [
+     "Yeni dolgunun ardından hassasiyet neden ortaya çıkar?",
+     "Yeni dolgunun ardından diş hassasiyeti neden ortaya çıkar?",
+     true
+    ],
+    [
+     "Hangi belirtiler eşlik ediyorsa diş hekimine başvurmalıyım?",
+     "Diş sızlamasına hangi belirtiler eşlik ediyorsa hekime başvurmalıyım?",
+     true
+    ],
+    [
+     "Evde ne yapabilirim, nelerden uzak durmalıyım?",
+     "Diş sızlamasında evde ne yapabilirim, nelerden uzak durmalıyım?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Diş sızlamasında hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Sızlamanın tekrarlamasını azaltmak için neler yapılabilir?",
+     "Diş sızlamasının tekrarlamasını azaltmak için neler yapılabilir?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerim-asindi",
+   "odak": "diş aşınması",
+   "ciftler": [
+    [
+     "Aşınmanın olası nedenleri neler olabilir?",
+     "Diş aşınmasının olası nedenleri neler olabilir?",
+     true
+    ],
+    [
+     "Diş sıkmaya bağlı aşınmanın (atrizyon) ipuçları neler?",
+     "Diş sıkmaya bağlı diş aşınmasının (atrizyon) ipuçları neler?",
+     true
+    ],
+    [
+     "Hangi belirtiler aşınmaya eşlik eder, neye bakmalıyım?",
+     "Hangi belirtiler diş aşınmasına eşlik eder, neye bakmalıyım?",
+     true
+    ],
+    [
+     "Ne zaman hekime başvurmalıyım, acil sayılan işaretler var mı?",
+     "Diş aşınmasında ne zaman hekime başvurmalıyım, acil işaretler var mı?",
+     true
+    ],
+    [
+     "Evde ne yapabilirim, nelerden uzak durmalıyım?",
+     "Diş aşınmasına karşı evde ne yapabilirim, nelerden uzak durmalıyım?",
+     true
+    ],
+    [
+     "Muayenede hekim neye bakar?",
+     "Diş aşınması muayenesinde hekim neye bakar?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Diş aşınmasında hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Aşınmanın ilerleyip ilerlemediği zaman içinde nasıl takip edilir?",
+     "Diş aşınmasının ilerleyip ilerlemediği zaman içinde nasıl takip edilir?",
+     true
+    ],
+    [
+     "Aşınmanın hangi tipten kaynaklandığını anlamak",
+     "Diş aşınmasının hangi tipten kaynaklandığını anlamak",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerim-ayrik",
+   "odak": "diş arası boşluk",
+   "ciftler": [
+    [
+     "Dişlerimin arasındaki boşluk normal mi, yoksa bir şeye mi işaret ediyor?",
+     "Diş arası boşluk normal mi, yoksa bir şeye mi işaret ediyor?",
+     true
+    ],
+    [
+     "Erişkinlikte yeni açılan bir boşluk neden daha dikkatli değerlendirilir?",
+     "Erişkinlikte yeni açılan diş arası boşluk neden daha dikkatli değerlendirilir?",
+     true
+    ],
+    [
+     "Boşluğa hangi belirtiler eşlik edebilir, nelere bakmalısınız?",
+     "Diş arası boşluğa hangi belirtiler eşlik edebilir, nelere bakmalısınız?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Ayrık dişlerde hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Kapanan aralık yeniden açılabilir mi?",
+     "Kapanan diş arası boşluk yeniden açılabilir mi?",
+     true
+    ],
+    [
+     "Sık duyulan yanlış inanışlardan hangileri doğru değil?",
+     "Ayrık dişler hakkında sık duyulan yanlış inanışlardan hangileri doğru değil?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerim-gicirdiyor",
+   "odak": "diş gıcırdatma",
+   "ciftler": [
+    [
+     "Kendim duymuyorsam gıcırdattığımı nasıl anlarım?",
+     "Kendim duymuyorsam diş gıcırdattığımı nasıl anlarım?",
+     true
+    ],
+    [
+     "Horlama ve uyku sorunlarıyla bağlantısı olabilir mi?",
+     "Diş gıcırdatmanın horlama ve uyku sorunlarıyla bağlantısı olabilir mi?",
+     true
+    ],
+    [
+     "Ne zaman diş hekimine başvurmalıyım, acil sayılan işaretler var mı?",
+     "Diş gıcırdatmada ne zaman hekime başvurmalıyım, acil işaretler var mı?",
+     true
+    ],
+    [
+     "Evde neler yapabilirim?",
+     "Diş gıcırdatmaya karşı evde neler yapabilirim?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Diş gıcırdatmada hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Gıcırdatmanın tekrarlamasını nasıl azaltabilirim?",
+     "Diş gıcırdatmanın tekrarlamasını nasıl azaltabilirim?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerim-kucuk-gorunuyor",
+   "odak": "dişlerim küçük görünüyor",
+   "ciftler": [
+    [
+     "En sık hangi nedenler karşımıza çıkıyor?",
+     "Dişlerin küçük görünmesinin en sık nedenleri neler?",
+     true
+    ],
+    [
+     "Şikâyete hangi belirtiler eşlik edebilir?",
+     "Dişlerin küçük görünmesine hangi belirtiler eşlik edebilir?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Dişleri küçük görünenlerde hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Bu konudaki yaygın yanlış inanışlar neler?",
+     "Dişlerin küçük görünmesiyle ilgili yaygın yanlış inanışlar neler?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerim-yamuk",
+   "odak": "çapraşık dişler",
+   "ciftler": [
+    [
+     "Dişlerimin yamuk görünmesi tam olarak neye işaret eder?",
+     "Yamuk dişler tam olarak neye işaret eder?",
+     true
+    ],
+    [
+     "Bu sadece estetik bir sorun mu, ağız sağlığını da etkiler mi?",
+     "Çapraşık dişler sadece estetik sorun mu, ağız sağlığını da etkiler mi?",
+     true
+    ],
+    [
+     "Ne zaman diş hekimine başvurmalıyım, acil sayılan işaretler var mı?",
+     "Çapraşık dişlerde ne zaman hekime başvurmalıyım, acil işaretler var mı?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Çapraşık dişlerde hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Kaplama veya lamina çapraşıklığı düzeltir mi?",
+     "Kaplama veya lamina diş çapraşıklığını düzeltir mi?",
+     true
+    ],
+    [
+     "Çapraşıklığın önüne geçmek ya da tekrarını azaltmak mümkün mü?",
+     "Diş çapraşıklığının önüne geçmek ya da tekrarını azaltmak mümkün mü?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerimde-lekeler-var",
+   "odak": "diş lekeleri",
+   "ciftler": [
+    [
+     "Yüzey lekesi ile diş içi renklenme arasındaki fark nedir?",
+     "Yüzeydeki diş lekesi ile diş içi renklenme arasındaki fark nedir?",
+     true
+    ],
+    [
+     "Sarı, kahverengi ve siyah lekeler farklı şeylere mi işaret eder?",
+     "Sarı, kahverengi ve siyah diş lekeleri farklı şeylere mi işaret eder?",
+     true
+    ],
+    [
+     "Lekeye eşlik eden hangi belirtiler dikkat ister?",
+     "Diş lekesine eşlik eden hangi belirtiler dikkat ister?",
+     true
+    ],
+    [
+     "Hangi durumda hekime başvurmak gecikmemeli?",
+     "Diş lekelerinde hangi durumda hekime başvurmak gecikmemeli?",
+     true
+    ],
+    [
+     "Evde neler yapılabilir, nelerden uzak durulmalı?",
+     "Diş lekeleri için evde neler yapılabilir, nelerden uzak durulmalı?",
+     true
+    ],
+    [
+     "Muayenede hekim neye bakar?",
+     "Diş lekesi muayenesinde hekim neye bakar?",
+     true
+    ],
+    [
+     "Diş beyazlatma her lekede işe yarar mı?",
+     "Diş beyazlatma her diş lekesinde işe yarar mı?",
+     true
+    ],
+    [
+     "Leke türüne göre hangi tedaviler gündeme gelebilir?",
+     "Diş lekesi türüne göre hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Lekelerin tekrarlamasını nasıl azaltabilirim?",
+     "Diş lekelerinin tekrarlamasını nasıl azaltabilirim?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "dislerimi-sikiyorum",
+   "odak": "diş sıkma",
+   "ciftler": [
+    [
+     "Sıkma ile gıcırdatma aynı şey mi, farkı ne?",
+     "Diş sıkma ile gıcırdatma aynı şey mi, farkı ne?",
+     true
+    ],
+    [
+     "Bu şikayetin altında hangi nedenler yatabilir?",
+     "Diş sıkmanın altında hangi nedenler yatabilir?",
+     true
+    ],
+    [
+     "Sıkma yaptığımı hangi belirtilerden anlarım?",
+     "Diş sıkma yaptığımı hangi belirtilerden anlarım?",
+     true
+    ],
+    [
+     "Gündüz sıkma sessizse nasıl fark edilir?",
+     "Gündüz diş sıkma sessizse nasıl fark edilir?",
+     true
+    ],
+    [
+     "Ne zaman diş hekimine başvurmalıyım?",
+     "Diş sıkmada ne zaman hekime başvurmalıyım?",
+     true
+    ],
+    [
+     "Evde neler işe yarar, nelerden uzak durmalıyım?",
+     "Diş sıkmaya karşı evde neler işe yarar, nelerden uzak durmalıyım?",
+     true
+    ],
+    [
+     "Karşıma hangi tedavi seçenekleri çıkabilir?",
+     "Diş sıkmada karşıma hangi tedavi seçenekleri çıkabilir?",
+     true
+    ],
+    [
+     "Sıkmayı görmezden gelirsem ne olabilir?",
+     "Diş sıkmayı görmezden gelirsem ne olabilir?",
+     true
+    ],
+    [
+     "Tekrarlamasını azaltmak için ne yapabilirim?",
+     "Diş sıkmanın tekrarlamasını azaltmak için ne yapabilirim?",
+     true
     ]
    ]
   },
@@ -821,6 +1283,37 @@
    ]
   },
   {
+   "tr_slug": "gulerken-rahat-hissetmiyorum",
+   "odak": "gülerken rahat hissetmiyorum",
+   "ciftler": [
+    [
+     "Bu çekingenliğin arkasında en sık hangi bulgular yer alır?",
+     "Gülerken rahat hissetmemenin arkasında en sık hangi bulgular yer alır?",
+     true
+    ],
+    [
+     "Ne zaman hekime başvurmalıyım, acil sayılan işaretler var mı?",
+     "Gülerken rahat hissetmiyorsam ne zaman hekime başvurmalıyım, acil işaretler var mı?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Gülerken rahat hissetmeyenlerde hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Sonuç aldıktan sonra bu çekingenliğin tekrarlamaması için ne yapabilirim?",
+     "Sonuç aldıktan sonra gülüş çekingenliğinin tekrarlamaması için ne yapabilirim?",
+     true
+    ],
+    [
+     "En sık duyulan yanlış inanışlar neler?",
+     "Gülüş çekingenliği hakkında en sık duyulan yanlış inanışlar neler?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "gulus-tasarimi-istiyorum",
    "odak": "gülüş tasarımı istiyorum",
    "ciftler": [
@@ -888,6 +1381,42 @@
     [
      "Sonrasında bakım nasıl yapılır?",
      "Hollywood gülüşü sonrasında bakım nasıl yapılır?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "horluyorum",
+   "odak": "horlama",
+   "ciftler": [
+    [
+     "Hangi durumlarda gecikmeden hekime başvurmalıyım?",
+     "Horlama için hangi durumlarda gecikmeden hekime başvurmalıyım?",
+     true
+    ],
+    [
+     "Uyku testi neden isteniyor, nasıl bir şey?",
+     "Horlamada uyku testi neden isteniyor, nasıl bir şey?",
+     true
+    ],
+    [
+     "Evde neler yardımcı olabilir?",
+     "Horlamaya karşı evde neler yardımcı olabilir?",
+     true
+    ],
+    [
+     "Nelerden uzak durmalıyım?",
+     "Horlama şikâyetinde nelerden uzak durmalıyım?",
+     true
+    ],
+    [
+     "Diş hekimi muayenesinde neye bakılır?",
+     "Horlamada diş hekimi muayenesinde neye bakılır?",
+     true
+    ],
+    [
+     "Uyku testi sonrası diş hekimliği tarafında hangi seçenekler gündeme gelebilir?",
+     "Horlama tedavisinde uyku testi sonrası diş hekimliği tarafında hangi seçenekler gündeme gelebilir?",
      true
     ]
    ]
@@ -1350,6 +1879,47 @@
      "Bu nedenle lamina yapılan bir diş, sonraki tüm dönemde",
      "Bu nedenle porselen lamina yapılan bir diş, sonraki tüm dönemde",
      false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "rahat-cigneyemiyorum",
+   "odak": "çiğneme zorluğu",
+   "ciftler": [
+    [
+     "Hangi belirtiler bu şikayete eşlik ediyorsa daha dikkatli olmalıyım?",
+     "Çiğneme zorluğuna hangi belirtiler eşlik ediyorsa daha dikkatli olmalıyım?",
+     true
+    ],
+    [
+     "Ne zaman diş hekimine başvurmalıyım? Acil sayılan işaretler var mı?",
+     "Çiğneme zorluğunda ne zaman hekime başvurmalıyım, acil sayılan işaretler var mı?",
+     true
+    ],
+    [
+     "Evde ne yapabilirim, nelerden uzak durmalıyım?",
+     "Çiğneme zorluğunda evde ne yapabilirim, nelerden uzak durmalıyım?",
+     true
+    ],
+    [
+     "Muayenede hekim neleri değerlendirir?",
+     "Çiğneme zorluğu muayenesinde hekim neleri değerlendirir?",
+     true
+    ],
+    [
+     "Hangi tedaviler gündeme gelebilir?",
+     "Çiğneme güçlüğünde hangi tedaviler gündeme gelebilir?",
+     true
+    ],
+    [
+     "Aynı sorunun tekrarlamasını azaltmak için ne yapılabilir?",
+     "Çiğneme zorluğunun tekrarlamasını azaltmak için ne yapılabilir?",
+     true
+    ],
+    [
+     "Bu konuda en sık duyulan yanlış inanışlar neler?",
+     "Çiğneme zorluğu hakkında en sık duyulan yanlış inanışlar neler?",
+     true
     ]
    ]
   },
