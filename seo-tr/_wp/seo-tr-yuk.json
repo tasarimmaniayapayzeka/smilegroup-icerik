@@ -162,6 +162,33 @@
    ]
   },
   {
+   "tr_slug": "bonding",
+   "odak": "bonding tedavisi",
+   "ciftler": [
+    [
+     "Uygulama nasıl yapılır, aşamaları nelerdir?",
+     "Bonding nasıl yapılır, aşamaları nelerdir?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "cam-seramik",
+   "odak": "cam seramik",
+   "ciftler": [
+    [
+     "Tedavi ne kadar sürer, kaç seans gerekir?",
+     "Cam seramik tedavisi ne kadar sürer, kaç seans gerekir?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "Cam seramik kaplamanın riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "coklu-dis-koprulu-implant",
    "odak": "köprülü implant",
    "ciftler": [
@@ -392,6 +419,27 @@
    ]
   },
   {
+   "tr_slug": "estetik-dolgular",
+   "odak": "estetik dolgu",
+   "ciftler": [
+    [
+     "Uygulama ne kadar sürer, kaç seans gerekir?",
+     "Estetik dolgu ne kadar sürer, kaç seans gerekir?",
+     true
+    ],
+    [
+     "Hangi riskler ve dezavantajlar söz konusudur?",
+     "Estetik dolguda hangi riskler ve dezavantajlar söz konusudur?",
+     true
+    ],
+    [
+     "Kimlerde bu yöntem tercih edilmez?",
+     "Estetik dolgu kimlerde tercih edilmez?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "full-agiz-implant",
    "odak": "full ağız implant",
    "ciftler": [
@@ -419,6 +467,22 @@
      "Tam dişsizlikte doğru yöntem, ağız içi muayene ve tomografi değerlendirmesinden sonra netleşir.",
      "Tam dişsizlikte doğru full ağız implant planı, ağız içi muayene ve tomografi değerlendirmesinden sonra netleşir.",
      false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "inlay-onlay-dolgular",
+   "odak": "inlay onlay dolgu",
+   "ciftler": [
+    [
+     "Tedavi ne kadar sürer?",
+     "İnlay ve onlay tedavisi ne kadar sürer?",
+     true
+    ],
+    [
+     "Dezavantajları ve olası riskleri nelerdir?",
+     "İnlay ve onlay dolguların dezavantajları ve olası riskleri nelerdir?",
+     true
     ]
    ]
   },
@@ -679,6 +743,47 @@
     [
      "Kullanım süresini ne belirler?",
      "Monolitik zirkonyum kaplamanın kullanım süresini ne belirler?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "porselen-kron-kopru",
+   "odak": "porselen kron köprü",
+   "ciftler": [
+    [
+     "Kimler bu tedavi için uygun adaydır?",
+     "Porselen kron köprü için kimler uygun adaydır?",
+     true
+    ],
+    [
+     "Uygulama hangi aşamalardan oluşur?",
+     "Porselen kron köprü uygulaması hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Ne kadar sürer, kaç seansta tamamlanır?",
+     "Porselen kron köprü ne kadar sürer, kaç seansta tamamlanır?",
+     true
+    ],
+    [
+     "Riskleri, dezavantajları ve olası komplikasyonları nelerdir?",
+     "Porselen kron köprünün riskleri, dezavantajları ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda uygulanmaz veya ertelenir?",
+     "Porselen kron köprü hangi durumlarda uygulanmaz veya ertelenir?",
+     true
+    ],
+    [
+     "Kullanım süresini ne belirler?",
+     "Porselen kron köprüde kullanım süresini ne belirler?",
+     true
+    ],
+    [
+     "Yapıştırma sonrası hassasiyet ne kadar sürer?",
+     "Porselen kron köprü yapıştırıldıktan sonra hassasiyet ne kadar sürer?",
      true
     ]
    ]
