@@ -1,0 +1,54 @@
+window.ARTICLE_FR = {
+  slug: "emax",
+  title: "Couronnes E-max",
+  category: "Traitements Esthétiques",
+  lead: "E.max est un système de vitrocéramique renforcée aux cristaux de disilicate de lithium, utilisé en dentisterie esthétique surtout dans le secteur antérieur. Il se réalise en couronne unitaire, ou en fine facette couvrant seulement la face avant de la dent. Sur cette page : les propriétés du matériau, les étapes du traitement, ses limites et les risques possibles.",
+  faqs: [
+    {
+      q: "Qu'est-ce que l'E.max, et de quel matériau est-il fait ?",
+      a: "Au cœur de ce système : une structure de vitrocéramique appelée disilicate de lithium. À la fabrication, des cristaux aciculaires de disilicate de lithium croissent dans la matrice vitreuse ; ces cristaux donnent au matériau à la fois une résistance définie et la capacité de transmettre la lumière. Le prothésiste presse la restauration à chaud dans un moule ou l'usine dans un bloc sur machine CFAO. Sans métal ni infrastructure opaque, aucun reflet gris d'origine métallique au bord gingival. C'est l'un des membres les plus utilisés de la famille des <a href=\"/fr/hizmet/cam-seramik/\">vitrocéramiques</a>. On l'emploie sur les dents antérieures en couronne unitaire, pour réparer un bord ébréché, et en fine facette."
+    },
+    {
+      q: "Pour qui cette option peut-elle convenir ?",
+      a: "Couronner une dent antérieure dévitalisée ou affaiblie par un gros plombage est un usage typique de ce matériau. Bords incisifs ébréchés et colorations de l'émail sont d'autres motifs fréquents. Pour les indications générales de facettes — fermer un espace, corriger légèrement une forme — le praticien fonde le choix du matériau sur la quantité de tissu dentaire restant. Il peut se positionner aux côtés d'autres traitements dans la planification du <a href=\"/fr/hizmet/gulus-tasarimi/\">smile design</a>. L'indication ne se précise qu'après examen intra-oral et évaluation radiographique."
+    },
+    {
+      q: "Quelle différence entre E.max et Empress ?",
+      a: "Les deux systèmes appartiennent à la famille des vitrocéramiques ; ils se séparent sur la phase cristalline de renfort. Dans les restaurations Empress, la matrice vitreuse est renforcée aux cristaux de leucite, tandis que l'E.max contient des cristaux de disilicate de lithium. Cette différence de structure cristalline donne aux deux matériaux des profils de résistance et de translucidité distincts : la structure à base de leucite se distingue pour les facettes très fines exigeant une haute translucidité, celle au disilicate de lithium se préfère pour les restaurations plus chargées, comme une couronne unitaire. Le système qui l'emporte dépend du tissu dentaire restant, de la couleur du support sous-jacent et de la charge masticatoire attendue. Les applications propres de cet autre matériau sont détaillées sur notre page <a href=\"/fr/hizmet/empress/\">Empress</a>."
+    },
+    {
+      q: "Pourquoi la translucidité est-elle une propriété clé ?",
+      a: "L'émail naturel absorbe une partie de la lumière et la diffuse dans son épaisseur, donnant aux bords incisifs un aspect légèrement translucide. La céramique au disilicate de lithium étant fabriquée pour imiter ce comportement, la restauration se fond parmi les dents voisines sans se trahir. Le prothésiste choisit parmi différents degrés de translucidité pour créer la transparence au tiers incisif et un rendu plus opaque vers le collet. Cette même translucidité a son revers : un support foncé peut transparaître à travers la restauration. C'est pourquoi le choix de teinte se fonde non seulement sur la dent voisine, mais aussi sur la couleur du moignon préparé dessous."
+    },
+    {
+      q: "Comment se pose-t-elle, et en combien d'étapes ?",
+      a: "Le processus commence par examen, photos et empreinte ; le praticien fixe la forme cible sur un modèle en cire ou une conception numérique. Un essai provisoire posé en bouche permet au patient de voir la nouvelle forme et de réagir. Une fois validée, le praticien prépare la dent à l'épaisseur planifiée, enregistre au scanner numérique ou par empreinte classique et pose un provisoire. Au laboratoire, le prothésiste produit la restauration par pressée ou usinage, puis la maquille et la cuit. Au rendez-vous final : contrôle de l'ajustage, des points de contact et de la teinte ; la surface céramique est mordancée avant collage au ciment résine."
+    },
+    {
+      q: "Combien de temps dure le traitement ?",
+      a: "Le nombre de rendez-vous va généralement de deux à quatre, et le calendrier global s'étale sur plusieurs semaines dans la plupart des cas. La voie de production influence directement ce planning : avec la méthode pressée, la restauration se fabrique au laboratoire — un bloc de rendez-vous sépare donc empreinte et collage. Avec l'usinage CFAO, un calendrier plus court est parfois possible. Si soin gingival, traitement de canal ou correction orthodontique s'impose, le calendrier s'étend."
+    },
+    {
+      q: "La dent est-elle taillée avant la pose ?",
+      a: "Oui, une certaine réduction est nécessaire dans la plupart des cas, mais la quantité de tissu retirée varie considérablement selon le type de restauration prévu. Pour que la céramique au disilicate de lithium fonctionne sans se fracturer, elle exige une épaisseur minimale qui varie selon le type — et c'est cela qui détermine réellement la taille. Les restaurations laissées trop fines portent un risque de fracture accru. Pour les fines facettes, seule une couche limitée se prélève sur la face avant et le bord incisif. Pour une couronne unitaire, la préparation est plus étendue, sur tout le pourtour. Une préparation qui reste dans l'émail avantage la force de collage — d'où l'effort pour préserver l'émail partout où c'est possible. Le tissu réduit ne se récupère pas : l'étape d'essai compte donc avant la décision. Plus de détails sur notre page <a href=\"/fr/hizmet/porselen-lamina/\">facettes en céramique</a>."
+    },
+    {
+      q: "Quels sont les risques et inconvénients ?",
+      a: "Les vitrocéramiques sont des matériaux durs mais cassants ; un traumatisme soudain, la morsure d'un objet dur ou une occlusion déséquilibrée peut fissurer ou fracturer la restauration. Une céramique fracturée ne se répare généralement pas — elle se remplace. Une sensibilité peut se développer si la préparation approche la pulpe ; sur certaines dents, cela peut aller jusqu'au traitement de canal. La sensibilité passagère au chaud-froid les premières semaines après la pose est aussi courante. Coloration à la limite collée, accumulation de plaque ou limite visible par récession gingivale peuvent apparaître avec le temps. La céramique elle-même ne carie pas, mais le tissu dentaire naturel sous la restauration si — et cela peut passer inaperçu. Sur les dents à tenon métallique, le masquage de teinte souhaité n'est pas toujours atteignable. En cas de remplacement, le tissu sous-jacent peut aussi s'abîmer au retrait de l'ancienne restauration."
+    },
+    {
+      q: "Quand n'est-elle pas réalisée, ou reportée ?",
+      a: "Dans les bouches avec inflammation gingivale active, caries non traitées ou infection apicale, ces problèmes se règlent avant la restauration esthétique. Un besoin de bridge de longue portée n'est pas le point fort de ce matériau ; pour les bridges plurals postérieurs, on considère plutôt des systèmes au profil de résistance différent, comme la <a href=\"/fr/hizmet/zirkonyum/\">zircone</a>. Le risque de fracture augmentant chez les personnes au <a href=\"/fr/hizmet/dislerimi-sikiyorum/\">serrement ou grincement</a> sévère, gouttière de nuit protectrice et réglage occlusal se planifient d'abord. En cas de chevauchement important ou de trouble occlusal, l'orthodontie prend la priorité — sinon la restauration exigerait de retirer trop de tissu. Sur les dents à l'émail très réduit, d'autres solutions entrent en jeu, la surface de collage étant trop faible. Chez les jeunes patients en croissance, l'acte se reporte en général."
+    },
+    {
+      q: "À quoi faire attention, et comment l'entretenir ?",
+      a: "Brossage quotidien et nettoyage interdentaire se poursuivent comme pour des dents naturelles ; les dentifrices blanchissants abrasifs sont déconseillés — ils ternissent la surface céramique. Glace, coques dures et ongles ne se mordent pas avec les dents de devant. Les boissons foncées ne tachent pas la céramique elle-même, mais peuvent contribuer à la coloration de la limite collée. Aux contrôles, le praticien revoit régulièrement contacts occlusaux et ajustage marginal."
+    },
+    {
+      q: "Quels facteurs déterminent sa longévité ?",
+      a: "La durée de service d'une restauration ne tient pas à une seule variable. Collage sur émail ou sur dentine, qualité de l'ajustage marginal et répartition des forces occlusales sont les facteurs déterminants. Si l'hygiène fait défaut, carie ou problème gingival peut se développer sur la dent support et imposer le remplacement. Porter une gouttière de nuit et tenir les contrôles réguliers prolongent la durée de vie. La comparaison des matériaux sur ce point figure sur notre page <a href=\"/fr/hizmet/kaplama-materyalleri-karsilastirma/\">comparatif des matériaux de couronnes et facettes</a>. Pour l'harmonie des teintes, on pèse aussi l'opportunité d'un <a href=\"/fr/hizmet/dis-beyazlatma/\">blanchiment dentaire</a> préalable sur les dents naturelles."
+    }
+  ],
+  closing: "L'E.max est une option de <em>vitrocéramique</em> qui se distingue en esthétique antérieure par sa translucidité et sa souplesse en restauration unitaire — mais ce n'est pas la solution de toutes les bouches. Le matériau adapté à l'état de vos dents ne se précise qu'à l'examen, en évaluant votre occlusion et l'émail restant. Pour toute question, vous pouvez nous joindre via notre <a href=\"/fr/contact/\">page de contact</a>.",
+  metaDescription: "E.max — vitrocéramique au disilicate de lithium : usage en esthétique antérieure, étapes, translucidité, risques et entretien quotidien."
+};
