@@ -1,0 +1,50 @@
+window.ARTICLE_DE = {
+  slug: "1-gunde-dis",
+  title: "Zähne an einem Tag",
+  category: "Digitales Smile Design",
+  metaDescription: "Was steckt hinter „Zähne an einem Tag“, für wen eignet sich das Verfahren, wie lange dauert es? Ablauf, Risiken und Grenzen der Sofortversorgung.",
+  lead: "„Zähne an einem Tag“ ist ein Arbeitsablauf, bei dem ästhetische Restaurationen dank digitaler Abformung und praxiseigener Fertigung an einem einzigen Tag fertig werden. Diese Seite behandelt Einsatzbereich, Ablauf, Zeitplanung, mögliche Risiken und die Situationen, in denen das Verfahren nicht geeignet ist – jeweils unter einer eigenen Überschrift.",
+  faqs: [
+    {
+      q: "Was bedeutet „Zähne an einem Tag“?",
+      a: "Das Besondere an diesem Ablauf: Die Abformung geht nie in ein externes Labor. Ihre Zahnärztin oder Ihr Zahnarzt nimmt mit dem Intraoralscanner eine digitale Abformung, erstellt das Design am Computer und schickt die Datei an eine Schleifeinheit. Diese fräst direkt in der Praxis einen Block aus Glaskeramik oder <a href=\"/de/hizmet/zirkonyum/\">Zirkon</a>. Bei Glaskeramikblöcken folgen nach dem Fräsen Bemalung und Brand; bei Zirkonblöcken kommt zusätzlich ein Sinterschritt hinzu, der Zeit kostet. Nicht jede Schleifeinheit ist für die Zirkon-Fertigung am selben Tag ausgelegt. Geplant wird dieser Ablauf für einen einzelnen Zahn oder eine begrenzte Zahl von Zähnen – je mehr Zähne, desto eher verteilt sich der Plan auf mehrere Tage. Es handelt sich nicht um ein fertiges Behandlungspaket, sondern um eine durch digitale Werkzeuge verkürzte ästhetische Planung."
+    },
+    {
+      q: "Worin unterscheiden sich „Zähne an einem Tag“ und Sofortimplantate?",
+      a: "Der Unterschied liegt darin, ob ein chirurgischer Schritt dazugehört. Beim Verfahren auf dieser Seite wird ein vorhandener Zahn beschliffen und noch am selben Tag mit einer Krone versorgt. <a href=\"/de/hizmet/1-gunde-implant/\">Sofortimplantate</a> sind dagegen ein chirurgischer Eingriff, bei dem eine künstliche Wurzel dort eingesetzt wird, wo ein Zahn fehlt. Dort braucht es eine Wartezeit, bis der Knochen mit dem Implantat verwächst (Osseointegration); bei ästhetischen Restaurationen gibt es eine solche Wartezeit nicht."
+    },
+    {
+      q: "Für wen eignet sich das Verfahren?",
+      a: "Typische Kandidaten sind Zähne mit Verfärbungen, kleinen Abplatzungen, Abnutzung oder einer Formunregelmäßigkeit. Geeignet ist, wer einen stabilen Biss mitbringt und nur wenig Beschleifen benötigt. Muss ein Zahn zuvor wegen Karies oder am Wurzelkanal behandelt werden, werden diese Schritte zuerst abgeschlossen; manches passt in denselben Termin, doch bei wurzelbehandelten Zähnen bleibt die endgültige Versorgung meist einem separaten Besuch vorbehalten. Für einen Ein-Tages-Plan zählt auch, den Mund längere Zeit offen halten zu können. Für kleinere Korrekturen sind <a href=\"/de/hizmet/kompozit-lamina/\">Komposit-Veneers</a> ohnehin eine Option, die sich in einer Sitzung abschließen lässt. Häufiges Rauchen und dunkle Getränke können die Farbabstimmung mit den natürlichen Nachbarzähnen mit der Zeit verschieben."
+    },
+    {
+      q: "Wie läuft die Behandlung ab?",
+      a: "Am Anfang stehen eine gründliche Untersuchung und bei Bedarf Röntgenbilder. Ihre Zahnärztin oder Ihr Zahnarzt analysiert Farbe, Länge und Lachlinie Ihrer Zähne und plant die Zielform digital. Die Farbbestimmung erfolgt vor dem Beschleifen, denn ausgetrocknete Zähne wirken heller, als sie sind. Im nächsten Schritt wird die Zahnoberfläche im nötigen Umfang präpariert und mit dem Intraoralscanner digital abgeformt. Da das Design am Bildschirm entsteht, lässt sich die Randpassung schon vor der Fertigung digital kontrollieren. Nach dem Senden der Datei fräst die Maschine den Block in wenigen Minuten. Bemalung und Brand vollenden die Farbverläufe; fiel die Wahl auf Zirkon, schiebt sich dazwischen ein Sinterzyklus. Zum Schluss wird die Restauration einprobiert, der Biss kontrolliert und – je nach Material – adhäsiv (mit Kunststoff) oder konventionell zementiert. Bei dünneren Restaurationen wie <a href=\"/de/hizmet/porselen-lamina/\">Veneers</a> kann der Präparationsumfang geringer ausfallen."
+    },
+    {
+      q: "Wie lange dauert es, und wie viele Restaurationen schafft ein Tag?",
+      a: "Bei einem einzelnen Zahn vergehen von der digitalen Abformung bis zum Einsetzen meist ein bis zwei Stunden. Bei mehreren Zähnen wird einmal gescannt und designt, die Fertigung läuft aber Stück für Stück durch die Geräte. Wie viele Restaurationen in einen Tag passen, hängt deshalb an der Gerätekapazität der Praxis – Schleifeinheiten bearbeiten in der Regel einen Block nach dem anderen, und jede Restauration braucht ihren eigenen Fräs-, Bemal- und Brennzyklus. Manche Praxen betreiben mehrere Einheiten parallel und erhöhen so die Tageskapazität. Ist ein umfassender <a href=\"/de/hizmet/gulus-tasarimi/\">Smile-Design</a>-Plan gewünscht, verteilt er sich auf mehrere Tage."
+    },
+    {
+      q: "Wann ist der Ein-Tages-Plan ein Vorteil?",
+      a: "Weniger Termine und eine kürzere Gesamtbehandlungszeit sind die augenfälligsten Vorteile dieses Ansatzes. Weil der Intraoralscanner ohne Abformmasse auskommt, ist dieser Schritt für Menschen mit ausgeprägtem Würgereiz oft leichter zu ertragen. Auch Probleme, die mit lange getragenen Provisorien einhergehen, werden unwahrscheinlicher – wobei ein Provisorium in manchen Fällen trotzdem nötig sein kann. Stimmt die Farbe nicht, passt Ihre Zahnärztin oder Ihr Zahnarzt die Datei an und fräst einen neuen Block."
+    },
+    {
+      q: "Welche Risiken und Grenzen gibt es?",
+      a: "Ein derart schneller Ablauf hat seine eigenen Grenzen. Da Zahnsubstanz von der Oberfläche entfernt wird, ist der Eingriff unumkehrbar; Heiß-Kalt-Empfindlichkeit oder eine vorübergehende Zahnfleischreizung können folgen. Diese Empfindlichkeit bleibt nicht immer bei ein paar Tagen – in manchen Fällen hält sie Wochen an. Nach dem Beschleifen kann das lebende Innengewebe des Zahns (die Pulpa) in Mitleidenschaft gezogen werden, was eine Wurzelbehandlung nötig machen kann – mitunter erst Monate oder Jahre nach dem Eingriff. Die Farbentscheidung fällt in einer einzigen Sitzung, was die Zeit für den Abgleich mit den Nachbarzähnen verkürzt; auch fehlt der zweite prüfende Blick eines Zahntechnikers, wie ihn die Laborfertigung mitbringt. Sitzt die Bisseinstellung nicht exakt, können Risse, Frakturen oder eine Überlastung des Kiefergelenks folgen. Am Restaurationsrand kann sich mit der Zeit Sekundärkaries bilden, die Verklebung kann sich lösen, und die Restauration muss unter Umständen ersetzt werden. Werden mehrere Zähne an einem Tag präpariert, kann sich außerdem der Kiefer ermüden. All diese Möglichkeiten bespricht Ihre Zahnärztin oder Ihr Zahnarzt vor dem Eingriff mit Ihnen."
+    },
+    {
+      q: "Wann wird das Verfahren nicht durchgeführt oder verschoben?",
+      a: "Bei aktiver Zahnfleischentzündung, fortgeschrittener Parodontitis oder unbehandelter Karies werden zuerst diese Probleme angegangen – auf blutendem Gewebe sinkt die Scanqualität, und darunter leidet die Randpassung. Bei ausgeprägtem Engstand, deutlicher Bissabweichung oder skelettaler Diskrepanz haben Kieferorthopädie oder Chirurgie Vorrang. Unkontrolliertes Zähnepressen verkürzt die Lebensdauer der Restauration, weshalb eine schützende Knirscherschiene eingeplant wird. Bei jungen Menschen, deren Wachstum noch nicht abgeschlossen ist, wird die bleibende Versorgung verschoben. Bei Allgemeinerkrankungen wird der Plan zudem gemeinsam mit der behandelnden Ärztin oder dem behandelnden Arzt überprüft."
+    },
+    {
+      q: "Worauf sollten Sie danach achten?",
+      a: "Wenn sich die neue Form im Mund einfindet, können sich Sprechgefühl und Bisskontakt zunächst verändert anfühlen. Bei den meisten legt sich das innerhalb weniger Tage bis zwei Wochen. Bleiben Beschwerden, wird der Biss nachkontrolliert, bei Bedarf minimal korrigiert und die Oberfläche nachpoliert. Eine unpolierte Keramikfläche kann den Gegenzahn abnutzen – deshalb wird der Politurschritt nie ausgelassen. Zweimal tägliches Putzen und die Zwischenraumpflege bilden die Basis der Nachsorge. Hartschalige Nüsse knacken, Eis kauen und mit den Frontzähnen in Hartes beißen – all das belastet die Restauration. Regelmäßige Kontrollen und die <a href=\"/de/hizmet/dis-tasi-temizligi/\">professionelle Zahnreinigung</a> unterstützen die Zahnfleischgesundheit."
+    },
+    {
+      q: "Wie lange halten Restaurationen aus der Ein-Tages-Fertigung?",
+      a: "Die Haltbarkeit hängt von Material, Bisslage und Mundhygiene ab. Wie lange eine Restauration hält, ist individuell verschieden – eine feste Lebensdauer lässt sich für keine Restauration im Voraus zusagen. Zähnepressen, das Beißen auf harte Gegenstände oder vernachlässigte Zahnfleischprobleme können sie deutlich verkürzen. Da die praxiseigene Fertigung die Restauration aus einem einzigen Block fräst, gibt es im Inneren keine geschichtete Verbindungsstelle. Im Frontzahnbereich punkten hochtransluzente Optionen wie <a href=\"/de/hizmet/emax/\">Lithiumdisilikat-Glaskeramik</a> mit ihrer Ästhetik; im Seitenzahnbereich, wo die Kaukräfte höher sind, fällt die Wahl eher auf festigkeitsorientierte Materialien. Bricht eine Restauration oder löst sich die Verklebung, wird sie in den meisten Fällen durch eine neue ersetzt. Die Materialentscheidung trifft Ihre Zahnärztin oder Ihr Zahnarzt gemeinsam mit Ihnen anhand des Untersuchungsbefunds."
+    }
+  ],
+  closing: "Ob der Ansatz „Zähne an einem Tag“ für Sie passt, zeigt sich nach klinischer Untersuchung und Röntgendiagnostik. Der Plan entsteht mit Blick auf den Zustand Ihrer Zähne, Ihre Zahnfleischgesundheit und Ihre Erwartungen. Die Informationen auf dieser Seite dienen nur der allgemeinen Orientierung; sie ersetzen weder Untersuchung noch Diagnose oder Behandlung. Für weitere Informationen oder einen Termin erreichen Sie uns über unsere <a href=\"/de/kontakt/\">Kontaktseite</a>. <strong>Zuletzt aktualisiert:</strong> 4. August 2026 · <strong>Inhalt erstellt und geprüft von:</strong> Dr. [Vor- und Nachname], Registernummer: [Registernummer]"
+};
