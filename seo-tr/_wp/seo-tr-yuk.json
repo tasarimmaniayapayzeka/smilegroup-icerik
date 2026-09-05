@@ -64,6 +64,27 @@
    ]
   },
   {
+   "tr_slug": "1-gunde-dis",
+   "odak": "1 günde diş",
+   "ciftler": [
+    [
+     "Kimler bu yöntem için uygun adaydır?",
+     "1 Günde Diş için kimler uygun adaydır?",
+     true
+    ],
+    [
+     "İşlem hangi aşamalardan oluşur?",
+     "1 Günde Diş işlemi hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Ne kadar sürer, aynı gün kaç restorasyon üretilebilir?",
+     "1 Günde Diş ne kadar sürer, aynı gün kaç restorasyon üretilebilir?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "1-gunde-implant",
    "odak": "1 günde implant",
    "ciftler": [
@@ -158,6 +179,57 @@
      "Hangi riskler ve komplikasyonlar görülebilir?",
      "All-on-6 uygulamasında hangi riskler ve komplikasyonlar görülebilir?",
      true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "biberon-curugu",
+   "odak": "biberon çürüğü",
+   "ciftler": [
+    [
+     "İlk belirtiler nelerdir, tebeşirimsi beyaz leke neyi gösterir?",
+     "Biberon çürüğünün ilk belirtileri nelerdir, tebeşirimsi beyaz leke neyi gösterir?",
+     true
+    ],
+    [
+     "Neden çoğunlukla üst ön dişlerde başlar?",
+     "Biberon çürüğü neden çoğunlukla üst ön dişlerde başlar?",
+     true
+    ],
+    [
+     "Süt dişlerinin tedavi edilmesi neden önemlidir?",
+     "Biberon çürüğünde süt dişlerinin tedavi edilmesi neden önemlidir?",
+     true
+    ],
+    [
+     "Kimler daha yüksek risk taşır?",
+     "Biberon çürüğünde kimler daha yüksek risk taşır?",
+     true
+    ],
+    [
+     "Nelere dikkat etmek riski azaltır?",
+     "Biberon çürüğü riskini azaltmak için nelere dikkat edilmeli?",
+     true
+    ],
+    [
+     "Tedavi seçenekleri arasındaki farklar nelerdir?",
+     "Biberon çürüğünde tedavi seçenekleri arasındaki farklar nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda tedavi ertelenir?",
+     "Biberon çürüğü tedavisi hangi durumlarda ertelenir?",
+     true
+    ],
+    [
+     "Tedavi edilmediğinde hangi riskler ortaya çıkabilir?",
+     "Biberon çürüğü tedavi edilmediğinde hangi riskler ortaya çıkabilir?",
+     true
+    ],
+    [
+     "bandı erken fark etmek, tedavinin kapsamını çoğu olguda küçültür.",
+     "bandı erken fark etmek, biberon çürüğü tedavisinin kapsamını çoğu olguda küçültür.",
+     false
     ]
    ]
   },
@@ -630,6 +702,73 @@
    ]
   },
   {
+   "tr_slug": "fissur-ortucu",
+   "odak": "fissür örtücü",
+   "ciftler": [
+    [
+     "Kimlere ve hangi yaşta uygulanır?",
+     "Fissür örtücü kimlere ve hangi yaşta uygulanır?",
+     true
+    ],
+    [
+     "Uygulama hangi aşamalardan oluşur?",
+     "Fissür örtücü uygulaması hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Hangi dişlere uygulanır, süt dişlerine yapılır mı?",
+     "Fissür örtücü hangi dişlere uygulanır, süt dişlerine yapılır mı?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "fluorid-uygulamasi",
+   "odak": "florür uygulaması",
+   "ciftler": [
+    [
+     "Kimler için önerilir ve hangi yaşta başlanabilir?",
+     "Florür uygulaması kimler için önerilir, hangi yaşta başlanabilir?",
+     true
+    ],
+    [
+     "Uygulama seansında hangi adımlar izlenir?",
+     "Florür uygulaması seansında hangi adımlar izlenir?",
+     true
+    ],
+    [
+     "Ne kadar sürer, çocuk acı hisseder mi?",
+     "Florür uygulaması ne kadar sürer, çocuk acı hisseder mi?",
+     true
+    ],
+    [
+     "Çürük riskine göre ne sıklıkla tekrarlanır?",
+     "Florür uygulaması çürük riskine göre ne sıklıkla tekrarlanır?",
+     true
+    ],
+    [
+     "Uygulamadan sonra ne zaman yemek yenebilir?",
+     "Florür uygulamasından sonra ne zaman yemek yenebilir?",
+     true
+    ],
+    [
+     "Riskleri ve olası yan etkileri nelerdir?",
+     "Florür uygulamasının riskleri ve olası yan etkileri nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda uygulanmaz ya da ertelenir?",
+     "Florür uygulaması hangi durumlarda yapılmaz ya da ertelenir?",
+     true
+    ],
+    [
+     "Etkisinin ne kadar süreceğini ne belirler?",
+     "Florür uygulamasının etkisinin ne kadar süreceğini ne belirler?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "full-agiz-implant",
    "odak": "full ağız implant",
    "ciftler": [
@@ -677,6 +816,78 @@
     [
      "Hangi durumlarda uygulanmaz ya da ertelenir?",
      "Gömülü diş çekimi hangi durumlarda uygulanmaz ya da ertelenir?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "gulus-tasarimi-istiyorum",
+   "odak": "gülüş tasarımı istiyorum",
+   "ciftler": [
+    [
+     "Gülüşten duyulan memnuniyetsizliğin arkasında hangi durumlar olabilir?",
+     "Gülüş tasarımı isteyenlerde memnuniyetsizliğin arkasında hangi durumlar olabilir?",
+     true
+    ],
+    [
+     "Beklentimi nasıl gerçekçi kurabilirim?",
+     "Gülüş tasarımı isterken beklentimi nasıl gerçekçi kurabilirim?",
+     true
+    ],
+    [
+     "Süreç kaç aşamada planlanır ve ne kadar zaman ayırmalıyım?",
+     "Gülüş tasarımı istediğimde süreç kaç aşamada planlanır, ne kadar zaman ayırmalıyım?",
+     true
+    ],
+    [
+     "Bu konuda en sık duyulan yanlış inanışlar hangileri?",
+     "Gülüş tasarımı isteyenlerin en sık duyduğu yanlış inanışlar hangileri?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "hollywood-gulusu",
+   "odak": "hollywood gülüşü",
+   "ciftler": [
+    [
+     "Gülüş tasarımından farkı nedir?",
+     "Hollywood gülüşünün gülüş tasarımından farkı nedir?",
+     true
+    ],
+    [
+     "Hangi tedaviler bir arada kullanılır?",
+     "Hollywood gülüşü için hangi tedaviler bir arada kullanılır?",
+     true
+    ],
+    [
+     "Kimler bu tedaviye uygundur?",
+     "Hollywood gülüşüne kimler uygundur?",
+     true
+    ],
+    [
+     "Tedavi ne kadar sürer?",
+     "Hollywood gülüşü tedavisi ne kadar sürer?",
+     true
+    ],
+    [
+     "Dişlerin kesilmesi gerekir mi?",
+     "Hollywood gülüşünde dişlerin kesilmesi gerekir mi?",
+     true
+    ],
+    [
+     "Hangi riskler ve dezavantajlar söz konusudur?",
+     "Hollywood gülüşü planında hangi riskler ve dezavantajlar söz konusudur?",
+     true
+    ],
+    [
+     "Kimlerde bu plan uygulanmaz?",
+     "Hollywood gülüşü kimlerde uygulanmaz?",
+     true
+    ],
+    [
+     "Sonrasında bakım nasıl yapılır?",
+     "Hollywood gülüşü sonrasında bakım nasıl yapılır?",
      true
     ]
    ]
@@ -1245,6 +1456,42 @@
    ]
   },
   {
+   "tr_slug": "smile-bot",
+   "odak": "smile bot",
+   "ciftler": [
+    [
+     "Fotoğraf neyi gösterir, neyi göstermez?",
+     "Smile Bot fotoğraftan neyi gösterir, neyi göstermez?",
+     true
+    ],
+    [
+     "Sonuç ne kadar sürede çıkar?",
+     "Smile Bot sonucu ne kadar sürede çıkar?",
+     true
+    ],
+    [
+     "Kimler bu araçtan yararlanabilir?",
+     "Smile Bot aracından kimler yararlanabilir?",
+     true
+    ],
+    [
+     "Çıktı neden bağlayıcı değildir?",
+     "Smile Bot çıktısı neden bağlayıcı değildir?",
+     true
+    ],
+    [
+     "Nasıl bir kare çekmeliyim?",
+     "Smile Bot için nasıl bir kare çekmeliyim?",
+     true
+    ],
+    [
+     "Fotoğraflar ve kişisel veriler nasıl korunur?",
+     "Smile Bot fotoğrafları ve kişisel veriler nasıl korunur?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "tek-dis-implant",
    "odak": "tek diş implant",
    "ciftler": [
@@ -1267,6 +1514,37 @@
      "İmplantta ise boşluk kendi yapay köküyle kapanır.",
      "Tek diş implantta ise boşluk kendi yapay köküyle kapanır.",
      false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "yer-tutucu",
+   "odak": "yer tutucu",
+   "ciftler": [
+    [
+     "Sabit ve hareketli tip arasındaki fark nedir?",
+     "Sabit ve hareketli yer tutucu arasındaki fark nedir?",
+     true
+    ],
+    [
+     "Nasıl uygulanır, çocuk için zorlayıcı bir işlem midir?",
+     "Yer tutucu nasıl uygulanır, çocuk için zorlayıcı bir işlem midir?",
+     true
+    ],
+    [
+     "Hangi durumlarda uygulanmaz veya ertelenir?",
+     "Yer tutucu hangi durumlarda uygulanmaz veya ertelenir?",
+     true
+    ],
+    [
+     "Söküm ne zaman ve nasıl yapılır?",
+     "Yer tutucu sökümü ne zaman ve nasıl yapılır?",
+     true
+    ],
+    [
+     "Aparey düşerse veya kırılırsa ne yapılmalı?",
+     "Yer tutucu düşerse veya kırılırsa ne yapılmalı?",
+     true
     ]
    ]
   },
