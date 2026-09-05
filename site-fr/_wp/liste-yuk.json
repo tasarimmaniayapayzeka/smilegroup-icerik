@@ -1,0 +1,75 @@
+{
+ "surum": "1.0.0-fr",
+ "grup": "liste",
+ "uretim": "uret-wp-fr.js",
+ "ogeler": [
+  {
+   "tip": "page",
+   "tr_slug": "hizmetler",
+   "slug": "traitements",
+   "baslik": "Nos traitements",
+   "metadesc": "Le catalogue de traitements de Smile Group : smile design numérique, traitements esthétiques et implantologie — étendue, déroulé, risques et suivi.",
+   "govde_sablon": "",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/traitements-og.jpg",
+   "icerik_slug": "hizmetler",
+   "metalar": {
+    "_gorbit_catalog_listing": "services",
+    "layout": "fullsize",
+    "header": "header_transparency",
+    "footer": "nofooterarea",
+    "_yoast_wpseo_focuskw": "soins dentaires istanbul"
+   }
+  },
+  {
+   "tip": "page",
+   "tr_slug": "hekimlerimiz",
+   "slug": "nos-dentistes",
+   "baslik": "Nos dentistes",
+   "metadesc": "Rencontrez l'équipe soignante de Smile Group, certifiée à l'international et centrée sur le patient — esthétique, orthodontie, chirurgie et plus.",
+   "govde_sablon": "",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/nos-dentistes-og.jpg",
+   "icerik_slug": "hekimlerimiz",
+   "metalar": {
+    "_gorbit_catalog_listing": "doctors",
+    "layout": "fullsize",
+    "header": "header_transparency",
+    "footer": "nofooterarea",
+    "_yoast_wpseo_focuskw": "dentiste istanbul"
+   }
+  },
+  {
+   "tip": "page",
+   "tr_slug": "hasta-hikayeleri",
+   "slug": "histoires-patients",
+   "baslik": "Histoires de patients",
+   "metadesc": "Parcours de traitement représentatifs chez Smile Group — facettes, implant, zircone et blanchiment — et le déroulé typique de chaque parcours.",
+   "govde_sablon": "",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/histoires-patients-og.jpg",
+   "icerik_slug": "hasta-hikayeleri",
+   "metalar": {
+    "_gorbit_catalog_listing": "patients",
+    "layout": "fullsize",
+    "header": "header_transparency",
+    "footer": "nofooterarea",
+    "_yoast_wpseo_focuskw": "soins dentaires avant après"
+   }
+  },
+  {
+   "tip": "page",
+   "tr_slug": "sss",
+   "slug": "faq",
+   "baslik": "Foire aux questions",
+   "metadesc": "Réponses aux questions les plus fréquentes des patients de Smile Group — planification du traitement, voyage, garanties, confort et soins plus vacances.",
+   "govde_sablon": "",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/faq-og.jpg",
+   "icerik_slug": "sss",
+   "metalar": {
+    "_gorbit_catalog_listing": "faq",
+    "layout": "fullsize",
+    "header": "header_transparency",
+    "footer": "nofooterarea",
+    "_yoast_wpseo_focuskw": "questions soins dentaires"
+   }
+  }
+ ]
+}

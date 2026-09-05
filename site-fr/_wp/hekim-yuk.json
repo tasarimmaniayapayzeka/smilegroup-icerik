@@ -1,0 +1,121 @@
+{
+ "surum": "1.0.0-fr",
+ "grup": "hekim",
+ "uretim": "uret-wp-fr.js",
+ "ogeler": [
+  {
+   "tip": "gorbit_doctor",
+   "tr_slug": "dr-arda-oztan",
+   "slug": "dr-arda-oztan",
+   "baslik": "Dr Arda Öztan",
+   "metadesc": "Dr Arda Öztan, chirurgien oral et maxillo-facial chez Smile Group. Focus : chirurgie implantaire et interventions avancées.",
+   "govde_sablon": "<h2>À propos du Dr Arda Öztan</h2>\n<p>Le Dr Arda Öztan est diplômé de la faculté de médecine dentaire de l’İstanbul Üniversitesi (université d’Istanbul), où il a ensuite achevé sa spécialisation en chirurgie orale et maxillo-faciale. Réunissant savoir académique et expérience clinique de la dentisterie chirurgicale, le Dr Öztan se concentre en particulier sur la chirurgie implantaire, les interventions chirurgicales avancées et la chirurgie orale et maxillo-faciale.</p>\n<p><a href=\"#about\">Voir la biographie</a> · <a href=\"#booking\">Prendre rendez-vous</a></p>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/doctors/dr-arda-oztan-pose-1.jpg ",
+   "icerik_slug": "dr-arda-oztan",
+   "metalar": {
+    "_gorbit_doctor_role": "Chirurgien oral et maxillo-facial",
+    "_gorbit_doctor_experience": "10 ans d'expérience clinique",
+    "_gorbit_doctor_specialties": "Implants,\nAll-on-4,\nSinus lift,\nPlanification chirurgicale numérique",
+    "_gorbit_doctor_education": "İstanbul Üniversitesi",
+    "layout": "fullsize",
+    "sidebar": "no_sidebar",
+    "header": "no"
+   }
+  },
+  {
+   "tip": "gorbit_doctor",
+   "tr_slug": "dr-cemile-uysal",
+   "slug": "dr-cemile-uysal",
+   "baslik": "Dr Cemile Uysal",
+   "metadesc": "Dr Cemile Uysal, orthodontiste chez Smile Group. Diplômée de Marmara, doctorat en orthodontie à l’université Gazi.",
+   "govde_sablon": "<h2>À propos du Dr Cemile Uysal</h2>\n<p>La Dr Cemile Uysal est diplômée de la faculté de médecine dentaire de la Marmara Üniversitesi (université de Marmara) et a achevé son doctorat au département d’orthodontie de la faculté de médecine dentaire de la Gazi Üniversitesi (université Gazi). Son travail se centre sur le traitement des irrégularités des dents et des mâchoires — avec un accent particulier sur les traitements par aligneurs, l’orthodontie fixe et l’orthodontie précoce de l’enfant.</p>\n<p><a href=\"#about\">Voir la biographie</a> · <a href=\"#booking\">Prendre rendez-vous</a></p>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/doctors/dr-cemile-uysal-pose-1.jpg ",
+   "icerik_slug": "dr-cemile-uysal",
+   "metalar": {
+    "_gorbit_doctor_role": "Orthodontiste",
+    "_gorbit_doctor_experience": "10 ans d'expérience clinique",
+    "_gorbit_doctor_specialties": "Orthodontie,\nTraitements par aligneurs,\nTroubles des mâchoires et de l’occlusion,\nBagues dentaires",
+    "_gorbit_doctor_education": "Marmara Üniversitesi, \nGazi Üniversitesi",
+    "layout": "fullsize",
+    "sidebar": "no_sidebar",
+    "header": "no"
+   }
+  },
+  {
+   "tip": "gorbit_doctor",
+   "tr_slug": "dr-ihsan-erik",
+   "slug": "dr-ihsan-erik",
+   "baslik": "Dr İhsan Erik",
+   "metadesc": "Dr İhsan Erik, chirurgien-dentiste chez Smile Group. Diplômé du cursus anglophone de la Bahçeşehir Üniversitesi ; focus : esthétique et restauration.",
+   "govde_sablon": "<h2>À propos du Dr İhsan Erik</h2>\n<p>Le Dr İhsan Erik est diplômé de la faculté de médecine dentaire anglophone de la Bahçeşehir Üniversitesi (université Bahçeşehir). Centré sur la dentisterie esthétique et restauratrice, le Dr Erik suit de près, dans sa pratique quotidienne, les développements scientifiques et les approches de traitement actuelles.</p>\n<p><a href=\"#about\">Voir la biographie</a> · <a href=\"#booking\">Prendre rendez-vous</a></p>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/doctors/dr-ihsan-erik-pose-1.jpg ",
+   "icerik_slug": "dr-ihsan-erik",
+   "metalar": {
+    "_gorbit_doctor_role": "Chirurgien-dentiste",
+    "_gorbit_doctor_experience": "",
+    "_gorbit_doctor_specialties": "Dentisterie esthétique,\nZircone,\nFacettes en céramique,\nPlombages esthétiques",
+    "_gorbit_doctor_education": "İstanbul Yeni Yüzyıl Üniversitesi",
+    "layout": "fullsize",
+    "sidebar": "no_sidebar",
+    "header": "no"
+   }
+  },
+  {
+   "tip": "gorbit_doctor",
+   "tr_slug": "dr-kadir-can-sakur",
+   "slug": "dr-kadir-can-sakur",
+   "baslik": "Dr Kadir Can Sakur",
+   "metadesc": "Dr Kadir Can Sakur, chirurgien-dentiste chez Smile Group. Diplômé avec mention de l’İstanbul Yeni Yüzyıl Üniversitesi ; focus : esthétique et smile design.",
+   "govde_sablon": "<h2>À propos du Dr Kadir Can Sakur</h2>\n<p><img class=\"portrait\" src=\"https://www.smilegroup.com.tr/wp-content/uploads/2026/06/DSCF4485-1030x687.jpg\" alt=\"Dr Kadir Can Sakur\"></p>\n<p><a href=\"#about\">Voir la biographie</a> · <a href=\"#booking\">Prendre rendez-vous</a></p>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/doctors/dr-kadir-can-sakur-pose-1.jpg ",
+   "icerik_slug": "dr-kadir-can-sakur",
+   "metalar": {
+    "_gorbit_doctor_role": "Chirurgien-dentiste",
+    "_gorbit_doctor_experience": "",
+    "_gorbit_doctor_specialties": "Dentisterie esthétique,\nCouronnes en zircone,\nFacettes en céramique,\nPlombages esthétiques",
+    "_gorbit_doctor_education": "İstanbul Yeni Yüzyıl Üniversitesi",
+    "layout": "fullsize",
+    "sidebar": "no_sidebar",
+    "header": "no"
+   }
+  },
+  {
+   "tip": "gorbit_doctor",
+   "tr_slug": "dt-yasin-gokcegozoglu",
+   "slug": "dt-yasin-gokcegozoglu",
+   "baslik": "Dr Yasin Gökcegözoğlu",
+   "metadesc": "Dr Yasin Gökcegözoğlu, chirurgien-dentiste esthétique chez Smile Group. Diplômé de l’université Erciyes, master allemand en dentisterie générale et esthétique.",
+   "govde_sablon": "<h2>À propos du Dr Yasin Gökcegözoğlu</h2>\n<p><img class=\"portrait\" src=\"https://www.smilegroup.com.tr/wp-content/uploads/2026/06/DSCF4493-1030x687.jpg\" alt=\"Dr Yasin Gökcegözoğlu\"></p>\n<p><a href=\"#about\">Voir la biographie</a> · <a href=\"#booking\">Prendre rendez-vous</a></p>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/doctors/dr-yasin-gokcegozoglu-pose-1.jpg ",
+   "icerik_slug": "dt-yasin-gokcegozoglu",
+   "metalar": {
+    "_gorbit_doctor_role": "Chirurgien-dentiste esthétique",
+    "_gorbit_doctor_experience": "20 ans d'expérience clinique",
+    "_gorbit_doctor_specialties": "Smile Design,\nDentisterie numérique,\nDentisterie esthétique,\nTraitements restaurateurs",
+    "_gorbit_doctor_education": "Erciyes Üniversitesi",
+    "layout": "fullsize",
+    "sidebar": "no_sidebar",
+    "header": "no"
+   }
+  },
+  {
+   "tip": "gorbit_doctor",
+   "tr_slug": "dt-zeynep-nas",
+   "slug": "dt-zeynep-nas",
+   "baslik": "Dr Zeynep Nas",
+   "metadesc": "Dr Zeynep Nas, chirurgienne-dentiste chez Smile Group. Diplômée de l’İstanbul Medipol Üniversitesi ; focus : esthétique, restaurations composite et facettes.",
+   "govde_sablon": "<h2>À propos du Dr Zeynep Nas</h2>\n<p><img class=\"portrait\" src=\"https://www.smilegroup.com.tr/wp-content/uploads/2026/06/DSCF4472-1030x687.jpg\" alt=\"Dr Zeynep Nas\"></p>\n<p><a href=\"#about\">Voir la biographie</a> · <a href=\"#booking\">Prendre rendez-vous</a></p>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/doctors/dr-zeynep-nas-pose-1.jpg ",
+   "icerik_slug": "dt-zeynep-nas",
+   "metalar": {
+    "_gorbit_doctor_role": "Chirurgienne-dentiste",
+    "_gorbit_doctor_experience": "",
+    "_gorbit_doctor_specialties": "Dentisterie esthétique,\nCouronnes en zircone,\nFacettes en céramique,\nPlombages esthétiques",
+    "_gorbit_doctor_education": "İstanbul Medipol Üniversitesi",
+    "layout": "fullsize",
+    "sidebar": "no_sidebar",
+    "header": "no"
+   }
+  }
+ ]
+}

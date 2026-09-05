@@ -1,0 +1,84 @@
+{
+ "surum": "1.0.0-fr",
+ "grup": "sss",
+ "uretim": "uret-wp-fr.js",
+ "ogeler": [
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "gulus-tasarimi-tedavisi-toplamda-kac-gun-surer",
+   "slug": "combien-de-jours-dure-au-total-le-traitement-de-smile-design",
+   "baslik": "Combien de jours dure au total le traitement de smile design ?",
+   "govde_sablon": "<p>Le smile design ne dure le plus souvent que cinq à six jours. Le premier jour : scans intra-oraux numériques et essayage de la restauration. En deux à trois jours, vos couronnes en céramique ou en zircone naissent dans notre laboratoire, et le cinquième jour suivent l'essayage final, confortable, et la pose.</p>",
+   "icerik_slug": "gulus-tasarimi-tedavisi-toplamda-kac-gun-surer",
+   "metalar": {
+    "_gorbit_faq_category": "Tedaviler"
+   }
+  },
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "klinik-ziyareti-gerceklestirmeden-nasil-ucretsiz-tedavi-plani-alabilirim",
+   "slug": "comment-obtenir-un-plan-de-traitement-gratuit-sans-visiter-la-clinique",
+   "baslik": "Comment obtenir un plan de traitement gratuit sans visiter la clinique ?",
+   "govde_sablon": "<p>Utilisez la zone de téléversement de radiographies et de photos de notre page d'accueil et envoyez-nous votre panoramique ou des photos nettes de votre sourire prises au téléphone. Nos chirurgiens-dentistes référents vous préparent une offre personnalisée sous 24 heures.</p>",
+   "icerik_slug": "klinik-ziyareti-gerceklestirmeden-nasil-ucretsiz-tedavi-plani-alabilirim",
+   "metalar": {
+    "_gorbit_faq_category": "Seyahat"
+   }
+  },
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "ucak-5-yildizli-otel-ve-vip-transferler-tedavi-paketine-dahil-midir",
+   "slug": "vols-hotel-cinq-etoiles-et-transferts-vip-sont-ils-inclus-dans-le-forfait-de-traitement",
+   "baslik": "Vols, hôtel cinq étoiles et transferts VIP sont-ils inclus dans le forfait de traitement ?",
+   "govde_sablon": "<p>Oui ! Pour toutes les patientes et tous les patients internationaux dont le traitement dépasse un certain montant, l'hébergement de luxe en hôtel cinq étoiles, l'accueil à l'aéroport et les transferts VIP en Mercedes entre l'hôtel et la clinique sont notre cadeau.</p>",
+   "icerik_slug": "ucak-5-yildizli-otel-ve-vip-transferler-tedavi-paketine-dahil-midir",
+   "metalar": {
+    "_gorbit_faq_category": "Seyahat"
+   }
+  },
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "kaplamanin-kirilmasi-durumunda-omur-boyu-garanti-kapsami-nasildir",
+   "slug": "comment-fonctionne-la-garantie-a-vie-si-une-couronne-casse",
+   "baslik": "Comment fonctionne la garantie à vie si une couronne casse ?",
+   "govde_sablon": "<p>Tous les implants en titane Straumann posés dans notre clinique sont certifiés avec une garantie à vie valable dans le monde entier. Nos couronnes en zircone et en céramique portent une garantie clinique de sept ans.</p>",
+   "icerik_slug": "kaplamanin-kirilmasi-durumunda-omur-boyu-garanti-kapsami-nasildir",
+   "metalar": {
+    "_gorbit_faq_category": "Genel"
+   }
+  },
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "tedavi-agrili-mi-sedasyon-veya-anestezi-gerekir-mi",
+   "slug": "le-traitement-est-il-douloureux-faut-il-une-sedation-ou-une-anesthesie",
+   "baslik": "Le traitement est-il douloureux ? Faut-il une sédation ou une anesthésie ?",
+   "govde_sablon": "<p>Chaque geste se déroulant sous anesthésie locale, vous ne sentez aucune douleur pendant le traitement. Pour les patientes et patients anxieux, la sédation au gaz hilarant est en outre disponible sans supplément.</p>",
+   "icerik_slug": "tedavi-agrili-mi-sedasyon-veya-anestezi-gerekir-mi",
+   "metalar": {
+    "_gorbit_faq_category": "Tedaviler"
+   }
+  },
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "turkiye-dis-fiyatlari-ingiltere-almanya-veya-abd-ile-nasil-kiyaslanir",
+   "slug": "comment-les-prix-des-soins-dentaires-en-turquie-se-comparent-ils-au-royaume-uni-a-l-allemagne-ou-aux-etats-unis",
+   "baslik": "Comment les prix des soins dentaires en Turquie se comparent-ils au Royaume-Uni, à l'Allemagne ou aux États-Unis ?",
+   "govde_sablon": "<p>Les soins dentaires en Turquie sont typiquement 60 à 75 % moins chers que les actes comparables en Europe de l'Ouest ou en Amérique du Nord — sans concession sur les matériaux, la technologie ou les standards cliniques.</p>",
+   "icerik_slug": "turkiye-dis-fiyatlari-ingiltere-almanya-veya-abd-ile-nasil-kiyaslanir",
+   "metalar": {
+    "_gorbit_faq_category": "Genel"
+   }
+  },
+  {
+   "tip": "gorbit_faq_item",
+   "tr_slug": "dis-tedavisini-antalya-tatiliyle-birlestirebilir-miyim",
+   "slug": "puis-je-combiner-le-traitement-dentaire-avec-des-vacances-a-antalya",
+   "baslik": "Puis-je combiner le traitement dentaire avec des vacances à Antalya ?",
+   "govde_sablon": "<p>Absolument — et beaucoup de nos patientes et patients font exactement cela. Les séances de traitement ne durent le plus souvent que quelques heures par jour ; vos matinées ou après-midis restent libres pour explorer Antalya.</p>",
+   "icerik_slug": "dis-tedavisini-antalya-tatiliyle-birlestirebilir-miyim",
+   "metalar": {
+    "_gorbit_faq_category": "Seyahat"
+   }
+  }
+ ]
+}

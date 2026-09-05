@@ -1,0 +1,75 @@
+{
+ "surum": "1.0.0-fr",
+ "grup": "hasta",
+ "uretim": "uret-wp-fr.js",
+ "ogeler": [
+  {
+   "tip": "gorbit_patient",
+   "tr_slug": "elif-lamine",
+   "slug": "facettes-avant-apres",
+   "baslik": "L’histoire de transformation d’Elif",
+   "metadesc": "Un parcours facettes et smile design représentatif : évaluation, mock-up, résultat naturel — le déroulé typique chez Smile Group.",
+   "govde_sablon": "<div class=\"gorbit-patient-imported\">\n<p>Quand les dents sont saines mais écartées, légèrement de travers ou simplement pas de la bonne forme, les facettes sont souvent l'option qui donne le résultat le plus visible pour la plus petite intervention. La partie du parcours que les gens préfèrent : Yasin prépare d'abord un essai de design (un mock-up) sur vos dents — vous voyez donc le résultat dans le miroir avant même que le traitement ne commence. Naturellement, tout démarre par un examen : s'il existe un souci de santé gingivale ou une petite carie, cela se règle avant les facettes.</p>\n<p>Une fois votre feu vert donné, seule une couche très fine se prépare à la surface de la dent, et vos facettes se fabriquent spécialement pour vous. Le parcours se boucle en quelques séances, et Çiğdem en planifie le calendrier avec vous, autour de vos obligations de travail et de déplacement.</p>\n<p>Après la pose, les petites habitudes comme se ronger les ongles ou tenir un stylo entre les dents se passent en revue une à une — la durée de vie de vos facettes en dépend aussi en partie. Au fond, le secret d'une bonne facette n'est pas qu'elle se fasse remarquer — c'est que personne ne la remarque du tout.</p>\n<p><a href=\"/fr/traitement/facettes-ceramique/\">Facettes en céramique</a> · <a href=\"/fr/traitement/facettes-composite/\">Facettes en composite</a></p>\n<p class=\"yolculuk-not\"><em>Ce récit est illustratif ; il ne décrit aucun patient précis. Le déroulé et le résultat du traitement varient d'une personne à l'autre ; la décision se prend après un examen clinique.</em></p>\n</div>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-facettes.jpg ",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-facettes-1200x630.jpg ",
+   "icerik_slug": "elif-lamine",
+   "metalar": {
+    "_gorbit_patient_import_slug": "lamine-yolculugu",
+    "_gorbit_patient_imported": "1",
+    "_gorbit_patient_source_url": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/yolculuk/index.html#lamine-yolculugu",
+    "_gorbit_patient_treatment": "Veneers"
+   }
+  },
+  {
+   "tip": "gorbit_patient",
+   "tr_slug": "murat-implant",
+   "slug": "implant-dentaire-avant-apres",
+   "baslik": "L’histoire de transformation de Murat",
+   "metadesc": "Un parcours d'implant unitaire représentatif : planification 3D, pose, cicatrisation et couronne — le déroulé typique chez Smile Group.",
+   "govde_sablon": "<div class=\"gorbit-patient-imported\">\n<p>La plupart des personnes qui nous contactent pour un implant disent une variante de la même phrase : « Je ne souris plus sur les photos. » Une dent manquante touche plus que la mastication — elle touche aussi la confiance. Dès la première conversation, notre responsable de clinique Çiğdem vous explique le parcours pas à pas, pour que votre examen se réserve sans le moindre point d'interrogation en tête.</p>\n<p>À l'examen, notre dentiste fondateur Yasin étudie votre structure osseuse sur des clichés de tomographie tridimensionnelle et trace un plan à votre mesure. Si le volume osseux suffit, nous passons directement à la pose ; sinon, des options comme la greffe osseuse se discutent franchement — nous n'aimons pas les surprises. L'implant se pose en général en une seule séance sous anesthésie locale ; la question que nous entendons le plus souvent ensuite : « C'était vraiment tout ? »</p>\n<p>La fusion de l'implant avec l'os prend en général quelques mois ; pendant ce temps, si vous en avez besoin, une solution provisoire fait que vous ne restez jamais sans dent, et vos contrôles sont planifiés et suivis par Çiğdem tout du long. Une fois la restauration définitive posée, l'objectif est clair : croquer une pomme sans arrière-pensée, parler sans inquiétude et rire sans que la main ne vienne instinctivement couvrir la bouche. Après cela, nous ne demandons qu'une chose : brossez l'implant comme vos dents naturelles et ne sautez pas vos contrôles annuels.</p>\n<p><a href=\"/fr/traitement/implant-unitaire/\">Implant unitaire</a> · <a href=\"/fr/traitement/implant-immediat/\">Implants en un jour</a></p>\n<p class=\"yolculuk-not\"><em>Ce récit est illustratif ; il ne décrit aucun patient précis. Le déroulé et le résultat du traitement varient d'une personne à l'autre ; la décision se prend après un examen clinique.</em></p>\n</div>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-implant.jpg ",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-implant-1200x630.jpg ",
+   "icerik_slug": "murat-implant",
+   "metalar": {
+    "_gorbit_patient_import_slug": "implant-yolculugu",
+    "_gorbit_patient_imported": "1",
+    "_gorbit_patient_source_url": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/yolculuk/index.html#implant-yolculugu",
+    "_gorbit_patient_treatment": "Implantat"
+   }
+  },
+  {
+   "tip": "gorbit_patient",
+   "tr_slug": "zeynep-zirkonyum",
+   "slug": "couronnes-zircone-avant-apres",
+   "baslik": "L’histoire de transformation de Zeynep",
+   "metadesc": "Un parcours zircone représentatif : choix de teinte à la lumière du jour, essayage et pose — le déroulé typique chez Smile Group.",
+   "govde_sablon": "<div class=\"gorbit-patient-imported\">\n<p>Des dents qui ont viré de couleur au fil des ans, ou de vieilles couronnes usées, peuvent donner à tout un sourire un air fatigué. Le parcours zircone commence par un examen avec Yasin : la façon dont les couronnes s'assiéront contre votre ligne gingivale, leur translucidité, et une teinte et une forme accordées à vos traits se planifient ensemble. Choisir la teinte n'est pas l'affaire de quelques secondes au fauteuil ; l'accord avec vos dents voisines s'évalue à la lumière du jour, sous différents angles.</p>\n<p>Les empreintes se prennent en numérique ; avec vos dents provisoires en place, la vie continue normalement, sans pause. Les couronnes prêtes, vous passez un essayage — si un détail ne vous plaît pas, il se corrige avant la pose finale, car à ce stade les changements restent toujours possibles. Le parcours se termine en général en deux ou trois séances, Çiğdem coordonnant chaque rendez-vous du début à la fin.</p>\n<p>L'objectif n'est jamais ce rendu « visiblement fait » — c'est un renouvellement que personne d'autre ne remarque, que vous seule connaissez.</p>\n<p><a href=\"/fr/traitement/couronnes-zircone/\">Zircone</a> · <a href=\"/fr/traitement/zircone-monolithique/\">Zircone monolithique</a></p>\n<p class=\"yolculuk-not\"><em>Ce récit est illustratif ; il ne décrit aucun patient précis. Le déroulé et le résultat du traitement varient d'une personne à l'autre ; la décision se prend après un examen clinique.</em></p>\n</div>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-zircone.jpg ",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-zircone-1200x630.jpg ",
+   "icerik_slug": "zeynep-zirkonyum",
+   "metalar": {
+    "_gorbit_patient_import_slug": "zirkonyum-yolculugu",
+    "_gorbit_patient_imported": "1",
+    "_gorbit_patient_source_url": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/yolculuk/index.html#zirkonyum-yolculugu",
+    "_gorbit_patient_treatment": "Zirkon"
+   }
+  },
+  {
+   "tip": "gorbit_patient",
+   "tr_slug": "emre-beyazlatma",
+   "slug": "blanchiment-avant-apres",
+   "baslik": "L’histoire de transformation d’Emre",
+   "metadesc": "Un parcours de blanchiment représentatif : détartrage, séance unique contrôlée et suivi — le déroulé typique chez Smile Group.",
+   "govde_sablon": "<div class=\"gorbit-patient-imported\">\n<p>La marque que le café, le thé et le temps laissent sur la couleur de vos dents ne s'inverse pas toujours au brossage régulier. À l'examen, nous évaluons d'abord la surface dentaire ; au besoin, un détartrage précède le blanchiment — le résultat est plus homogène sur une surface propre. Le blanchiment au fauteuil se termine à la clinique en une seule séance d'environ une heure, sous la supervision de Yasin : les gencives se protègent d'abord, puis le gel de blanchiment s'applique de façon contrôlée.</p>\n<p>Pour éviter la sensibilité, les conseils d'avant et d'après se planifient spécialement pour vous ; la teinte que vous atteindrez dépendant de la couleur de départ de vos dents, fixer des attentes réalistes nous importe autant que le résultat lui-même. Nous vous demandons de vous passer de café, de thé et d'aliments ou boissons très colorés les 48 premières heures — un peu de patience fait durer le résultat. Vous pouvez réserver votre rendez-vous avec Çiğdem en quelques minutes ; la plupart de nos hôtes passent sur leur pause déjeuner et repartent directement au travail.</p>\n<p><a href=\"/fr/traitement/blanchiment-dentaire/\">Blanchiment dentaire</a></p>\n<p class=\"yolculuk-not\"><em>Ce récit est illustratif ; il ne décrit aucun patient précis. Le déroulé et le résultat du traitement varient d'une personne à l'autre ; la décision se prend après un examen clinique.</em></p>\n</div>",
+   "kapak_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-blanchiment.jpg ",
+   "og_kaynak": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/images/parcours-blanchiment-1200x630.jpg ",
+   "icerik_slug": "emre-beyazlatma",
+   "metalar": {
+    "_gorbit_patient_import_slug": "beyazlatma-yolculugu",
+    "_gorbit_patient_imported": "1",
+    "_gorbit_patient_source_url": "https://tasarimmaniayapayzeka.github.io/smilegroup-icerik/site-fr/yolculuk/index.html#beyazlatma-yolculugu",
+    "_gorbit_patient_treatment": "Bleaching"
+   }
+  }
+ ]
+}
