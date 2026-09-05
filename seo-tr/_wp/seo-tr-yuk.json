@@ -64,6 +64,104 @@
    ]
   },
   {
+   "tr_slug": "1-gunde-implant",
+   "odak": "1 günde implant",
+   "ciftler": [
+    [
+     "Bu sayfada hemen yükleme protokolünün kapsamını",
+     "Bu sayfada 1 günde implant olarak bilinen hemen yükleme protokolünün kapsamını",
+     false
+    ],
+    [
+     "Kimler için uygun bir seçenektir?",
+     "1 günde implant kimler için uygun bir seçenektir?",
+     true
+    ],
+    [
+     "Tedavi hangi aşamalardan oluşur?",
+     "1 günde implant tedavisi hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Riskleri ve olası komplikasyonları nelerdir?",
+     "1 günde implantın riskleri ve olası komplikasyonları nelerdir?",
+     true
+    ],
+    [
+     "Hangi durumlarda tercih edilmez?",
+     "1 günde implant hangi durumlarda tercih edilmez?",
+     true
+    ]
+   ]
+  },
+  {
+   "tr_slug": "all-on-4",
+   "odak": "all on 4",
+   "ciftler": [
+    [
+     "İmplantlar neden açılı yerleştirilir?",
+     "All on 4 implantları neden açılı yerleştirilir?",
+     true
+    ],
+    [
+     "Tedavi hangi aşamalardan geçer?",
+     "All on 4 tedavisi hangi aşamalardan geçer?",
+     true
+    ],
+    [
+     "Süreç ne kadar sürer?",
+     "All on 4 süreci ne kadar sürer?",
+     true
+    ],
+    [
+     "Hangi riskler ve dezavantajlar var?",
+     "All on 4 tedavisinde hangi riskler ve dezavantajlar var?",
+     true
+    ],
+    [
+     "Dört implant, tüm çeneyi taşıyan sabit bir protezi destekleyecek biçimde yer alır.",
+     "All on 4 uygulamasında dört implant, tüm çeneyi taşıyan sabit bir protezi destekleyecek biçimde yer alır.",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "all-on-6",
+   "odak": "all-on-6",
+   "ciftler": [
+    [
+     "Altı destekli düzen bu sorunun yanıtlarından yalnızca biridir",
+     "All-on-6 adıyla bilinen altı destekli düzen bu sorunun yanıtlarından yalnızca biridir",
+     false
+    ],
+    [
+     "Neden dört yerine altı implant tercih edilir?",
+     "All-on-6 tedavisinde neden dört yerine altı implant tercih edilir?",
+     true
+    ],
+    [
+     "Kimler altı implantlı sabit protez için uygun adaydır?",
+     "All-on-6 tedavisi için kimler uygun adaydır?",
+     true
+    ],
+    [
+     "Tedavi aşamaları nasıl ilerler?",
+     "All-on-6 tedavi aşamaları nasıl ilerler?",
+     true
+    ],
+    [
+     "Süreç ne kadar sürer, sabit dişlere ne zaman geçilir?",
+     "All-on-6 süreci ne kadar sürer, sabit dişlere ne zaman geçilir?",
+     true
+    ],
+    [
+     "Hangi riskler ve komplikasyonlar görülebilir?",
+     "All-on-6 uygulamasında hangi riskler ve komplikasyonlar görülebilir?",
+     true
+    ]
+   ]
+  },
+  {
    "tr_slug": "dis-beyazlatma",
    "odak": "diş beyazlatma",
    "ciftler": [
@@ -273,6 +371,32 @@
     [
      "Kaplama kararı, dişin mevcut durumu ile",
      "Diş kaplama kararı, dişin mevcut durumu ile",
+     false
+    ]
+   ]
+  },
+  {
+   "tr_slug": "tek-dis-implant",
+   "odak": "tek diş implant",
+   "ciftler": [
+    [
+     "Tedavi hangi aşamalardan oluşur?",
+     "Tek diş implant tedavisi hangi aşamalardan oluşur?",
+     true
+    ],
+    [
+     "Riskler ve olası sorunlar nelerdir?",
+     "Tek diş implantın riskleri ve olası sorunları nelerdir?",
+     true
+    ],
+    [
+     "İmplant ne kadar süre kullanılabilir?",
+     "Tek diş implant ne kadar süre kullanılabilir?",
+     true
+    ],
+    [
+     "İmplantta ise boşluk kendi yapay köküyle kapanır.",
+     "Tek diş implantta ise boşluk kendi yapay köküyle kapanır.",
      false
     ]
    ]
